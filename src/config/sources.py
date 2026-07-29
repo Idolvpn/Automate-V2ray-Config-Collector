@@ -1,4 +1,4 @@
-Enter# Raw / subscription-style text sources.
+# Raw / subscription-style text sources.
 # Each entry may be plain text (one config per line), or base64-encoded
 # subscription content -- the fetcher tries plain text first and falls
 # back to base64 automatically.
