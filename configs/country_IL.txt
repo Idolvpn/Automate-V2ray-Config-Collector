@@ -1,1 +1,1 @@
-vless://4352f2a7-d620-474e-9249-e866774a2c81@5.188.94.5:443?security=tls&sni=gcore.com&type=ws&host=ebnada.com&path=/hgffg#IL | 5.188.94.5 | 148ms
+vless://4352f2a7-d620-474e-9249-e866774a2c81@5.188.94.5:443?security=tls&sni=gcore.com&type=ws&host=ebnada.com&path=/hgffg#IL | 5.188.94.5 | 144ms
