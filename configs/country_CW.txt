@@ -1,6 +1,2 @@
-vless://36ddcba8-5d7b-4243-8316-6adb4bfc6b88@88.216.67.230:443?path=/&security=tls&encryption=none&insecure=0&host=Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en---Proxy-Se7en&fp=chrome&type=ws&allowInsecure=0&sni=ez-c8f0f1.ezaccess1990eee.workers.dev#CW | 88.216.67.230 | 14ms
-vless://WANCLOUDFA-FREE@5.10.245.138:443?mode=auto&path=/api&security=tls&alpn=h2,http/1.1&encryption=none&extra={#CW | 5.10.245.138 | 12ms
-vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 14ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.66.30:8880?encryption=none&host=vms.lifetime04.workers.dev&security=none&type=ws#CW | 88.216.66.30 | 14ms
-vless://1d16c6e0-1bbe-435b-b661-90043fee999c@92.60.74.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#CW | 92.60.74.123 | 9ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev#CW | 62.72.166.30 | 11ms
+vless://WANCLOUDFA-FREE@5.10.245.138:443?mode=auto&path=/api&security=tls&alpn=h2,http/1.1&encryption=none&extra={#CW | 5.10.245.138 | 18ms
+vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 17ms
