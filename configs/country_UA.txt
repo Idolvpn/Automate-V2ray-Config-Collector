@@ -1,3 +1,5 @@
-vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 119ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.40:8880/?type=ws&encryption=none&flow=&host=vms.lifetime09.workers.dev&path=%2F%3Fed%3D2560#UA | 89.116.180.40 | 2ms
-vless://440c0fed-6aa7-4c5b-8e54-5a198712c4e4@91.224.87.130:443?encryption=none&security=reality&type=tcp&sni=abuse.sellflow.org&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision#UA | 91.224.87.130 | 141ms
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@194.152.44.250:443?security=tls&sni=cfed.tgzdyz2.top&type=ws&path=tg@VPNine1#UA | 194.152.44.250 | 5ms
+vless://2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5@194.152.44.250:443?security=tls&sni=cfed.tgzdyz2.top&type=ws&path=tg@zdyz2#UA | 194.152.44.250 | 5ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?fp=chrome&sni=cdn.steamstatic.com&path=/&type=xhttp&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&mode=auto#UA | 104.245.242.7 | 162ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 171ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?type=xhttp&encryption=none&security=reality&path=/&mode=auto&fp=chrome&sni=cdn.steamstatic.com&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo#UA | 104.245.242.7 | 170ms
