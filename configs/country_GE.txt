@@ -1,1 +1,2 @@
-vless://1b73f053-2709-4698-bbec-cb20e8a5f288@217.11.164.184:1080?security=reality&sni=play.google.com&type=tcp&fp=chrome&pbk=jDj_1a2AOXOZ_bRkgqvb0tMXjTier75usgndNVdOHTU&sid=2926c493071e7380#GE | 217.11.164.184 | 180ms
+vless://2889dd84-61b0-4a63-b60e-a0d996aab6d1@217.11.164.92:37194?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#GE | 217.11.164.92 | 713ms
+vless://bf027535-f968-4a17-9249-ae764e3b2c48@217.11.164.92:37194?headerType=http&host=play.google.com&path=/&security=none&type=tcp#GE | 217.11.164.92 | 340ms
