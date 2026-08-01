@@ -1,7 +1,9 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 103ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 115ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?&type=ws&headerType=none&path=/#AT | 45.131.215.61 | 95ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?type=ws&headerType=none&path=/#AT | 45.131.215.61 | 96ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 12ms
-vless://bcc094e4-1a85-8a25-f8e1-5b08b9af841c@152.53.46.27:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=stackoverflow.com&fp=firefox&pbk=LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic&sid=c410508e9721512b&packetEncoding=xudp#AT | 152.53.46.27 | 104ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&type=ws&security=none#AT | 45.131.215.61 | 96ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 100ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 112ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&path=/&security=none&type=ws#AT | 45.131.215.61 | 101ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws#AT | 45.131.215.61 | 101ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws@freenettir¹#AT | 45.131.215.61 | 101ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?type=ws&headerType=none&path=/#AT | 45.131.215.61 | 101ms
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 2ms
+vless://bcc094e4-1a85-8a25-f8e1-5b08b9af841c@152.53.46.27:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=stackoverflow.com&fp=firefox&pbk=LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic&sid=c410508e9721512b&packetEncoding=xudp#AT | 152.53.46.27 | 106ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&type=ws&security=none#AT | 45.131.215.61 | 104ms
