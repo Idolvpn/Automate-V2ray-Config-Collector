@@ -1,1 +1,1 @@
-trojan://MiTiVPN@202.37.33.80:443?path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl&security=tls&alpn=http/1.1&host=ni--mitivpn-MiTiVPN---MiTiVPN-s-.Maqror.ir&fp=chrome&type=ws&sni=ib-bbg--MiTiVPN---MiTiVPN-.Maqror.ir#NZ | 202.37.33.80 | 2ms
+trojan://MiTiVPN@202.37.33.80:443?path=/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl&security=tls&alpn=http/1.1&host=ni--mitivpn-MiTiVPN---MiTiVPN-s-.Maqror.ir&fp=chrome&type=ws&sni=ib-bbg--MiTiVPN---MiTiVPN-.Maqror.ir#NZ | 202.37.33.80 | 10ms
