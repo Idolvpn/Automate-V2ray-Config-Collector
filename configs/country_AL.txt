@@ -1,6 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXUjVIbzh2VnFuRGFINDlXTGg5OE5j@130.49.189.158:10792#AL | 130.49.189.158 | 180ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@31.171.152.222:1080#AL | 31.171.152.222 | 187ms
-vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443/?type=grpc&encryption=none&flow=&serviceName=nexusGrpc&sni=morphbinerkkw.ru&fp=chrome&security=reality&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905#AL | 144.31.129.42 | 155ms
-vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443?encryption=none&security=reality&sni=morphbinerkkw.ru&fp=chrome&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905&type=grpc&authority=&serviceName=nexusGrpc&mode=gun#AL | 144.31.129.42 | 156ms
-vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443?mode=gun&security=reality&encryption=none&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&fp=chrome&type=grpc&serviceName=nexusGrpc&sni=morphbinerkkw.ru&sid=d9662905#AL | 144.31.129.42 | 156ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDc1NZT2hsRFV5N0h6MXlRQ1hTbnhq@130.49.189.158:10792#AL | 130.49.189.158 | 182ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@31.171.152.222:1080#AL | 31.171.152.222 | 130ms
+vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443/?type=grpc&encryption=none&flow=&serviceName=nexusGrpc&sni=morphbinerkkw.ru&fp=chrome&security=reality&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905#AL | 144.31.129.42 | 109ms
+vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443?encryption=none&security=reality&sni=morphbinerkkw.ru&fp=chrome&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905&type=grpc&authority=&serviceName=nexusGrpc&mode=gun#AL | 144.31.129.42 | 102ms
+vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443?mode=gun&security=reality&encryption=none&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&fp=chrome&type=grpc&serviceName=nexusGrpc&sni=morphbinerkkw.ru&sid=d9662905#AL | 144.31.129.42 | 119ms

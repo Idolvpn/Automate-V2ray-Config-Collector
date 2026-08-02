@@ -1,1 +1,3 @@
-vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 163ms
+vless://504d0b6e-400d-45ec-b2d0-1c79006ebc16@193.41.5.187:443?security=reality&encryption=none&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&headerType=none&fp=chrome&type=tcp&sni=web.pomedor.ru&sid=0858af97f4e7324d#UA | 193.41.5.187 | 89ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 113ms
+vless://504d0b6e-400d-45ec-b2d0-1c79006ebc16@193.41.5.187:443?&security=reality&pbk=aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ&sid=0858af97f4e7324d&fp=firefox&sni=web.pomedor.ru&type=tcp&headerType=none&host=web.pomedor.ru&path=%2F#UA | 193.41.5.187 | 89ms
