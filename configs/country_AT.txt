@@ -1,6 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 109ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 116ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&path=/&security=none&type=ws#AT | 45.131.215.61 | 100ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws#AT | 45.131.215.61 | 100ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 5ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 5ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 120ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 119ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&path=/&security=none&type=ws#AT | 45.131.215.61 | 110ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws#AT | 45.131.215.61 | 112ms
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 2ms
