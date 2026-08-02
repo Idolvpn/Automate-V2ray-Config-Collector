@@ -1,1 +1,1 @@
-vless://3b940e86-7b0d-40da-acf1-12d334e41023@151.101.228.11:80/?type=ws&encryption=none&flow=&host=Fastapi.Org&path=/&ed=2560&eh=Sec-WebSocket-Protocol#PE | 151.101.228.11 | 144ms
+trojan://af4b064a9c39472fb34ad8b113acdc6b@38.180.173.150:443?security=tls&sni=38.180.173.150#PE | 38.180.173.150 | 138ms
