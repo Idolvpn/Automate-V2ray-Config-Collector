@@ -1,8 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 158ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 157ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&path=/&security=none&type=ws#AT | 45.131.215.61 | 154ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315/?type=ws&encryption=none&flow=&path=/#AT | 45.131.215.61 | 157ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws#AT | 45.131.215.61 | 151ms
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@212.183.88.100:443?security=tls&sni=jpg.ylks01.eu.org&type=ws&path=/?proxyip#AT | 212.183.88.100 | 12ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 17ms
-vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&type=ws&security=none#AT | 45.131.215.61 | 154ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.146.222:1080#AT | 146.70.146.222 | 159ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.106.94.132:1080#AT | 185.106.94.132 | 167ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?encryption=none&path=/&security=none&type=ws#AT | 45.131.215.61 | 153ms
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?path=/&security=none&encryption=none&type=ws#AT | 45.131.215.61 | 156ms
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 5ms
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 5ms
