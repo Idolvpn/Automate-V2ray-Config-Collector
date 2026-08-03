@@ -1,1 +1,1 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.236.165:62145?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#CO | 157.137.236.165 | 86ms
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@156.244.32.9:7002#CO | 156.244.32.9 | 100ms

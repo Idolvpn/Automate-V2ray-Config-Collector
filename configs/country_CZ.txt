@@ -1,1 +1,5 @@
-trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=ch-2.bexum.fun#CZ | 46.8.113.142 | 112ms
+trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 157ms
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 152ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 216ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.156.174.106:1080#CZ | 185.156.174.106 | 206ms
+ss://chacha20-ietf-poly1305:XF0klw7870vXn3uQIxe19Q@146.70.222.126:1080#CZ | 146.70.222.126 | 197ms
