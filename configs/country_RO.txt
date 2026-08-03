@@ -1,1 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#RO | 154.46.31.106 | 153ms
+vless://f5e98e30-28b8-468a-a5a5-c6c22be64055@196.245.156.27:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8&sid=8718c58d3d51db59&sni=rm2.magazinnarubeva.ru#RO | 196.245.156.27 | 133ms
+vless://301d514e-4aa0-47b0-ba44-a0cb891cd52f@151.242.191.161:443?security=reality&type=tcp&headerType=&path=&host=&sni=www.samsung.com&fp=chrome&pbk=OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4&sid=a1b2c3d4#RO | 151.242.191.161 | 137ms
