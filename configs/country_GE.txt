@@ -1,4 +1,2 @@
-vless://9531ad06-0201-4378-986a-452dffef132d@217.11.164.92:37194?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#GE | 217.11.164.92 | 137ms
-vless://ba854e8e-233b-4add-9d34-7d493af9c490@217.11.164.92:37194?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#GE | 217.11.164.92 | 138ms
-vless://c3e83166-af2a-4dcd-ac4a-b00886dc2296@217.11.164.92:37194?headerType=http&host=play.google.com&security=none&encryption=none&type=tcp#GE | 217.11.164.92 | 462ms
-vless://c3e83166-af2a-4dcd-ac4a-b00886dc2296@217.11.164.92:37194?host=play.google.com&type=tcp&headerType=http&security=none&encryption=none#GE | 217.11.164.92 | 174ms
+vless://9531ad06-0201-4378-986a-452dffef132d@217.11.164.92:37194?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#GE | 217.11.164.92 | 520ms
+vless://ba854e8e-233b-4add-9d34-7d493af9c490@217.11.164.92:37194?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#GE | 217.11.164.92 | 383ms
