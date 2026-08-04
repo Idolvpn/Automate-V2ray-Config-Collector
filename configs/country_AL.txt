@@ -1,1 +1,2 @@
-vless://b6f3b292-00c9-430e-bc4c-b1294bd895c0@85.155.228.162:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=PCF6GYA_TCdb28mM6zsxJ38MAtmnSrJJEygkXvrt1AE&security=reality&sid=b512d49930874a31&sni=cdn-al.ai-apiroute.cc&type=tcp#AL | 85.155.228.162 | 152ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWU5YTGpJWGVxbWVka2VlMHRYMkdJ@130.49.189.158:10792#AL | 130.49.189.158 | 118ms
+vless://7b81d175-d180-4ec8-bbc5-dfe80e8d3b68@144.31.129.42:443/?type=grpc&encryption=none&flow=&serviceName=nexusGrpc&sni=morphbinerkkw.ru&fp=chrome&security=reality&pbk=CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM&sid=d9662905#AL | 144.31.129.42 | 104ms
