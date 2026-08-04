@@ -1,5 +1,5 @@
-trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 95ms
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 94ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 111ms
-ss://chacha20-ietf-poly1305:XF0klw7870vXn3uQIxe19Q@146.70.222.126:1080#CZ | 146.70.222.126 | 106ms
-vless://d8b42cd5-a149-4356-9e61-000000000000@95.214.38.159:2550?security=none&encryption=none&headerType=none&type=tcp#CZ | 95.214.38.159 | 129ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 117ms
+ss://chacha20-ietf-poly1305:XF0klw7870vXn3uQIxe19Q@146.70.222.126:1080#CZ | 146.70.222.126 | 123ms
+vless://d8b42cd5-a149-4356-9e61-000000000000@95.214.38.159:2550?security=none&encryption=none&headerType=none&type=tcp#CZ | 95.214.38.159 | 103ms
+vless://d8b42cd5-a149-4356-9e61-000000000000@95.214.38.159:2550?type=tcp&headerType=none&security=none&encryption=none#CZ | 95.214.38.159 | 102ms
+trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 108ms
