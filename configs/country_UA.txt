@@ -1,8 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@194.54.80.37:1080#UA | 194.54.80.37 | 150ms
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 108ms
-vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 136ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@194.152.44.30:8880?type=ws&host=vms.lifetime55.workers.dev#UA | 194.152.44.30 | 7ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.40:8880/?type=ws&encryption=none&flow=&host=vms.lifetime09.workers.dev&path=%2F%3Fed%3D2560#UA | 89.116.180.40 | 11ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.30:8880?security=none&type=ws&path=%2F&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#UA | 89.116.180.30 | 11ms
-vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.135.235.123:443?encryption=none&security=tls&sni=notls.lukongtou.eu.org&insecure=0&allowInsecure=0&type=ws&host=notls.lukongtou.eu.org&path=Telegram-WangCai2#UA | 45.135.235.123 | 7ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.135.235.30:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime07.workers.dev&packetEncoding=xudp#UA | 45.135.235.30 | 6ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@194.54.80.37:1080#UA | 194.54.80.37 | 129ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 98ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 111ms
