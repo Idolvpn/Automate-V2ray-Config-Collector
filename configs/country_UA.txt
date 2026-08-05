@@ -1,3 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@194.54.80.37:1080#UA | 194.54.80.37 | 130ms
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 102ms
-vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 123ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@194.54.80.37:1080#UA | 194.54.80.37 | 139ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 106ms
+vless://e3e876aa-589e-1dcb-e55f-6ff56d8d80f4@104.245.242.7:443?mode=auto&path=/&security=reality&encryption=none&pbk=3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#UA | 104.245.242.7 | 138ms
+trojan://f18d6149-e214-8554-e737-f7523c8b2eea@89.116.180.49:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#UA | 89.116.180.49 | 5ms
+trojan://d2adff89-5143-4d67-921f-3478464de5bb@130.0.236.88:443?sni=ua.freeguard.org&type=tcp#UA | 130.0.236.88 | 164ms

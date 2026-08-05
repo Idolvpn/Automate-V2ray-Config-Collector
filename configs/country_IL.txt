@@ -1,3 +1,1 @@
-vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@83.143.106.3:8443/?type=grpc&encryption=none&flow=&serviceName=TunService&sni=res.cdn.office.net&fp=chrome&security=reality&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&sid=#IL | 83.143.106.3 | 100ms
-vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@83.143.106.3:993?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&sni=res.cdn.office.net#IL | 83.143.106.3 | 101ms
-vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@83.143.106.3:8443/?type=grpc&encryption=none&flow=&serviceName=TunService&sni=res.cdn.office.net&fp=firefox&security=reality&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&sid=#IL | 83.143.106.3 | 102ms
+vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@83.143.106.3:8443/?type=grpc&encryption=none&flow=&serviceName=TunService&sni=res.cdn.office.net&fp=chrome&security=reality&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&sid=#IL | 83.143.106.3 | 120ms
