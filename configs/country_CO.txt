@@ -1,8 +1,2 @@
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@156.244.32.9:7002#CO | 156.244.32.9 | 65ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.164.131:62145?&type=tcp&headerType=none&path=/#CO | 149.130.164.131 | 68ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.164.131:62145?encryption=none&type=tcp&headerType=none&security=none#CO | 149.130.164.131 | 67ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.186.27:62145?&type=tcp&headerType=none&path=/#CO | 149.130.186.27 | 70ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.186.27:62145?security=none&type=tcp&headerType=none&encryption=none#CO | 149.130.186.27 | 74ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.186.27:62145?type=tcp&headerType=none&encryption=none&security=none#CO | 149.130.186.27 | 68ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.186.93:62145?encryption=none&type=tcp&headerType=none&security=none#CO | 149.130.186.93 | 69ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.186.93:62145?security=none&type=tcp&packetEncoding=xudp#CO | 149.130.186.93 | 67ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.140:62145?#CO | 149.130.176.140 | 95ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.176.140:62145?encryption=none&security=none&type=tcp#CO | 149.130.176.140 | 99ms
