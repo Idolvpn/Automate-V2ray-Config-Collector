@@ -1,0 +1,2 @@
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@172.64.146.153:2095?path=/&security=none&encryption=none&host=fangbinxingnmsl.pusytroller.gq&type=ws@freenettir#CA | 172.64.146.153 | 5ms
+vless://ffa289e7-a058-493a-b234-3db1f26378d7@194.87.30.161:22647?path=/&security=none&encryption=none&type=ws@freenettir#SE | 194.87.30.161 | 151ms
