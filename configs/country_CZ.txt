@@ -1,6 +1,7 @@
-trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 97ms
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 99ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 107ms
-ss://chacha20-ietf-poly1305:XF0klw7870vXn3uQIxe19Q@146.70.222.126:1080#CZ | 146.70.222.126 | 107ms
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@14.102.228.76:2083?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=de.lezzatzone.ir#CZ | 14.102.228.76 | 6ms
-vless://74893c89-098c-4927-aabd-7ce1fd2a3aaa@67.159.18.181:443?security=reality&encryption=none&pbk=Tc-luePNcMb_-vt6hUR9VgUIJdBjnDsJC4mh-CpcjXQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=bunny.net&sid=83b433685e10c8b7#CZ | 67.159.18.181 | 100ms
+trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 123ms
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 123ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 132ms
+ss://chacha20-ietf-poly1305:XF0klw7870vXn3uQIxe19Q@146.70.222.126:1080#CZ | 146.70.222.126 | 128ms
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@14.102.228.76:2083?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=de.lezzatzone.ir#CZ | 14.102.228.76 | 14ms
+vless://74893c89-098c-4927-aabd-7ce1fd2a3aaa@67.159.18.181:443?security=reality&encryption=none&pbk=Tc-luePNcMb_-vt6hUR9VgUIJdBjnDsJC4mh-CpcjXQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=bunny.net&sid=83b433685e10c8b7#CZ | 67.159.18.181 | 125ms
+vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&security=reality&sid=0c&sni=yahoo.com&type=tcp#CZ | 188.127.247.129 | 115ms
