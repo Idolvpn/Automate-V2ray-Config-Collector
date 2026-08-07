@@ -1,4 +1,7 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws#CW | 88.216.67.50 | 2ms
-vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev#CW | 62.72.166.30 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.66.30:8880?security=none&type=ws&path=/&host=vms.lifetime04.workers.dev&packetEncoding=xudp#CW | 88.216.66.30 | 2ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@5.10.245.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 5.10.245.8 | 5ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@5.10.246.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 5.10.246.8 | 5ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@5.10.247.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 5.10.247.8 | 5ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@62.72.166.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 62.72.166.8 | 5ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@88.216.66.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 88.216.66.8 | 5ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@88.216.67.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CW | 88.216.67.8 | 5ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws#CW | 88.216.67.50 | 5ms
