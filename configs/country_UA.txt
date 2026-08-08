@@ -1,2 +1,1 @@
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@45.135.235.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#UA | 45.135.235.8 | 6ms
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 96ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@194.147.149.54:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=b8k86.z3xq.fzi.hh.vavava.kdns.fr&path=/&security=tls&sni=b8k86.z3xq.fzi.hh.vavava.kdns.fr&type=ws#UA | 194.147.149.54 | 137ms
