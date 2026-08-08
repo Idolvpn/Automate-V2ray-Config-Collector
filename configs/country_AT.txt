@@ -1,1 +1,2 @@
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@212.183.88.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#AT | 212.183.88.8 | 6ms
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@212.183.88.146:443?security=tls&sni=hkx.ylks.xyz&type=ws&path=/?proxyip#AT | 212.183.88.146 | 1ms
+vless://f54c3ae8-d80f-46ff-b967-cd6d4a2b93e1@151.236.8.190:443?host=hhgy.hh0mg.kdns.fr&path=/&security=tls&sni=hhgy.hh0mg.kdns.fr&type=ws#AT | 151.236.8.190 | 154ms
