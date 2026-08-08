@@ -1,3 +1,1 @@
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.16.216:22222?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 63.186.16.216 | 142ms
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.16.216:22223?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 63.186.16.216 | 144ms
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.16.216:22224?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 63.186.16.216 | 145ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@143.47.188.151:62145?security=none&encryption=none&headerType=none&type=tcp@freenettir#NL | 143.47.188.151 | 198ms
