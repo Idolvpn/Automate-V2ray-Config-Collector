@@ -1,4 +1,4 @@
-vless://d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02@87.58.205.88:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0&fp=random&type=xhttp&sni=google.com&sid=72cd47c079c0a3df#RO | 87.58.205.88 | 176ms
-vless://d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02@87.58.205.88:443?mode=auto&path=/&security=reality&encryption=none&pbk=v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0&fp=chrome&type=xhttp&sni=google.com&sid=72cd47c079c0a3df#RO | 87.58.205.88 | 178ms
-vless://f5e98e30-28b8-468a-a5a5-c6c22be64055@196.245.156.30:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=rm2.magazinnarubeva.ru&fp=chrome&pbk=hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8&sid=8718c58d3d51db59&type=tcp&headerType=none#RO | 196.245.156.30 | 170ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#RO | 154.46.31.106 | 185ms
+vless://d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02@87.58.205.88:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0&fp=random&type=xhttp&sni=google.com&sid=72cd47c079c0a3df#RO | 87.58.205.88 | 180ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#RO | 154.46.31.106 | 169ms
+vless://d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02@87.58.205.88:443?mode=auto&path=/&security=reality&encryption=none&pbk=v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0&fp=chrome&type=xhttp&sni=google.com&sid=72cd47c079c0a3df#RO | 87.58.205.88 | 181ms
+vless://f5e98e30-28b8-468a-a5a5-c6c22be64055@196.245.156.30:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=rm2.magazinnarubeva.ru&fp=chrome&pbk=hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8&sid=8718c58d3d51db59&type=tcp&headerType=none#RO | 196.245.156.30 | 172ms
