@@ -1,1 +1,1 @@
-vless://a967fcf9-ebd0-487e-82ed-49ea1329d8b6@tstbot.paydar.site:443?security=&encryption=none&host=play.google.com&headerType=http&type=tcpconfigprxy#UN | tstbot.paydar.site | 147ms
+vless://a967fcf9-ebd0-487e-82ed-49ea1329d8b6@tstbot.paydar.site:443?security=&encryption=none&host=play.google.com&headerType=http&type=tcpconfigprxy#UN | tstbot.paydar.site | 151ms
