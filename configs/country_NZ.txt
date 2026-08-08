@@ -1,3 +1,2 @@
-trojan://humanity@202.37.33.80:443?path=/assignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#NZ | 202.37.33.80 | 6ms
-vless://3b01a777-55e7-49f6-8637-d94ee69607c6@202.37.33.81:443?path=/id-tksi&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=m.udemy.com.cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=m.udemy.com.cyylr.eu.cc#NZ | 202.37.33.81 | 5ms
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@114.129.43.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#NZ | 114.129.43.8 | 5ms
+trojan://humanity@202.37.33.80:443?path=/assignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#NZ | 202.37.33.80 | 9ms
+vless://3b01a777-55e7-49f6-8637-d94ee69607c6@202.37.33.81:443?path=/id-tksi&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=m.udemy.com.cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=m.udemy.com.cyylr.eu.cc#NZ | 202.37.33.81 | 9ms
