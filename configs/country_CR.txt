@@ -1,6 +1,5 @@
-trojan://bpb-trojan@190.93.244.202:443?path=/tr?ed&security=tls&host=fcspring.ggff.net&type=ws&sni=fcspring.ggff.net#CR | 190.93.244.202 | 9ms
-vless://0e04c493-7034-4239-98ef-14ff37b991df@190.93.247.155:443?security=tls&sni=All4.savagev2ray.site&type=ws&host=all4.savagev2ray.site&path=/#CR | 190.93.247.155 | 11ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@190.93.244.138:2096?encryption=none&security=tls&sni=sni.111000.indevs.in&insecure=0&allowInsecure=0&type=ws&host=sni.111000.indevs.in&path=/#CR | 190.93.244.138 | 13ms
-vless://dd6af632-e4bb-400a-922f-43f75ec89d64@190.93.245.94:443?mode=auto&path=/v1/api/sync/f47ac10b58cc4372a5670e02b2c3d479&security=tls&alpn=h2&encryption=none&insecure=0&host=api-ws-de.nxping.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=api-ws-de.nxping.ir#CR | 190.93.245.94 | 8ms
-vless://4d10c997-4781-4cd9-82c3-15453523e12c@190.93.246.202:443?encryption=none&fp=chrome&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#CR | 190.93.246.202 | 9ms
-vless://4d10c997-4781-4cd9-82c3-15453523e12c@190.93.246.202:443?encryption=none&fp=chrome&host=support.zoom.us.yxls.eu.cc&path=/sg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#CR | 190.93.246.202 | 9ms
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@190.93.246.202:443?encryption=none&fp=chrome&host=support.zoom.us.yxls.eu.cc&path=/sg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#CR | 190.93.246.202 | 8ms
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@190.93.245.212:2053?encryption=none&type=ws&security=tls&path=%2Fsg-melbi&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&insecure=0&allowInsecure=0#CR | 190.93.245.212 | 8ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@190.93.246.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#CR | 190.93.246.8 | 9ms
+trojan://NISHIKUITAN111@190.93.247.7:443/?type=tcp&security=tls&allowInsecure=1#CR | 190.93.247.7 | 8ms
+vless://4d10c997-4781-4cd9-82c3-15453523e12c@190.93.246.202:443?encryption=none&fp=chrome&host=support.zoom.us.yxls.eu.cc&path=%2Fsg-melbi&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws#CR | 190.93.246.202 | 8ms

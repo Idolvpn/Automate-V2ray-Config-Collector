@@ -1,10 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@84.247.48.78:1080#IE | 84.247.48.78 | 139ms
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#IE | 54.217.133.71 | 124ms
-trojan://UO36402987@54.216.124.178:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=warm-bass.rooster465.autos#IE | 54.216.124.178 | 121ms
-trojan://ND91608427@54.170.212.206:443?fp=chrome&sni=skilled-lioness.rooster465.autos#IE | 54.170.212.206 | 118ms
-trojan://UO36402987@54.216.124.178:443?fp=chrome&sni=warm-bass.rooster465.autos#IE | 54.216.124.178 | 121ms
-trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#IE | 34.251.228.118 | 166ms
-trojan://UO36402987@54.216.124.178:443?sni=warm-bass.rooster465.autos&type=tcp&fp=chrome#IE | 54.216.124.178 | 122ms
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#IE | 54.217.133.71 | 117ms
-trojan://ND91608427@54.170.212.206:443?sni=skilled-lioness.rooster465.autos&fp=chrome&type=tcp&path=/#IE | 54.170.212.206 | 118ms
-trojan://UO36402987@34.251.228.118:443?sni=definite-ladybird.rooster465.autos&type=tcp&fp=chrome#IE | 34.251.228.118 | 178ms
+trojan://UO36402987@54.216.124.178:443?sni=warm-bass.rooster465.autos&type=tcp&fp=chrome#IE | 54.216.124.178 | 128ms
+trojan://humanity@54.216.143.197:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#IE | 54.216.143.197 | 124ms
+trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#IE | 54.217.133.71 | 122ms
+trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#IE | 54.217.133.71 | 126ms
+trojan://UO36402987@54.216.124.178:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=warm-bass.rooster465.autos#IE | 54.216.124.178 | 124ms
+trojan://UO36402987@54.216.124.178:443?fp=chrome&sni=warm-bass.rooster465.autos#IE | 54.216.124.178 | 126ms

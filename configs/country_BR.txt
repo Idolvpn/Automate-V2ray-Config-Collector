@@ -1,3 +1,4 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 8ms
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@185.133.35.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#BR | 185.133.35.8 | 8ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@185.133.35.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#BR | 185.133.35.8 | 9ms
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?host=vms.lifetime19.workers.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2Fyoutube%40ZYFXS%F0%9F%87%A8%F0%9F%87%B3&type=ws#BR | 45.194.53.30 | 9ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@45.194.53.8:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&path=/&security=tls&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&type=ws#BR | 45.194.53.8 | 8ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXSрҹҮЁрҹҮі&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 8ms
