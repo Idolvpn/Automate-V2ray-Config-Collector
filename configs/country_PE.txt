@@ -1,1 +1,1 @@
-trojan://af4b064a9c39472fb34ad8b113acdc6b@38.180.173.150:443?security=tls&sni=38.180.173.150#PE | 38.180.173.150 | 140ms
+trojan://af4b064a9c39472fb34ad8b113acdc6b@38.180.173.150:443?security=tls&sni=38.180.173.150#PE | 38.180.173.150 | 139ms

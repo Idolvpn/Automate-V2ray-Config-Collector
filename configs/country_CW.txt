@@ -1,3 +1,5 @@
-vless://359b9ad3-0009-4655-8872-d0ab566751d3@45.81.58.159:2096?path=/ws?ed=2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=e832b8629fff3263.hozheen.ir#CW | 45.81.58.159 | 13ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws#CW | 88.216.67.50 | 9ms
-vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 12ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws#CW | 88.216.67.50 | 6ms
+vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 5ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev#CW | 62.72.166.30 | 5ms
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@92.60.74.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#CW | 92.60.74.123 | 6ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.66.30:8880?security=none&type=ws&path=/&host=vms.lifetime04.workers.dev&packetEncoding=xudp#CW | 88.216.66.30 | 6ms

@@ -1,4 +1,5 @@
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#SA | 149.104.104.58 | 255ms
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@156.244.8.155:5004#SA | 156.244.8.155 | 231ms
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=149.104.104.58#SA | 149.104.104.58 | 251ms
-trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#SA | 149.104.104.58 | 246ms
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#SA | 149.104.104.58 | 211ms
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=149.104.104.58#SA | 149.104.104.58 | 207ms
+vless://e332f028-d343-5b44-8016-b3130f39e133@81.208.170.142:1500?encryption=none&security=reality&sni=www.ebay.com&fp=chrome&pbk=VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE&sid=775eb6408888248e&type=grpc&mode=gun#SA | 81.208.170.142 | 196ms
+trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#SA | 149.104.104.58 | 209ms
+ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@156.244.8.155:5004#SA | 156.244.8.155 | 196ms
