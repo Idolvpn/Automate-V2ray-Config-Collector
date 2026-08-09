@@ -1,1 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MjRUSG5lSmVYc3hsU2wzRFByN0tS@157.22.240.141:57925#AL | 157.22.240.141 | 182ms
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.159.131.173:13868?encryption=none&flow=xtls-rprx-vision&security=reality&sni=booking.com&fp=chrome&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&sid=e852dc&type=tcp&headerType=none#AL | 78.159.131.173 | 137ms
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.159.131.173:13868?security=reality&encryption=none&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&headerType=none&fp=chrome&spx=/HesarWeb&type=tcp&flow=xtls-rprx-vision&sni=booking.com&sid=e852dc#AL | 78.159.131.173 | 139ms
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.159.131.173:13868?security=reality&encryption=none&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=booking.com&sid=e852dc#AL | 78.159.131.173 | 139ms
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.159.131.173:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk&sid=e852dc&sni=booking.com#AL | 78.159.131.173 | 135ms
