@@ -1,3 +1,3 @@
-vless://22a0751d-4db7-4a51-ba80-d8ddf24e0b77@176.123.165.127:12672?security=none&encryption=none&headerType=none&type=tcp@freenettir#UN | 176.123.165.127 | 192ms
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22222?security=none&encryption=none&headerType=none&type=tcp@freenettir#UN | 18.197.75.14 | 151ms
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22223?security=none&encryption=none&headerType=none&type=tcp@freenettir#UN | 18.197.75.14 | 149ms
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.102.174.17:22222?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 51.102.174.17 | 138ms
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.102.174.17:22223?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 51.102.174.17 | 147ms
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.102.174.17:22224?security=none&encryption=none&headerType=none&type=tcp@freenettir#DE | 51.102.174.17 | 147ms
