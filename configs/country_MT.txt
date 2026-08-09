@@ -1,2 +1,2 @@
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@46.202.30.8:443?path=/&security=tls&encryption=none&insecure=0&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr#MT | 46.202.30.8 | 5ms
-vless://Telegram:@Free_VPN_CH@46.202.30.8:2096?path=/sg-lnd&security=tls&encryption=none&host=tn1rr.qzz.io&type=ws&sni=tn1rr.qzz.io#MT | 46.202.30.8 | 6ms
+vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@46.202.30.8:443?path=/&security=tls&encryption=none&insecure=0&host=gj2rf.mlrb.tyr.hh.vavava.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=gj2rf.mlrb.tyr.hh.vavava.kdns.fr#MT | 46.202.30.8 | 6ms
+vless://Telegram:@Free_VPN_CH@46.202.30.8:2096?path=/sg-lnd&security=tls&encryption=none&host=tn1rr.qzz.io&type=ws&sni=tn1rr.qzz.io#MT | 46.202.30.8 | 5ms
