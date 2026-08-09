@@ -1,7 +1,6 @@
-vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@188.92.78.81:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=anyfile2file.com&fp=chrome&security=reality&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=93ae75024604f796&packetEncoding=xudp#LV | 188.92.78.81 | 132ms
-vless://9551588e-25c4-49ed-b6fe-783b0452e98c@31.56.196.145:2019?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#LV | 31.56.196.145 | 273ms
-vless://9551588e-25c4-49ed-b6fe-783b0452e98c@31.56.196.145:2019?encryption=none&security=none&type=tcp&headerType=http&host=play.google.com#LV | 31.56.196.145 | 302ms
-vless://9551588e-25c4-49ed-b6fe-783b0452e98c@31.56.196.145:2019?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#LV | 31.56.196.145 | 139ms
-vless://9b276a71-a386-4fb3-a565-7e005df2f5eb@188.130.154.252:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#LV | 188.130.154.252 | 122ms
-vless://Telegram:@Free_VPN_CH@109.248.163.191:443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.191 | 131ms
-vless://Telegram:@Free_VPN_CH@109.248.163.226:8443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.226 | 132ms
+vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@188.92.78.81:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=anyfile2file.com&fp=chrome&security=reality&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=93ae75024604f796&packetEncoding=xudp#LV | 188.92.78.81 | 111ms
+vless://Telegram:@Free_VPN_CH@109.248.163.191:443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.191 | 110ms
+vless://Telegram:@Free_VPN_CH@109.248.163.226:8443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.226 | 113ms
+vless://ae377f50-57c1-4a17-ac6b-d771f5fdb427@31.56.206.72:8443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=tcp&security=none&encryption=none&headerType=none#LV | 31.56.206.72 | 111ms
+vless://ae377f50-57c1-4a17-ac6b-d771f5fdb427@31.56.206.72:8443?type=tcp&security=none&encryption=none&headerType=none#LV | 31.56.206.72 | 109ms
+vless://ae377f50-57c1-4a17-ac6b-d771f5fdb427@31.56.206.72:8443?encryption=none&headerType=none&security=none&type=tcp#LV | 31.56.206.72 | 115ms
