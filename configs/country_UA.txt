@@ -1,2 +1,1 @@
-vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@176.103.113.235:443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#UA | 176.103.113.235 | 9ms
-vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@176.103.113.235:443?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#UA | 176.103.113.235 | 8ms
+vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@176.103.113.235:443?path=/GOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#UA | 176.103.113.235 | 1ms
