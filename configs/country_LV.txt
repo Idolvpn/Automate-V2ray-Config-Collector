@@ -1,12 +1,5 @@
-vless://488ab21c-577b-4dfb-8c78-91532294a352@104.253.18.250:8088?mode=auto&path=/path&security=reality&encryption=none&extra={#LV | 104.253.18.250 | 176ms
-vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@188.92.78.81:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=anyfile2file.com&fp=chrome&security=reality&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=93ae75024604f796&packetEncoding=xudp#LV | 188.92.78.81 | 162ms
-vless://Telegram:@Free_VPN_CH@109.248.163.191:443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.191 | 172ms
-vless://Telegram:@Free_VPN_CH@109.248.163.226:8443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.226 | 177ms
-vless://ae377f50-57c1-4a17-ac6b-d771f5fdb427@31.56.206.72:8443?encryption=none&headerType=none&security=none&type=tcp#LV | 31.56.206.72 | 165ms
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:42282?encryption=none&fp=chrome&pbk=CiKtn_6x0VptZJdHbe7wW_9yetDMfZ6RhqRVTsfP1Bg&security=reality&sid=9ff38a&sni=g.co&spx=/qvsWMnyZc82PyxU&type=tcp#LV | 104.252.53.195 | 541ms
-vless://e3a1a6f5-2491-42e8-b2e1-7c84f0c547e8@104.252.53.195:21948?encryption=none&security=none&type=tcp#LV | 104.252.53.195 | 639ms
-vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?security=none&encryption=none&headerType=none&type=tcp#LV | 217.145.79.102 | 195ms
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@195.123.208.92:13443?type=tcp&headerType=none&security=reality&encryption=none&sni=auto.cendora.ru&fp=qq&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0&flow=xtls-rprx-vision#LV | 195.123.208.92 | 172ms
-vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?type=tcp&security=none&encryption=none#LV | 217.145.79.102 | 299ms
-vless://7e5964d036b843ff885b86c4d3bfd466@85.159.228.250:25703?security=none&type=tcp&packetEncoding=xudp#LV | 85.159.228.250 | 166ms
-vless://f692629b-3557-488a-9c9b-60775331e423@31.59.45.26:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&sni=www.google.com#LV | 31.59.45.26 | 161ms
+vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@188.92.78.81:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=anyfile2file.com&fp=chrome&security=reality&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=93ae75024604f796&packetEncoding=xudp#LV | 188.92.78.81 | 166ms
+vless://Telegram:@Free_VPN_CH@109.248.163.191:443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.191 | 174ms
+vless://Telegram:@Free_VPN_CH@109.248.163.226:8443?encryption=none&security=tls&sni=tn1rr.qzz.io&insecure=0&allowInsecure=0&type=ws&host=tn1rr.qzz.io&path=/sg-lnd#LV | 109.248.163.226 | 169ms
+vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?security=none&encryption=none&headerType=none&type=tcp#LV | 217.145.79.102 | 903ms
+vless://f937575c-35c2-4889-832e-b67935d565d8@217.145.79.102:24478?type=tcp&security=none&encryption=none#LV | 217.145.79.102 | 630ms
