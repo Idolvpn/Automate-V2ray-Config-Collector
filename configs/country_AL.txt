@@ -1,2 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWHBEZjdXVjZsZkQ2bjlocHo3SEYy@157.22.240.141:57925#AL | 157.22.240.141 | 118ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MjRUSG5lSmVYc3hsU2wzRFByN0tS@157.22.240.141:57925#AL | 157.22.240.141 | 119ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXUjVIbzh2VnFuRGFINDlXTGg5OE5j@130.49.189.158:10792#AL | 130.49.189.158 | 166ms
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@85.155.228.208:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=7zCzgzF_vJYAVe3uvFLfkZ_YS-4FQ0SZM9Bjf_r9OBg&security=reality&sid=b868b87c347a451e&sni=al.cdn-global.pro&type=tcp#AL | 85.155.228.208 | 156ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPZ3dJQTNueXhqWVlPdWRPNTRwdW90@130.49.189.158:10792#AL | 130.49.189.158 | 164ms

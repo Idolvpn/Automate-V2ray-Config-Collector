@@ -1,3 +1,2 @@
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls#SA | 149.104.104.58 | 198ms
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#SA | 149.104.104.58 | 197ms
-trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#SA | 149.104.104.58 | 193ms
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls#SA | 149.104.104.58 | 262ms
+trojan://S.ibYdZshHTF-ne.M%2B.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#SA | 149.104.104.58 | 261ms
