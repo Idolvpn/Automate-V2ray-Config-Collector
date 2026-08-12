@@ -1,2 +1,1 @@
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@2.56.206.160:443?path=/Qv2raychannel&alpn=http/1.1,h2,h3&encryption=none&security=tls&insecure=0&allowInsecure=0&type=ws&fp=chrome&host=ar.iotreeow.ir&sni=ar.iotreeow.ir#AM | 2.56.206.160 | 170ms
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&packetEncoding=xudp&encryption=none#AM | 77.91.68.70 | 268ms
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@2.56.206.160:443?path=/Qv2raychannel&alpn=http/1.1,h2,h3&encryption=none&security=tls&insecure=0&allowInsecure=0&type=ws&fp=chrome&host=ar.iotreeow.ir&sni=ar.iotreeow.ir#AM | 2.56.206.160 | 155ms
