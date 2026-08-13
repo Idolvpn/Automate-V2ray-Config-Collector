@@ -1,1 +1,2 @@
-vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@130.49.189.41:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs&security=reality&sid=4fa44664f6a566d3&sni=youtube.superbuba.top&type=tcp#AL | 130.49.189.41 | 145ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWHBEZjdXVjZsZkQ2bjlocHo3SEYy@157.22.240.141:57925#AL | 157.22.240.141 | 118ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MjRUSG5lSmVYc3hsU2wzRFByN0tS@157.22.240.141:57925#AL | 157.22.240.141 | 116ms
