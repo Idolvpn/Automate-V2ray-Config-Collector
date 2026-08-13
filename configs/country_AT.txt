@@ -1,3 +1,5 @@
-trojan://HKaPIfnhpx@185.126.236.181:23231?type=tcp&security=none#AT | 185.126.236.181 | 145ms
-vless://8d6a1672-1afa-4143-f45e-958b80f5f676@185.126.236.181:31407?encryption=none&type=ws&host=www.icloud.com&path=/#AT | 185.126.236.181 | 144ms
-vless://b40482b0-c9f1-4b1d-977d-ec91ba7b2636@185.126.236.181:8080?encryption=none&type=tcp&headerType=http&host=www.icloud.com&path=/#AT | 185.126.236.181 | 142ms
+trojan://HKaPIfnhpx@185.126.236.181:23231?type=tcp&security=none#AT | 185.126.236.181 | 106ms
+vless://641baa2f-6f74-4ecf-b948-032d19ba0142@193.233.233.56:40443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I&security=reality&sid=c3d4e5f607182939&sni=www.samsung.com&type=tcp#AT | 193.233.233.56 | 107ms
+vless://8d6a1672-1afa-4143-f45e-958b80f5f676@185.126.236.181:31407?encryption=none&type=ws&host=www.icloud.com&path=/#AT | 185.126.236.181 | 106ms
+vless://b40482b0-c9f1-4b1d-977d-ec91ba7b2636@185.126.236.181:8080?encryption=none&type=tcp&headerType=http&host=www.icloud.com&path=/#AT | 185.126.236.181 | 107ms
+vless://641baa2f-6f74-4ecf-b948-032d19ba0142@193.233.233.56:40443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I&security=reality&sid=c3d4e5f607182939&sni=www.samsung.com&type=tcp#AT | 193.233.233.56 | 100ms
