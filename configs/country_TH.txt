@@ -1,6 +1,4 @@
-vless://b93efa30-e2c5-401c-9ec7-22e30266cc60@157.85.102.28:1083?security=none&encryption=none&headerType=none&type=tcp#TH | 157.85.102.28 | 255ms
-vless://d6c81f6d-24a8-46d9-a3bf-c38d51fc5fe5@171.97.18.114:8443?security=reality&encryption=none&pbk=sDH4MlZFHXJB5VR_mfuFNBrQHtptpNK-qj3sot7b1zU&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.apple.com&sid=16887c51#TH | 171.97.18.114 | 254ms
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#TH | 18.239.134.69 | 253ms
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 260ms
-vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?&type=ws&headerType=none&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#TH | 18.239.134.69 | 253ms
-vless://d6c81f6d-24a8-46d9-a3bf-c38d51fc5fe5@171.97.18.114:8443?encryption=none&fp=chrome&pbk=sDH4MlZFHXJB5VR_mfuFNBrQHtptpNK-qj3sot7b1zU&sni=www.apple.com&type=tcp&sid=16887c51&headerType=none&spx=/&security=reality#TH | 171.97.18.114 | 255ms
+vless://d6c81f6d-24a8-46d9-a3bf-c38d51fc5fe5@171.97.18.114:8443?security=reality&encryption=none&pbk=sDH4MlZFHXJB5VR_mfuFNBrQHtptpNK-qj3sot7b1zU&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.apple.com&sid=16887c51#TH | 171.97.18.114 | 186ms
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#TH | 18.239.134.69 | 203ms
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 273ms
+vless://d6c81f6d-24a8-46d9-a3bf-c38d51fc5fe5@171.97.18.114:8443?encryption=none&fp=chrome&pbk=sDH4MlZFHXJB5VR_mfuFNBrQHtptpNK-qj3sot7b1zU&sni=www.apple.com&type=tcp&sid=16887c51&headerType=none&spx=/&security=reality#TH | 171.97.18.114 | 1213ms

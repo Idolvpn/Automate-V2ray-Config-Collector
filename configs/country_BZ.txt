@@ -1,7 +1,1 @@
-vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.131.211.136:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#BZ | 45.131.211.136 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.209.30:8880?path=%2F&security=&encryption=none&host=vms.lifetime04.workers.dev&type=ws#BZ | 45.131.209.30 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime61.workers.dev&path=%2F#BZ | 45.131.6.30 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.211.30:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳&host=vms.lifetime06.workers.dev&packetEncoding=xudp&encryption=none#BZ | 45.131.211.30 | 1ms
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@45.131.6.7:8443?security=tls&type=ws&path=%2Fdula%3FTelegram-WangCai2&host=speed.dulacloud.store&ed=2560&packetEncoding=xudp&sni=speed.dulacloud.store&fp=chrome&encryption=none#BZ | 45.131.6.7 | 2ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.210.30:8880?allowInsecure=0&sni=vms.lifetime05.workers.dev&type=ws&host=vms.lifetime05.workers.dev&path=/#BZ | 45.131.210.30 | 2ms
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@45.131.7.7:8443?security=tls&type=ws&path=%2Fdula%3FTelegram-WangCai2&host=speed.dulacloud.store&ed=2560&sni=speed.dulacloud.store&fp=chrome&encryption=none#BZ | 45.131.7.7 | 1ms
+vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.131.211.136:443?path=/rdfgtws&security=tls&encryption=none&insecure=0&host=vangoghhh.info&type=ws&allowInsecure=0&sni=vangoghhh.info#BZ | 45.131.211.136 | 5ms
