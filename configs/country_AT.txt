@@ -1,3 +1,2 @@
-vless://000f16e8-cc68-4951-b336-acd81996efde@45.155.71.170:50443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.icloud.com&security=reality&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&sid=#AT | 45.155.71.170 | 103ms
-vless://000f16e8-cc68-4951-b336-acd81996efde@45.155.71.170:50443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&security=reality&sni=www.icloud.com&type=tcp#AT | 45.155.71.170 | 99ms
-vless://000f16e8-cc68-4951-b336-acd81996efde@45.155.71.170:50443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&sni=www.icloud.com#AT | 45.155.71.170 | 99ms
+vless://000f16e8-cc68-4951-b336-acd81996efde@45.155.71.170:50443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&security=reality&sni=www.icloud.com&type=tcp#AT | 45.155.71.170 | 150ms
+vless://000f16e8-cc68-4951-b336-acd81996efde@45.155.71.170:50443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ&sni=www.icloud.com#AT | 45.155.71.170 | 149ms
