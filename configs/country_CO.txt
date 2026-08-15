@@ -1,2 +1,1 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.173:62145?&type=tcp&headerType=none&path=%2F#CO | 149.130.189.173 | 76ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.172.133:62145?&type=tcp&headerType=none&path=%2F#CO | 149.130.172.133 | 77ms
+ss://YWVzLTI1Ni1nY206UENubkg2U1FTbmZvUzI3@149.104.107.41:8090#CO | 149.104.107.41 | 110ms
