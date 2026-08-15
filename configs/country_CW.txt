@@ -1,2 +1,2 @@
-vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 8ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev#CW | 62.72.166.30 | 10ms
+vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 1ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@62.72.166.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev#CW | 62.72.166.30 | 1ms
