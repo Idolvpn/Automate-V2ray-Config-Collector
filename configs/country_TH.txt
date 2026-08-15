@@ -1,4 +1,4 @@
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#TH | 18.239.134.69 | 209ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.83.2.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime28.workers.dev&path=%2F#TH | 154.83.2.30 | 8ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.83.2.50:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS&host=vms.lifetime28.workers.dev#TH | 154.83.2.50 | 8ms
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 213ms
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/#TH | 18.239.134.69 | 249ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.83.2.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime28.workers.dev&path=%2F#TH | 154.83.2.30 | 2ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@154.83.2.50:8880?security=none&type=ws&path=/?ed=2560&https://t.me/youtube@ZYFXS&host=vms.lifetime28.workers.dev#TH | 154.83.2.50 | 2ms
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 252ms
