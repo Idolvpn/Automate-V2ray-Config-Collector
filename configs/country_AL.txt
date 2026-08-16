@@ -1,2 +1,1 @@
-vless://d4cae7df-50a1-428c-bd62-881c8f3bbd90@130.49.189.41:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs&security=reality&sid=4fa44664f6a566d3&sni=youtube.superbuba.top&type=tcp#AL | 130.49.189.41 | 137ms
-vless://670decfe-68cc-499e-8cb1-22b39c20acbb@91.239.6.45:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE&security=reality&sid=ff776ff77be48b88&sni=alban5.helper-internet.com&type=tcp#AL | 91.239.6.45 | 127ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjY3lmeFh1d1RqN3lxQ1JKckdGMXUw@130.49.189.158:10792#AL | 130.49.189.158 | 172ms
