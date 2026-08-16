@@ -1,6 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 1456ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.40:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.40 | 95ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.44:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.44 | 94ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.77:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.77 | 95ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 95ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 96ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 92ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.40:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.40 | 90ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 92ms
