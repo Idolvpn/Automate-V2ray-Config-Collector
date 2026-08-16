@@ -1,2 +1,2 @@
-vless://b6b92515-13c5-4e6e-9fea-8db2d44628a0@200.165.225.174:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4&security=reality&sid=33b5887524592cad&sni=veilix.ciphero.xyz&type=tcp#BR | 200.165.225.174 | 139ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 2ms
+vless://b6b92515-13c5-4e6e-9fea-8db2d44628a0@200.165.225.174:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4&security=reality&sid=33b5887524592cad&sni=veilix.ciphero.xyz&type=tcp#BR | 200.165.225.174 | 134ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 1ms
