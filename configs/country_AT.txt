@@ -1,9 +1,4 @@
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=/assignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 2ms
-vless://45172ad2-bfb4-4403-a525-2b60b4e75985@185.126.236.181:2053?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/&security=none&encryption=none&host=www.icloud.com&type=ws#AT | 185.126.236.181 | 100ms
-vless://45172ad2-bfb4-4403-a525-2b60b4e75985@185.126.236.181:2053?encryption=none&type=ws&path=/&host=www.icloud.com#AT | 185.126.236.181 | 99ms
-vless://45172ad2-bfb4-4403-a525-2b60b4e75985@185.126.236.181:2053?path=/&security=none&encryption=none&host=www.icloud.com&type=ws#AT | 185.126.236.181 | 100ms
-vless://a8e99622-7407-4597-870e-5b40276abb30@185.126.236.181:443?security=reality&encryption=none&pbk=XBHms04stZYJyhnT4nkyrgqZLXLiMw8qogCTBmGqiXI&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.icloud.com#AT | 185.126.236.181 | 99ms
-vless://eab81857-a729-4c61-c8e9-bd3b46608161@185.126.236.181:80?security=none&encryption=none&host=www.icloud.com&headerType=http&type=tcp#AT | 185.126.236.181 | 99ms
-vless://641baa2f-6f74-4ecf-b948-032d19ba0142@193.233.233.56:40443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I&security=reality&sid=c3d4e5f607182939&sni=www.samsung.com&type=tcp#AT | 193.233.233.56 | 91ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@212.183.88.30:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime23.workers.dev&packetEncoding=xudp&sni=212.183.88.30&encryption=none#AT | 212.183.88.30 | 2ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 1ms
+vless://45172ad2-bfb4-4403-a525-2b60b4e75985@185.126.236.181:2053?path=/&security=none&encryption=none&host=www.icloud.com&type=ws#AT | 185.126.236.181 | 161ms
+vless://a8e99622-7407-4597-870e-5b40276abb30@185.126.236.181:443?security=reality&encryption=none&pbk=XBHms04stZYJyhnT4nkyrgqZLXLiMw8qogCTBmGqiXI&headerType=none&fp=chrome&spx=/&type=tcp&sni=www.icloud.com#AT | 185.126.236.181 | 165ms
+vless://eab81857-a729-4c61-c8e9-bd3b46608161@185.126.236.181:80?security=none&encryption=none&host=www.icloud.com&headerType=http&type=tcp#AT | 185.126.236.181 | 168ms
+vless://45172ad2-bfb4-4403-a525-2b60b4e75985@185.126.236.181:2053?encryption=none&type=ws&path=/&host=www.icloud.com#AT | 185.126.236.181 | 161ms
