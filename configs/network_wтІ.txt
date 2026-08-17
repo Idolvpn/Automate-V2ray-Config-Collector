@@ -1,0 +1,1 @@
+vless://b8b01773-36b1-4b49-9bd0-6249f52345b4@63.141.128.22:443?encryption=none&host=misty-tooth-78ca.fobogah414-e7b.workers.dev&path=/eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=&security=tls&sni=misty-tooth-78ca.fobogah414-e7b.workers.dev&type=wтІ#US | 63.141.128.22 | 10ms
