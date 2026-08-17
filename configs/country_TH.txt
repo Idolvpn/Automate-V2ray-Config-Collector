@@ -1,4 +1,2 @@
-vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#TH | 157.85.105.179 | 190ms
-vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&&type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#TH | 157.85.105.179 | 189ms
-vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?allowInsecure=1&sni=d2pwbkmfr5lxa4.cloudfront.net&type=ws&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#TH | 157.85.105.179 | 189ms
-vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 196ms
+vless://89c3b66f-c849-4602-a5a8-84b6f06af478@157.85.105.179:80?type=ws&headerType=none&host=d2pwbkmfr5lxa4.cloudfront.net&path=/#TH | 157.85.105.179 | 189ms
+vless://de27291c-15a9-4256-9ba7-ad517569877e@18.239.134.69:80/?type=ws&encryption=none&flow=&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=/&packetEncoding=xudp#TH | 18.239.134.69 | 197ms
