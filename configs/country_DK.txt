@@ -1,1 +1,1 @@
-vless://fa98f221-29e1-4a7e-8797-3bf294aeda35@144.31.242.164:443?type=grpc&security=reality&fp=chrome&serviceName=grpc&sni=360.yandex.ru&sid=6ba85179e30d4fc2&encryption=none&pbk=ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A#DK | 144.31.242.164 | 148ms
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@144.31.242.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eu-central.cendora.ru&fp=edge&security=reality&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083#DK | 144.31.242.1 | 155ms
