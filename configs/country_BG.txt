@@ -1,2 +1,2 @@
-vless://52bc7468-0c2f-4e9d-bdfa-e266242ab44b@91.92.136.28:443?security=reality&encryption=none&pbk=VuM9HrCRtt7gaOXYkrPggV3GT_HKj18_5y6PcQKjWgQ&headerType=none&fp=chrome&type=tcp&sni=ripe.net&sid=0a076a71#BG | 91.92.136.28 | 176ms
-vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@13.140.29.144:8443/?type=ws&encryption=none&flow=&host=kjgdksgghre466.pages.dev&path=/&security=tls&sni=kjgdksgghre466.pages.dev&allowInsecure=1&fp=chrome&packetEncoding=xudp#BG | 13.140.29.144 | 180ms
+vless://52bc7468-0c2f-4e9d-bdfa-e266242ab44b@91.92.136.28:443?security=reality&encryption=none&pbk=VuM9HrCRtt7gaOXYkrPggV3GT_HKj18_5y6PcQKjWgQ&headerType=none&fp=chrome&type=tcp&sni=ripe.net&sid=0a076a71#BG | 91.92.136.28 | 115ms
+vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@13.140.29.144:8443/?type=ws&encryption=none&flow=&host=kjgdksgghre466.pages.dev&path=/&security=tls&sni=kjgdksgghre466.pages.dev&allowInsecure=1&fp=chrome&packetEncoding=xudp#BG | 13.140.29.144 | 119ms

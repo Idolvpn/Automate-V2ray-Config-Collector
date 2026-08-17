@@ -1,1 +1,3 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 9ms
+vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 139ms
+vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 143ms
+vless://b6b92515-13c5-4e6e-9fea-8db2d44628a0@200.165.225.174:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4&security=reality&sid=33b5887524592cad&sni=veilix.ciphero.xyz&type=tcp#BR | 200.165.225.174 | 120ms

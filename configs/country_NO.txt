@@ -1,3 +1,4 @@
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 148ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 152ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 156ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 93ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 91ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 91ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 93ms

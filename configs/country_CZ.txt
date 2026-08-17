@@ -1,8 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 166ms
-vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&sid=0c#CZ | 188.127.247.129 | 156ms
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@14.102.228.76:2083?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=de.lezzatzone.ir#CZ | 14.102.228.76 | 6ms
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@103.119.19.208:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&security=reality&sid=00bca5982f82d083&sni=eu-central.cendora.ru&type=tcp#CZ | 103.119.19.208 | 157ms
-vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@91.199.160.8:443?encryption=none&fp=chrome&host=kjgdksgghre466.pages.dev&path=/&security=tls&sni=kjgdksgghre466.pages.dev&type=ws#CZ | 91.199.160.8 | 171ms
-vless://a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac@103.119.18.115:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ch1.murhost.network&allowInsecure=1&fp=chrome&security=reality&pbk=V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A&sid=91a7a393d805f5c6&packetEncoding=xudp#CZ | 103.119.18.115 | 169ms
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@103.119.19.208:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=eu-central.cendora.ru&fp=qq&security=reality&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083#CZ | 103.119.19.208 | 165ms
-vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&security=reality&sid=0c&sni=yahoo.com&type=tcp#CZ | 188.127.247.129 | 163ms
+trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 99ms
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 100ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 109ms
+vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@14.102.228.76:2083?mode=stream-one&path=/de&security=tls&alpn=h2,http/1.1&encryption=none&insecure=1&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=de.lezzatzone.ir#CZ | 14.102.228.76 | 2ms
+vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@91.199.160.8:443?encryption=none&fp=chrome&host=kjgdksgghre466.pages.dev&path=/&security=tls&sni=kjgdksgghre466.pages.dev&type=ws#CZ | 91.199.160.8 | 105ms
+vless://a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac@103.119.18.115:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ch1.murhost.network&allowInsecure=1&fp=chrome&security=reality&pbk=V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A&sid=91a7a393d805f5c6&packetEncoding=xudp#CZ | 103.119.18.115 | 111ms
