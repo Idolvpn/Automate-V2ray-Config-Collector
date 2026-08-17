@@ -1,1 +1,1 @@
-vless://00dda8ac-c263-4106-a740-1e4478a7dc44@31.58.50.200:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU&security=reality&sni=tradingview.com&type=tcp%235%F0%9F%8E%97%EF%B8%8F@oneclickvpnkeys#US | 31.58.50.200 | 3ms
+vless://00dda8ac-c263-4106-a740-1e4478a7dc44@31.58.50.200:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU&security=reality&sni=tradingview.com&type=tcp%235%F0%9F%8E%97%EF%B8%8F@oneclickvpnkeys#UN | 31.58.50.200 | 34ms
