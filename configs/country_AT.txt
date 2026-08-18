@@ -1,5 +1,3 @@
-trojan://BEwWAh0ftF@185.126.236.186:19684?type=httpupgrade&security=none&path=/&host=amp-api-edge.apps.apple.com#AT | 185.126.236.186 | 175ms
-trojan://humanity@212.183.88.136:443?security=tls&sni=www.calmlunch.com&allowinsecure=0&type=ws&host=www.calmlunch.com&path=/assignment#AT | 212.183.88.136 | 8ms
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&sni=as.tunnelx.space#AT | 152.53.114.186 | 152ms
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&sni=as.tunnelx.space#AT | 152.53.114.186 | 149ms
-trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 8ms
+trojan://BEwWAh0ftF@185.126.236.186:19684?path=/&security=none&host=amp-api-edge.apps.apple.com&type=httpupgrade#AT | 185.126.236.186 | 161ms
+trojan://humanity@212.183.88.136:443?security=tls&sni=www.calmlunch.com&allowinsecure=0&type=ws&host=www.calmlunch.com&path=/assignment#AT | 212.183.88.136 | 1ms
+trojan://humanity@212.183.88.136:443?host=www.calmlunch.com&path=%2Fassignment&security=tls&sni=www.calmlunch.com&type=ws#AT | 212.183.88.136 | 1ms
