@@ -1,1 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 2ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 9ms
