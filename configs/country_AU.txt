@@ -1,6 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19F@104.156.233.234:27116#AU | 104.156.233.234 | 137ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUV0c3SjFLUjVLc1BhVjVxWkkrcmlldWVLeHhhZlpTcENI@45.77.232.213:15675#AU | 45.77.232.213 | 137ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUcWtrSFJwWlRramJUQnJr@45.32.246.180:8388#AU | 45.32.246.180 | 138ms
-vless://603819a3-dd65-408a-abab-15d8dc49887f@168.144.171.212:8880?security=none&encryption=none&host=iran.ir&headerType=http&type=tcp#AU | 168.144.171.212 | 137ms
-vless://603819a3-dd65-408a-abab-15d8dc49887f@168.144.173.166:443?security=none&encryption=none&host=diwork.com&headerType=http&type=tcp#AU | 168.144.173.166 | 137ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVVdYNkNPTFpZbWFIbFVHaUt3RGFO@45.79.238.129:443#AU | 45.79.238.129 | 138ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVVdYNkNPTFpZbWFIbFVHaUt3RGFO@45.79.238.129:443#AU | 45.79.238.129 | 172ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19F@104.156.233.234:27116#AU | 104.156.233.234 | 159ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUV0c3SjFLUjVLc1BhVjVxWkkrcmlldWVLeHhhZlpTcENI@45.77.232.213:15675#AU | 45.77.232.213 | 160ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime37.workers.dev&path=%2F#AU | 192.65.217.30 | 18ms
