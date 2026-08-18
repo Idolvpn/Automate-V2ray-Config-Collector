@@ -1,1 +1,6 @@
-vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 198ms
+vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 1238ms
+vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:3?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 1254ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.194.53.30:8880?path=/?ed=2560&https://t.me/youtube@ZYFXS&security=&encryption=none&host=vms.lifetime19.workers.dev&type=ws#BR | 45.194.53.30 | 8ms
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ZTduNitVa251cjZ1WGlQNHp1SllOK242S0FDQVg5K3MxN0ozTUxuek5CND0@129.159.55.129:59319#BR | 129.159.55.129 | 152ms
+ss://2022-blake3-chacha20-poly1305:e7n6%2BUknur6uXiP4zuJYN%2Bn6KACAX9%2Bs17J3MLnzNB4%3D@129.159.55.129:59319#BR | 129.159.55.129 | 154ms
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ZTduNitVa251cjZ1WGlQNHp1SllOK242S0FDQVg5K3MxN0ozTUxuek5CND0=@129.159.55.129:59319#BR | 129.159.55.129 | 148ms
