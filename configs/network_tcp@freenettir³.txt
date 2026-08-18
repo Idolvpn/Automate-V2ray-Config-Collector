@@ -1,1 +1,1 @@
-vless://99d6bdee-1d04-455e-8ad9-43fc14b544b4@94.237.93.20:33651?security=none&encryption=none&headerType=none&type=tcp@freenettir³#DE | 94.237.93.20 | 148ms
+vless://99d6bdee-1d04-455e-8ad9-43fc14b544b4@94.237.93.20:33651?security=none&encryption=none&headerType=none&type=tcp@freenettir³#DE | 94.237.93.20 | 137ms

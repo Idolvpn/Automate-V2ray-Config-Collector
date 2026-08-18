@@ -1,1 +1,1 @@
-vless://4bea7803-9942-4cf7-ae48-283878dc6c0d@94.237.93.20:33651?security=none&encryption=none&headerType=none&type=tcp@freenettir⁴#DE | 94.237.93.20 | 147ms
+vless://4bea7803-9942-4cf7-ae48-283878dc6c0d@94.237.93.20:33651?security=none&encryption=none&headerType=none&type=tcp@freenettir⁴#DE | 94.237.93.20 | 137ms

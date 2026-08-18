@@ -1,4 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OFVRV0pWZXREcjdFVGlPWEYrYUVRPT0@217.70.14.216:8443#HU | 217.70.14.216 | 161ms
-vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053/?type=ws&encryption=none&flow=&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru#HU | 91.219.236.202 | 164ms
-vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru&type=ws#HU | 91.219.236.202 | 159ms
-vless://1d16c6e0-1bbe-435b-b661-90043fee999c@141.11.202.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#HU | 141.11.202.123 | 2ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OFVRV0pWZXREcjdFVGlPWEYrYUVRPT0@217.70.14.216:8443#HU | 217.70.14.216 | 157ms
+vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053/?type=ws&encryption=none&flow=&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru#HU | 91.219.236.202 | 159ms
+vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru&type=ws#HU | 91.219.236.202 | 160ms
