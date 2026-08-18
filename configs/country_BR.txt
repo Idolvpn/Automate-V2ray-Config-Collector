@@ -1,3 +1,1 @@
-vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 139ms
-vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 143ms
-vless://b6b92515-13c5-4e6e-9fea-8db2d44628a0@200.165.225.174:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4&security=reality&sid=33b5887524592cad&sni=veilix.ciphero.xyz&type=tcp#BR | 200.165.225.174 | 120ms
+vless://fa4babae-cea3-49b1-9d6f-342495a46ea9@201.24.49.62:1?security=&encryption=none&headerType=&type=tcp#BR | 201.24.49.62 | 198ms

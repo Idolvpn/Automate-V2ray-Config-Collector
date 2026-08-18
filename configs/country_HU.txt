@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OFVRV0pWZXREcjdFVGlPWEYrYUVRPT0@217.70.14.216:8443#HU | 217.70.14.216 | 103ms
-vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru&type=ws#HU | 91.219.236.202 | 104ms
-vless://82e209b2-97a6-4d67-a10b-72627b9f6702@45.195.111.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&sid=f4b4a6365558ea2e&sni=storage.yandex.net#HU | 45.195.111.15 | 111ms
-vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&security=tls&sni=forfreeuse.rtqa.ru&type=ws&host=forfreeuse.rtqa.ru&path=%2F#HU | 91.219.236.202 | 105ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OFVRV0pWZXREcjdFVGlPWEYrYUVRPT0@217.70.14.216:8443#HU | 217.70.14.216 | 168ms
+vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&host=forfreeuse.rtqa.ru&path=/&security=tls&sni=forfreeuse.rtqa.ru&type=ws#HU | 91.219.236.202 | 161ms
+vless://82e209b2-97a6-4d67-a10b-72627b9f6702@45.195.111.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg&sid=f4b4a6365558ea2e&sni=storage.yandex.net#HU | 45.195.111.15 | 168ms
+vless://c7e9c591-2764-423a-afca-efbd010fd396@91.219.236.202:2053?encryption=none&security=tls&sni=forfreeuse.rtqa.ru&type=ws&host=forfreeuse.rtqa.ru&path=%2F#HU | 91.219.236.202 | 160ms

@@ -1,6 +1,8 @@
-vless://76fd8cd7-cff8-42fa-9b65-d10532536ae7@2.59.223.72:667?security=&encryption=none&headerType=&type=tcp#UA | 2.59.223.72 | 151ms
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.40:8880/?type=ws&encryption=none&flow=&host=vms.lifetime09.workers.dev&path=%2F%3Fed%3D2560#UA | 89.116.180.40 | 2ms
-vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@91.224.87.22:9873?type=grpc&security=reality&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sni=dl.google.com&serviceName=grpc-tunnel#UA | 91.224.87.22 | 132ms
-vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@91.224.87.22:9882?type=grpc&security=reality&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&sni=dl.google.com&serviceName=grpc-tunnel#UA | 91.224.87.22 | 130ms
-vless://f4685d27-73e3-4588-9622-add50b84046a@91.224.87.22:9882?type=grpc&security=reality&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&sni=dl.google.com&mode=gun&serviceName=grpc-tunnel#UA | 91.224.87.22 | 133ms
-vless://f4685d27-73e3-4588-9622-add50b84046a@91.224.87.22:9873?type=grpc&security=reality&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&sni=dl.google.com&mode=gun&serviceName=grpc-tunnel#UA | 91.224.87.22 | 131ms
+vless://40cfbd0a-f133-4174-8e03-ab0e587e1099@193.238.153.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=dzknsuwujuOacNHTXzdPxBLNUEJfEImiwLinPPNFmwU&sid=1ea21a140beaecc5&sni=www.cloudflare.com#UA | 193.238.153.15 | 177ms
+vless://76fd8cd7-cff8-42fa-9b65-d10532536ae7@2.59.223.72:667?security=&encryption=none&headerType=&type=tcp#UA | 2.59.223.72 | 205ms
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.40:8880/?type=ws&encryption=none&flow=&host=vms.lifetime09.workers.dev&path=%2F%3Fed%3D2560#UA | 89.116.180.40 | 1ms
+vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@91.224.87.22:9873?type=grpc&security=reality&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sni=dl.google.com&serviceName=grpc-tunnel#UA | 91.224.87.22 | 181ms
+vless://2a650f3b-d95b-4bd6-aadf-16ccc0717155@91.224.87.22:9882?type=grpc&security=reality&fp=chrome&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&sni=dl.google.com&serviceName=grpc-tunnel#UA | 91.224.87.22 | 188ms
+vless://f4685d27-73e3-4588-9622-add50b84046a@91.224.87.22:9882?type=grpc&security=reality&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aabb&sni=dl.google.com&mode=gun&serviceName=grpc-tunnel#UA | 91.224.87.22 | 179ms
+vless://f4685d27-73e3-4588-9622-add50b84046a@91.224.87.22:9873?type=grpc&security=reality&fp=qq&pbk=bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU&sid=aa&sni=dl.google.com&mode=gun&serviceName=grpc-tunnel#UA | 91.224.87.22 | 180ms
+vless://40cfbd0a-f133-4174-8e03-ab0e587e1099@193.238.153.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=dzknsuwujuOacNHTXzdPxBLNUEJfEImiwLinPPNFmwU&sid=1ea21a140beaecc5&sni=www.cloudflare.com#UA | 193.238.153.15 | 177ms
