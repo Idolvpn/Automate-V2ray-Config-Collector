@@ -1,6 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 152ms
-vless://04fbe278-69c4-4f31-991f-7bc1700758da@85.137.25.49:443?security=reality&encryption=none&pbk=TcDTltrrg2CtLhmNcIXRQRp4NKPfb66Niv_I4O2yNQo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ops.gx.nvidia.com&sid=fd#CZ | 85.137.25.49 | 149ms
-vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&sid=0c#CZ | 188.127.247.129 | 158ms
-vless://a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac@103.119.18.115:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ch1.murhost.network&allowInsecure=1&fp=chrome&security=reality&pbk=V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A&sid=91a7a393d805f5c6&packetEncoding=xudp#CZ | 103.119.18.115 | 154ms
-trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 145ms
-vless://33aa2b47-484b-49f6-8f23-fb34602d221f@188.127.247.129:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4&security=reality&sid=0c&sni=yahoo.com&type=tcp#CZ | 188.127.247.129 | 147ms
+trojan://3gLlCYBipVwr6Y5F@92.118.149.85:443?security=tls#CZ | 92.118.149.85 | 136ms
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 136ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 139ms
+vless://04fbe278-69c4-4f31-991f-7bc1700758da@85.137.25.49:443?security=reality&encryption=none&pbk=TcDTltrrg2CtLhmNcIXRQRp4NKPfb66Niv_I4O2yNQo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ops.gx.nvidia.com&sid=fd#CZ | 85.137.25.49 | 135ms
