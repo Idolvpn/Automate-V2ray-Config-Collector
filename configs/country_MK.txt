@@ -1,1 +1,1 @@
-vless://b6f3b292-00c9-430e-bc4c-b1294bd895c0@195.144.24.84:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=PCF6GYA_TCdb28mM6zsxJ38MAtmnSrJJEygkXvrt1AE&sid=b512d49930874a31&sni=cdn-mk.ai-apiroute.cc#MK | 195.144.24.84 | 137ms
+vless://f202c7ca-17b7-416d-b3a2-ac71d35afe9c@195.144.24.86:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=mk.cdn-global.pro&fp=edge&pbk=BSPkA0yUFBZ7JS7rD69rLaTn_5QSAaPQZtO7HV_et30&sid=b868b87c347a451e&spx=%2F&type=tcp&headerType=none#MK | 195.144.24.86 | 148ms
