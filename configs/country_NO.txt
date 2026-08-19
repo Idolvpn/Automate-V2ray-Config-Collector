@@ -1,8 +1,9 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 92ms
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:13443?security=reality&type=tcp&packetEncoding=xudp&sni=auto.cendora.ru&fp=chrome&flow=xtls-rprx-vision&sid=a7f3c91b2e6d84c0&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM#NO | 31.76.5.26 | 133ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 96ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.44:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.44 | 93ms
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=nordic.cendora.ru&fp=qq&security=reality&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034#NO | 31.76.5.26 | 136ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 96ms
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:13443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=auto.cendora.ru&fp=qq&security=reality&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0#NO | 31.76.5.26 | 138ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 94ms
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:13443?security=reality&type=tcp&packetEncoding=xudp&sni=auto.cendora.ru&fp=chrome&flow=xtls-rprx-vision&sid=a7f3c91b2e6d84c0&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM#NO | 31.76.5.26 | 142ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 110ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 111ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.44:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.44 | 103ms
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=nordic.cendora.ru&fp=qq&security=reality&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034#NO | 31.76.5.26 | 155ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.40:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.40 | 103ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 103ms
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:13443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=auto.cendora.ru&fp=qq&security=reality&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0#NO | 31.76.5.26 | 151ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 111ms
