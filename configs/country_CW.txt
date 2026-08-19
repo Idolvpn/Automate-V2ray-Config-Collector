@@ -1,2 +1,1 @@
-vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 17ms
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@88.216.67.7:8443?&security=tls&fp=chrome&sni=speed.dulacloud.store&type=ws&headerType=none&host=speed.dulacloud.store&path=%2Fdula%3FTelegram-WangCai2#CW | 88.216.67.7 | 23ms
+vless://probabblynot-ch@5.10.247.142:2087?alpn=http/1.1&encryption=none&fp=chrome&host=probabblynot.fazelextremeisreal.com&path=/@probabblynot&security=tls&sni=probabblynot.fazelextremeisreal.com&type=ws#CW | 5.10.247.142 | 8ms
