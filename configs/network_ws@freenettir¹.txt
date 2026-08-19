@@ -1,1 +1,1 @@
-vless://aecb39c3-254b-45f2-bb94-e07b95c5feec@104.18.37.127:80?path=/&security=none&encryption=none&host=kh.khmer.qzz.io&type=ws@freenettir¹#CA | 104.18.37.127 | 2ms
+vless://aecb39c3-254b-45f2-bb94-e07b95c5feec@104.18.37.127:80?path=/&security=none&encryption=none&host=kh.khmer.qzz.io&type=ws@freenettir¹#CA | 104.18.37.127 | 1ms
