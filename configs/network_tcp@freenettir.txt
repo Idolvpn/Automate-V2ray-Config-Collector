@@ -1,1 +1,1 @@
-vless://832e0199-9614-4d74-a7ba-1dca5453dab5@204.168.196.173:6985?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp@freenettir#FI | 204.168.196.173 | 180ms
+vless://My-chanel-1-ATOVPN@138.124.29.81:57021?security=none&encryption=none&headerType=none&type=tcp@freenettir#UN | 138.124.29.81 | 126ms

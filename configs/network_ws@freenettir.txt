@@ -1,1 +1,1 @@
-vless://f43bbd21-6560-4d0f-9f25-5c477c916260@91.98.154.118:57775?path=/&security=none&encryption=none&host=play.google.com&type=ws@freenettir#DE | 91.98.154.118 | 142ms
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.16.148.244:2095?path=/&security=none&encryption=none&host=fuckingfangbinxing.pusytroller.cf&type=ws@freenettir#UN | 104.16.148.244 | 1ms
