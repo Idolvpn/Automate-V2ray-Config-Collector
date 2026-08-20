@@ -1,3 +1,2 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.187.138:62145?&type=tcp&headerType=none&path=/#CO | 149.130.187.138 | 92ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.155:62145?&type=tcp&headerType=none&path=/#CO | 149.130.189.155 | 95ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.223.233:62145?&type=tcp&headerType=none&path=/#CO | 157.137.223.233 | 1111ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.155:62145?&type=tcp&headerType=none&path=/#CO | 149.130.189.155 | 87ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.223.233:62145?&type=tcp&headerType=none&path=/#CO | 157.137.223.233 | 87ms
