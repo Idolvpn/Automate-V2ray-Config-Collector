@@ -1,5 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 96ms
-vless://63a0b5e2-b684-4b05-b964-686aa416a868@194.110.207.195:443?security=reality&encryption=none&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lerring.no&sid=fd55b698ee8c3629#NO | 194.110.207.195 | 96ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 98ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 95ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 98ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 112ms
+vless://63a0b5e2-b684-4b05-b964-686aa416a868@194.110.207.195:443?security=reality&encryption=none&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lerring.no&sid=fd55b698ee8c3629#NO | 194.110.207.195 | 104ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 103ms
+vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 110ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 117ms
