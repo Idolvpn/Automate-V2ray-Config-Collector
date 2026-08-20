@@ -1,1 +1,1 @@
-vless://0121a5ff-89da-4f0f-93e5-400370f91a96@216.167.49.171:51693?encryption=none&type=none#US | 216.167.49.171 | 55ms
+vless://0121a5ff-89da-4f0f-93e5-400370f91a96@216.167.49.171:51693?encryption=none&type=none#US | 216.167.49.171 | 51ms
