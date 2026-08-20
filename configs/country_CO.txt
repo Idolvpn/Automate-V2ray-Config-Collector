@@ -1,5 +1,2 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.190.236:62145?&type=tcp&headerType=none&path=/#CO | 149.130.190.236 | 87ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.216.1:62145?type=tcp&headerType=none&path=/#CO | 157.137.216.1 | 86ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.234.223:62145?type=tcp&headerType=none&path=/#CO | 157.137.234.223 | 86ms
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.234.223:62145?&type=tcp&headerType=none&path=/#CO | 157.137.234.223 | 87ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.223.233:62145?&type=tcp&headerType=none&path=/#CO | 157.137.223.233 | 90ms
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.216.1:62145?&type=tcp&headerType=none&path=/#CO | 157.137.216.1 | 91ms
