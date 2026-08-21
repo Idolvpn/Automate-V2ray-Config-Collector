@@ -1,1 +1,1 @@
-vless://adf1fac3-cf57-ff40-574c-cf514457eb3f@83.143.106.4:443?mode=auto&path=/&security=reality&encryption=none&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&fp=chrome&type=xhttp&sni=res.cdn.office.net#IL | 83.143.106.4 | 154ms
+vless://69db54f1-a8a6-d3d5-3b21-48af845aed08@83.143.106.5:8443?security=reality&type=grpc&serviceName=TunService&mode=gun&sni=res.cdn.office.net&pbk=4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo&fp=chrome#IL | 83.143.106.5 | 101ms
