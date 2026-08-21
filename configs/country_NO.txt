@@ -1,8 +1,2 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 104ms
-vless://63a0b5e2-b684-4b05-b964-686aa416a868@194.110.207.195:443?security=reality&encryption=none&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lerring.no&sid=fd55b698ee8c3629#NO | 194.110.207.195 | 106ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 109ms
-vless://b2963d78-6a98-4a9e-a20b-fa74dff5fde1@151.242.168.181:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=kibi-institut.de&fp=firefox&security=reality&pbk=urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ&sid=46babe29a750b634#NO | 151.242.168.181 | 110ms
-vless://7ce54bb3-d612-4aa7-be08-089d3c461d53@54.240.174.87:443?type=ws&security=tls&fp=firefox&sni=d1yxsk0zprgivr.cloudfront.net#NO | 54.240.174.87 | 109ms
-vless://6c52b79f-fd02-41bc-bf75-4c80fbc6a939@151.242.168.181:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ&security=reality&sid=46babe29a750b634&sni=kibi-institut.de&type=tcp#NO | 151.242.168.181 | 106ms
-vless://57d437b6-d25d-4956-a297-07f066174d62@151.242.168.181:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=kibi-institut.de&fp=firefox&security=reality&pbk=urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ&sid=46babe29a750b634#NO | 151.242.168.181 | 106ms
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 106ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.213.23.63:990#NO | 185.213.23.63 | 151ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.213.23.63:990#NO | 185.213.23.63 | 152ms
