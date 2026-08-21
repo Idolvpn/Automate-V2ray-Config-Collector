@@ -1,1 +1,1 @@
-ss://16e55e1a-6152-4d92-a422-31490e8ef563@38.54.116.73:443?mode=stream-one&path=/ad&security=none&encryption=none&type=xhttp#OM | 38.54.116.73 | 185ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MzA2OWQyMjZmMDAzZmFi@154.205.147.166:11201#OM | 154.205.147.166 | 239ms
