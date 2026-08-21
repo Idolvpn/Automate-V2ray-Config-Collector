@@ -1,4 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 160ms
-vless://1149be91-5a4f-47de-995f-66f8d7d64498@14.102.229.212:2096?security=tls&sni=De13.SiMaNsAnAt.Ir.&type=ws&host=De13.SiMaNsAnAt.Ir.&fp=chrome&alpn=h2#CZ | 14.102.229.212 | 4ms
-vless://1149be91-5a4f-47de-995f-66f8d7d64498@14.102.229.221:2096?security=tls&sni=De03.SiMaNsAnAt.Ir.&type=ws&host=De03.SiMaNsAnAt.Ir.#CZ | 14.102.229.221 | 4ms
-vless://a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac@103.119.18.115:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ch1.murhost.network&allowInsecure=1&fp=chrome&security=reality&pbk=V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A&sid=91a7a393d805f5c6&packetEncoding=xudp#CZ | 103.119.18.115 | 155ms
+ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@143.244.58.102:443#CZ | 143.244.58.102 | 115ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.222.126:1080#CZ | 146.70.222.126 | 117ms
+vless://1149be91-5a4f-47de-995f-66f8d7d64498@14.102.229.221:2096?security=tls&sni=De03.SiMaNsAnAt.Ir.&type=ws&host=De03.SiMaNsAnAt.Ir.#CZ | 14.102.229.221 | 1ms
+vless://1149be91-5a4f-47de-995f-66f8d7d64498@14.102.229.212:2096?security=tls&sni=De13.SiMaNsAnAt.Ir.&type=ws&host=De13.SiMaNsAnAt.Ir.&fp=chrome&alpn=h2#CZ | 14.102.229.212 | 2ms
+vless://a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac@103.119.18.115:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ch1.murhost.network&allowInsecure=1&fp=chrome&security=reality&pbk=V-B12dvv0fVIwcmcRNdMQIcc4nmqsYB_PR_3X4VVB0A&sid=91a7a393d805f5c6&packetEncoding=xudp#CZ | 103.119.18.115 | 112ms
