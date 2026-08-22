@@ -1,1 +1,4 @@
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.189.60:62145?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#CO | 149.130.189.60 | 130ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.213.151:62145?&type=tcp&headerType=none&path=/#CO | 157.137.213.151 | 67ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.229.25:62145?&type=tcp&headerType=none&path=/#CO | 157.137.229.25 | 67ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.213.151:62145?type=tcp&headerType=none&path=/#CO | 157.137.213.151 | 1068ms
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.229.25:62145?type=tcp&headerType=none&path=/#CO | 157.137.229.25 | 65ms
