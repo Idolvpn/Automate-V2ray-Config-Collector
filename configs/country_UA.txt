@@ -1,2 +1,4 @@
-vless://28a53b24-f7cc-c55d-75d6-86dfff4e3a4c@104.245.242.9:8443?encryption=none&fp=&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM&security=reality&serviceName=TunService&sni=download.nvidia.com&type=grpc#UA | 104.245.242.9 | 164ms
+vless://28a53b24-f7cc-c55d-75d6-86dfff4e3a4c@104.245.242.9:8443?encryption=none&fp=&pbk=hwwiWVqYq5b7S0JaXNSxjWSEv_1OUFMaWJGHzeAGyRM&security=reality&serviceName=TunService&sni=download.nvidia.com&type=grpc#UA | 104.245.242.9 | 171ms
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.135.235.30:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime07.workers.dev&packetEncoding=xudp#UA | 45.135.235.30 | 2ms
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.34.182.23:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&sni=eu-central.cendora.ru#UA | 5.34.182.23 | 175ms
+vless://5238521b-c5dd-42af-870e-c174a2aaaafe@5.34.182.23:13443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0&sni=auto.cendora.ru#UA | 5.34.182.23 | 178ms
