@@ -1,0 +1,1 @@
+trojan://MiTiVPN@213.182.199.137:443?type=ws&security=tls&sni=66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&fp=chrome&alpn=http%2F1.1#HR | 213.182.199.137 | 10ms
