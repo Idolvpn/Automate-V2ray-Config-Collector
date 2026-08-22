@@ -1,14 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWDI5N0FzMzFiUU1Sc0xQ@20.123.9.48:443#IE | 20.123.9.48 | 247ms
-trojan://EQ30679154@54.217.133.71:443?sni=willing-beagle.rooster465.autos&type=tcp&fp=chrome#IE | 54.217.133.71 | 136ms
-trojan://EQ30679154@54.74.185.175:443?sni=romantic-kangaroo.rooster465.autos&type=tcp&fp=chrome#IE | 54.74.185.175 | 137ms
-trojan://FH72359861@3.253.78.205:443/?type=tcp&security=tls&sni=balanced-heron.rooster465.autos&fp=chrome#IE | 3.253.78.205 | 134ms
-trojan://FH72359861@3.253.78.205:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=balanced-heron.rooster465.autos#IE | 3.253.78.205 | 135ms
-trojan://PQ05174892@108.130.49.217:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=concise-bass.rooster465.autos#IE | 108.130.49.217 | 137ms
-trojan://PQ05174892@54.217.167.110:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=glowing-filly.rooster465.autos#IE | 54.217.167.110 | 141ms
-trojan://FH72359861@108.130.49.217:443?allowInsecure=1&sni=concise-bass.rooster465.autos#IE | 108.130.49.217 | 138ms
-trojan://FH72359861@3.253.78.205:443?allowInsecure=1&sni=balanced-heron.rooster465.autos#IE | 3.253.78.205 | 137ms
-trojan://FH72359861@3.253.78.205:443?sni=balanced-heron.rooster465.autos&type=tcp&fp=chrome#IE | 3.253.78.205 | 134ms
-trojan://PQ05174892@108.130.49.217:443?sni=concise-bass.rooster465.autos&fp=chrome&type=tcp&path=/#IE | 108.130.49.217 | 131ms
-trojan://PQ05174892@54.217.167.110:443?sni=glowing-filly.rooster465.autos&type=tcp&fp=chrome#IE | 54.217.167.110 | 134ms
-trojan://FH72359861@108.130.49.217:443?sni=concise-bass.rooster465.autos&type=tcp&fp=chrome#IE | 108.130.49.217 | 135ms
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#IE | 54.217.133.71 | 135ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWDI5N0FzMzFiUU1Sc0xQ@20.123.9.48:443#IE | 20.123.9.48 | 202ms
