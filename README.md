@@ -1,93 +1,150 @@
+
+````markdown
 <div align="center">
+
+<img src="assets/logo.jpg" alt="IdolVPN" width="180">
 
 # ⚡ Automate V2Ray Config Collector
 
-### 🚀 Automated V2Ray / Xray Configuration Collector, Validator & Publisher
+### Automated V2Ray / Xray Configuration Collector, Validator & Publisher
 
 **Collect • Parse • Deduplicate • TCP Filter • Xray Test • GeoIP • Export • Automate**
 
 <br>
 
-[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)](https://github.com/features/actions)
+[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
 [![Xray](https://img.shields.io/badge/Xray-Core-00ADD8?style=for-the-badge)](https://github.com/XTLS/Xray-core)
-[![License](https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 <br>
 
-**English** · [🇮🇷 فارسی](#-نسخه-فارسی)
+🇬🇧 **English** &nbsp; | &nbsp; 🇮🇷 **[فارسی](#-نسخه-فارسی)**
 
 <br>
 
-⭐ **If this project is useful to you, consider giving it a Star!**
+⭐ **If you find this project useful, please give it a Star!**
 
 </div>
 
 ---
 
-## 📖 About
+# 🚀 Live Subscriptions
+
+> Ready-to-use subscription links generated automatically by the collector.
+
+### 🔥 Main Subscription
+
+| Type | Subscription |
+|---|---|
+| 🌐 **Mixed** | [`mix_sub.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix_sub.txt) |
+| 🪶 **Lite Mixed** | [`lite_mix_sub.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/lite_mix_sub.txt) |
+
+### 📡 Protocols
+
+| Protocol | Link |
+|---|---|
+| 🟢 **VLESS** | [`vless.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/vless.txt) |
+| 🔵 **VMess** | [`vmess.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/vmess.txt) |
+| 🟠 **Trojan** | [`trojan.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/trojan.txt) |
+| 🟣 **Shadowsocks** | [`ss.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt) |
+| 🔷 **Reality** | [`reality.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt) |
+| 🟡 **WireGuard** | [`wireguard.txt`](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/wireguard.txt) |
+
+### 📋 Combined Raw Configs
+
+**All healthy configurations:**
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix.txt
+````
+
+**Base64 Subscription:**
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix_sub.txt
+```
+
+> 💡 لینک `mix_sub.txt` را می‌توانید مستقیماً داخل کلاینت‌های سازگار با Subscription وارد کنید.
+
+---
+
+# 📖 About
 
 **Automate V2Ray Config Collector** is an automated Python-based pipeline designed to collect, process, validate, categorize, and publish V2Ray/Xray proxy configurations from multiple public sources.
 
-Instead of simply collecting configuration links, the project goes further by validating configurations through a **two-stage testing system**:
+Unlike a simple configuration scraper, this project performs multiple validation stages before publishing configurations.
 
 ```text
-Public Sources
-      │
-      ▼
-┌───────────────┐
-│ Fetch Sources │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ Parse Configs │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ Deduplicate   │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ TCP Fast Test │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ Xray Real Test│
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ GeoIP Lookup  │
-└───────┬───────┘
-        ▼
-┌───────────────┐
-│ Export Output │
-└───────┬───────┘
-        ▼
-    GitHub Repo
+┌─────────────────────────┐
+│     Public Sources      │
+│ GitHub / Telegram / Raw │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│   Fetch Configurations  │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│      Parse & Validate   │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│      Deduplication      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│     Fast TCP Filter     │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│    Real Xray Testing    │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│     Latency Filter      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│       GeoIP Lookup      │
+└────────────┬────────────┘
+             │
+             ▼
+┌─────────────────────────┐
+│   Categorized Outputs   │
+└────────────┬────────────┘
+             │
+             ▼
+        GitHub Repository
 ```
-
-The whole workflow can run automatically through **GitHub Actions**, eliminating the need for a dedicated server for the default workflow.
 
 ---
 
 # ✨ Features
 
-| Feature                       | Description                                                 |
-| ----------------------------- | ----------------------------------------------------------- |
-| 🔄 **Automatic Collection**   | Collect configurations from multiple public sources         |
-| 📡 **Multiple Sources**       | Raw URLs, subscription sources and public Telegram channels |
-| 🧩 **Protocol Parsing**       | Parse supported V2Ray/Xray configuration formats            |
-| 🧹 **Deduplication**          | Remove duplicate configurations automatically               |
-| ⚡ **TCP Fast Filter**         | Quickly eliminate unreachable endpoints                     |
-| 🧪 **Xray Validation**        | Perform real proxy connectivity tests using Xray-core       |
-| 📊 **Latency Measurement**    | Measure and filter configurations by response time          |
-| 🌍 **GeoIP**                  | Detect approximate server country/location                  |
-| 📁 **Categorized Output**     | Export configurations by protocol, country and network      |
-| 🔗 **Base64 Subscriptions**   | Generate subscription-ready Base64 output                   |
-| 🤖 **GitHub Actions**         | Fully automated scheduled collection                        |
-| 📢 **Telegram Notifications** | Optional run summary notifications                          |
-| 📈 **Statistics**             | Generate JSON statistics for collected results              |
-| 🪶 **Lite Outputs**           | Generate smaller configuration lists when required          |
+| Feature                   | Description                                             |
+| ------------------------- | ------------------------------------------------------- |
+| 🔄 Automatic Collection   | Collect configurations from multiple public sources     |
+| 📡 Multiple Sources       | Raw sources, subscriptions and public Telegram channels |
+| 🧩 Protocol Parsing       | Parse supported V2Ray/Xray configuration formats        |
+| 🧹 Deduplication          | Remove duplicate configurations automatically           |
+| ⚡ TCP Fast Filter         | Quickly eliminate unreachable endpoints                 |
+| 🧪 Xray Validation        | Real proxy testing using Xray-core                      |
+| 📊 Latency Measurement    | Measure and filter configurations by latency            |
+| 🌍 GeoIP                  | Detect approximate server country                       |
+| 📁 Categorized Output     | Group configurations by protocol, country and network   |
+| 🔗 Base64 Subscription    | Generate subscription-ready Base64 output               |
+| 🤖 GitHub Actions         | Automated scheduled collection                          |
+| 📢 Telegram Notifications | Optional execution reports                              |
+| 📈 Statistics             | Generate JSON statistics                                |
+| 🪶 Lite Output            | Generate smaller configuration lists                    |
 
 ---
 
@@ -95,12 +152,12 @@ The whole workflow can run automatically through **GitHub Actions**, eliminating
 
 The collector currently recognizes:
 
-* `VMess`
-* `VLESS`
-* `Trojan`
-* `Shadowsocks`
-* `WireGuard`
-* `VLESS Reality`
+* VMess
+* VLESS
+* Trojan
+* Shadowsocks
+* WireGuard
+* VLESS Reality
 
 Reality configurations are detected separately when:
 
@@ -108,85 +165,75 @@ Reality configurations are detected separately when:
 security=reality
 ```
 
-is present in the configuration.
+is present.
 
 ---
 
-# ⚡ Smart Health Checking
-
-One of the main differences between this project and a basic configuration scraper is its **two-stage validation system**.
+# ⚡ Two-Stage Health Checking
 
 ## 1️⃣ TCP Fast Filter
 
-First, configurations go through a lightweight TCP connectivity test.
+Before running Xray, configurations are checked using a lightweight TCP connectivity test.
 
 ```text
-Collected Configurations
-          │
-          ▼
-    TCP Connectivity
-          │
-          ├── ❌ Unreachable → Removed
-          │
-          └── ✅ Reachable
-                  │
-                  ▼
-             Xray Testing
+Collected Configs
+       │
+       ▼
+   TCP Filter
+       │
+   ┌───┴───┐
+   ▼       ▼
+ FAIL     PASS
+   │       │
+   ✕       ▼
+        Xray Test
 ```
 
-This prevents wasting resources on configurations whose endpoints are not even reachable.
+This removes unreachable endpoints before the more expensive Xray validation stage.
 
-The TCP filter supports concurrent testing and can keep only the fastest candidates for the next stage.
+The TCP filter supports high concurrency and can keep only the fastest candidates.
 
 ---
 
 ## 2️⃣ Real Xray Validation
 
-TCP connectivity alone does **not** prove that a proxy configuration actually works.
+A reachable TCP port does not necessarily mean that a proxy actually works.
 
-A configuration may have:
+A configuration may still fail because of:
 
-* An open port
-* A reachable IP
-* A valid TCP connection
-
-while still failing because of:
-
-* TLS problems
-* Incorrect credentials
-* Invalid Reality parameters
-* Incorrect transport settings
-* Proxy-side failures
+* Invalid credentials
+* TLS errors
+* Incorrect Reality parameters
+* Invalid transport settings
+* Server-side errors
 * Upstream connectivity problems
 
 Therefore, candidates are tested through **Xray-core**.
 
-The collector creates a temporary Xray configuration, starts an Xray instance, exposes a local SOCKS5 proxy and performs a real HTTP request through it.
-
 ```text
-Config
-  │
-  ▼
+Configuration
+      │
+      ▼
 Xray Config Builder
-  │
-  ▼
+      │
+      ▼
 Temporary Xray Instance
-  │
-  ▼
+      │
+      ▼
 Local SOCKS5 Proxy
-  │
-  ▼
+      │
+      ▼
 Real HTTP Request
-  │
-  ▼
+      │
+      ▼
 Latency Measurement
-  │
-  ├── ❌ Failed
-  │
-  └── ✅ Healthy
+      │
+ ┌────┴────┐
+ ▼         ▼
+FAIL     HEALTHY
 ```
 
-This provides a much more meaningful health check than a simple port scanner.
+Only configurations that successfully pass the configured health-check criteria are exported.
 
 ---
 
@@ -194,11 +241,11 @@ This provides a much more meaningful health check than a simple port scanner.
 
 Healthy configurations can be enriched with approximate geographic information.
 
-The project uses **ip-api.com batch requests** to resolve server IP locations.
+The collector uses **ip-api.com** batch requests to resolve server IP locations.
 
-Results can be used to categorize configurations by country.
+Country information is then used to generate country-specific files.
 
-Example:
+Examples:
 
 ```text
 🇩🇪 Germany
@@ -211,19 +258,19 @@ Example:
 
 GeoIP lookups use batching and caching to reduce unnecessary API requests.
 
-GeoIP can also be disabled through configuration.
+GeoIP can be disabled through configuration.
 
 ---
 
-# 📂 Output Structure
+# 📂 Output Files
 
-Generated files are stored inside:
+All generated files are stored inside:
 
 ```text
 configs/
 ```
 
-## Protocol Outputs
+## Protocol
 
 ```text
 configs/
@@ -235,23 +282,21 @@ configs/
 └── wireguard.txt
 ```
 
-## Country Outputs
+## Countries
 
-Examples:
+Country-specific files are generated dynamically:
 
 ```text
 configs/
-├── country_US.txt
+├── country_IR.txt
 ├── country_DE.txt
+├── country_US.txt
 ├── country_NL.txt
-├── country_FR.txt
 ├── country_TR.txt
-└── country_IR.txt
+└── ...
 ```
 
-Country files are generated dynamically based on the detected server locations.
-
-## Network Outputs
+## Network
 
 ```text
 configs/
@@ -266,7 +311,7 @@ configs/
 └── network_none.txt
 ```
 
-## Combined Outputs
+## Combined
 
 ```text
 configs/
@@ -276,21 +321,69 @@ configs/
 └── lite_mix_sub.txt
 ```
 
-### `mix.txt`
+---
 
-Contains the combined healthy configurations.
+# 🔗 Subscription Links
 
-### `mix_sub.txt`
+The most important generated subscription is:
 
-Contains the combined configurations encoded as Base64 and can be used as a subscription source in compatible clients.
+### 🌐 MIX Subscription
 
-### `lite_mix.txt`
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix_sub.txt
+```
 
-A smaller version of the combined output when `MAX_CONFIGS_PER_OUTPUT` is enabled.
+### 🪶 Lite MIX Subscription
 
-### `lite_mix_sub.txt`
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/lite_mix_sub.txt
+```
 
-Base64 subscription version of the Lite output.
+### 📋 Raw MIX
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix.txt
+```
+
+---
+
+# 🌍 Country Subscriptions
+
+Country outputs can also be used individually.
+
+For example:
+
+### 🇩🇪 Germany
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_DE.txt
+```
+
+### 🇺🇸 United States
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_US.txt
+```
+
+### 🇳🇱 Netherlands
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_NL.txt
+```
+
+### 🇹🇷 Turkey
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_TR.txt
+```
+
+### 🇮🇷 Iran
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_IR.txt
+```
+
+> Country files are generated dynamically, so additional countries may appear depending on the collected configurations.
 
 ---
 
@@ -302,31 +395,31 @@ The collector generates:
 configs/stats.json
 ```
 
-The statistics file can contain information such as:
+Statistics include:
 
 * Total healthy configurations
 * Protocol distribution
 * Country distribution
 * Average latency
 
-Example structure:
+Example:
 
 ```json
 {
   "total": 1234,
-  "protocols": {},
-  "countries": {},
-  "average_latency_ms": 0
+  "by_protocol": {},
+  "by_country": {},
+  "avg_latency_ms": 0
 }
 ```
 
 ---
 
-# 🔄 Automated GitHub Workflow
+# 🤖 GitHub Actions
 
-The project is designed to work seamlessly with **GitHub Actions**.
+The project is designed to run automatically through GitHub Actions.
 
-The collector can automatically:
+The collector workflow:
 
 ```text
 ⏰ Scheduled Run
@@ -350,27 +443,19 @@ The collector can automatically:
 💾 Commit Changes
 ```
 
-The repository includes:
+The collector workflow is located at:
 
 ```text
 .github/workflows/collector.yml
 ```
 
-for the collector workflow.
-
-A separate workflow is also provided for tests:
-
-```text
-.github/workflows/tests.yml
-```
-
-The collector can also be manually triggered from:
+The workflow runs automatically every **2 hours** and can also be triggered manually.
 
 ```text
 GitHub
-→ Actions
-→ Collect V2Ray Configs
-→ Run workflow
+ → Actions
+ → Collect V2Ray Configs
+ → Run workflow
 ```
 
 ---
@@ -390,39 +475,44 @@ Important options include:
 | `MAX_WORKERS`             | Number of concurrent workers      |
 | `FETCH_TIMEOUT`           | Source fetching timeout           |
 | `PING_TIMEOUT`            | Xray test timeout                 |
-| `PING_RETRIES`            | Number of test retries            |
+| `PING_RETRIES`            | Number of retries                 |
 | `LATENCY_THRESHOLD_MS`    | Maximum accepted latency          |
 | `TCP_FILTER_LIMIT`        | Maximum candidates passed to Xray |
-| `TCP_FILTER_WORKERS`      | TCP test concurrency              |
+| `TCP_FILTER_WORKERS`      | TCP concurrency                   |
 | `TCP_FILTER_TIMEOUT`      | TCP connection timeout            |
 | `GEOIP_ENABLED`           | Enable/disable GeoIP              |
 | `GEOIP_CACHE_TTL_SECONDS` | GeoIP cache lifetime              |
 | `OUTPUT_DIR`              | Output directory                  |
 | `LOG_LEVEL`               | Logging level                     |
-| `MAX_CONFIGS_PER_OUTPUT`  | Limit Lite output size            |
+| `MAX_CONFIGS_PER_OUTPUT`  | Lite output limit                 |
 | `XRAY_PATH`               | Xray binary path                  |
-| `TEST_URL`                | URL used for health checking      |
+| `TEST_URL`                | URL used for health testing       |
 | `XRAY_STARTUP_DELAY`      | Xray startup delay                |
 
 Example:
 
 ```env
+MAX_WORKERS=8
+
+FETCH_TIMEOUT=15
+PING_TIMEOUT=8
+PING_RETRIES=1
+
+LATENCY_THRESHOLD_MS=5000
+
 TCP_FILTER_LIMIT=2000
 TCP_FILTER_WORKERS=100
 TCP_FILTER_TIMEOUT=2.0
 
-MAX_WORKERS=8
-PING_TIMEOUT=8
-LATENCY_THRESHOLD_MS=5000
-
 GEOIP_ENABLED=true
+GEOIP_CACHE_TTL_SECONDS=86400
 ```
 
 ---
 
 # 📡 Adding Sources
 
-Source definitions are located in:
+Source definitions are located at:
 
 ```text
 src/config/sources.py
@@ -430,21 +520,15 @@ src/config/sources.py
 
 ## Raw Sources
 
-Add subscription or raw configuration sources to:
-
 ```python
 RAW_SOURCES = [
     "https://example.com/source.txt",
 ]
 ```
 
-The fetcher can process plain-text configuration lists and Base64-encoded subscription content.
+The collector can process plain-text configuration sources and Base64 subscription content.
 
----
-
-## Telegram Sources
-
-Public Telegram channels can be configured using:
+## Telegram Channels
 
 ```python
 TELEGRAM_CHANNELS = [
@@ -452,25 +536,23 @@ TELEGRAM_CHANNELS = [
 ]
 ```
 
-Use the channel username **without `@`**.
+Use the channel username without `@`.
 
-Public channel previews are accessed through:
+Public Telegram channel previews are accessed through:
 
 ```text
 https://t.me/s/<channel>
 ```
 
-No Telegram bot token is required for reading public channel previews.
-
 ---
 
 # 🧹 Deduplication
 
-The collector automatically removes duplicate configurations before testing.
+Configurations collected from different sources are automatically deduplicated.
 
-Configuration identity is based on important connection parameters rather than display remarks.
+The collector creates a stable identity based on important connection parameters rather than display remarks.
 
-This means that the same configuration appearing in several sources will not unnecessarily appear multiple times in the final output.
+This prevents the same configuration from appearing repeatedly when it exists in multiple sources.
 
 ---
 
@@ -478,14 +560,15 @@ This means that the same configuration appearing in several sources will not unn
 
 ## Requirements
 
-* Python `3.12+`
+* Python 3.12+
 * Xray-core
 * Internet connection
 
-Clone the repository:
+Clone:
 
 ```bash
 git clone https://github.com/Idolvpn/Automate-V2ray-Config-Collector.git
+
 cd Automate-V2ray-Config-Collector
 ```
 
@@ -495,23 +578,17 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-For development/testing:
-
-```bash
-pip install -r requirements-dev.txt
-```
-
 ---
 
 # ▶️ Run
 
-Start the collector with:
+Start the collector:
 
 ```bash
 python -m src.main
 ```
 
-Generated files will be available inside:
+Generated files will be stored in:
 
 ```text
 configs/
@@ -519,15 +596,21 @@ configs/
 
 ---
 
-# 🧪 Run Tests
+# 🧪 Testing
 
-Run the test suite with:
+Install development dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Run tests:
 
 ```bash
 pytest
 ```
 
-The repository includes tests for components such as:
+The project includes tests for:
 
 ```text
 tests/
@@ -551,18 +634,16 @@ TELEGRAM_TOKEN=YOUR_BOT_TOKEN
 TELEGRAM_CHAT_ID=YOUR_CHAT_ID
 ```
 
-The notification system can send a summary after a collector run.
-
-For GitHub Actions, sensitive values should be stored in:
+For GitHub Actions, store these values as GitHub Secrets:
 
 ```text
 Repository
-→ Settings
-→ Secrets and variables
-→ Actions
+ → Settings
+ → Secrets and variables
+ → Actions
 ```
 
-### 🔐 Never commit your Telegram Bot Token to Git.
+### 🔐 Never commit your Telegram Bot Token.
 
 ---
 
@@ -586,6 +667,8 @@ Automate-V2ray-Config-Collector/
 │   ├── reality.txt
 │   ├── mix.txt
 │   ├── mix_sub.txt
+│   ├── lite_mix.txt
+│   ├── lite_mix_sub.txt
 │   └── stats.json
 │
 ├── src/
@@ -621,25 +704,25 @@ Automate-V2ray-Config-Collector/
 │   ├── test_parser.py
 │   └── test_tester.py
 │
+├── assets/
+│   └── logo.jpg
+│
 ├── _.env.example
 ├── requirements.txt
 ├── requirements-dev.txt
+├── pytest.ini
 ├── LICENSE
 └── README.md
 ```
 
 ---
 
-# 🛠️ Development
+# 🛠️ Core Components
 
-The project is structured into separate components so that collection, parsing, validation and exporting can be maintained independently.
-
-### Core components
-
-| Module            | Responsibility                      |
+| File              | Responsibility                      |
 | ----------------- | ----------------------------------- |
 | `collector.py`    | Main collection pipeline            |
-| `fetcher.py`      | Download and source processing      |
+| `fetcher.py`      | Download and process sources        |
 | `parser.py`       | Parse configuration URLs            |
 | `dedup.py`        | Remove duplicates                   |
 | `tester.py`       | Connectivity and health testing     |
@@ -652,57 +735,62 @@ The project is structured into separate components so that collection, parsing, 
 
 # 🤝 Contributing
 
-Contributions, bug reports and improvements are welcome.
+Contributions are welcome.
 
-### 1. Fork
-
-Fork the repository.
-
-### 2. Create a branch
+1. Fork the repository
+2. Create a branch
 
 ```bash
 git checkout -b feature/my-improvement
 ```
 
-### 3. Make your changes
-
-### 4. Run tests
+3. Make your changes
+4. Run tests
 
 ```bash
 pytest
 ```
 
-### 5. Commit
+5. Commit
 
 ```bash
 git commit -m "feat: improve collector"
 ```
 
-### 6. Push
+6. Push
 
 ```bash
 git push origin feature/my-improvement
 ```
 
-### 7. Open a Pull Request
+7. Open a Pull Request
 
 ---
 
 # ⚠️ Disclaimer
 
-This project is provided for **educational, research, networking and development purposes**.
+This project is provided for:
+
+* Educational purposes
+* Networking research
+* Software development
+* Automation
+* Testing
 
 The collector processes configuration data obtained from publicly accessible sources.
 
-Users are responsible for ensuring that their use of this software and any collected configurations complies with:
+Users are responsible for ensuring that their use of this software and collected configurations complies with applicable laws, network policies, service terms and licensing requirements.
 
-* Applicable laws
-* Network policies
-* Service terms
-* Copyright/licensing requirements
-* Policies of the original configuration providers
+The maintainers do not guarantee the:
 
-The maintainers do not guarantee the availability, security, privacy, performance or legality of collected configurations.
+* Availability
+* Security
+* Privacy
+* Performance
+* Reliability
+* Legality
+
+of collected configurations.
 
 **Use responsibly and at your own risk.**
 
@@ -710,29 +798,25 @@ The maintainers do not guarantee the availability, security, privacy, performanc
 
 # 📄 License
 
-This project is licensed under the:
-
-**MIT License**
+This project is licensed under the **MIT License**.
 
 See [LICENSE](LICENSE) for the complete license text.
 
 ---
 
-# ⭐ Support
+# ⭐ Support the Project
 
-If you find this project useful:
+If this project is useful to you:
 
-### ⭐ Star the repository
+⭐ **Star the repository**
 
-### 🍴 Fork it
+🍴 **Fork the project**
 
-### 🐛 Report issues
+🐛 **Report bugs**
 
-### 🤝 Contribute improvements
+🤝 **Contribute**
 
-Repository:
-
-**https://github.com/Idolvpn/Automate-V2ray-Config-Collector**
+🔗 **Share the project**
 
 ---
 
@@ -742,118 +826,184 @@ Repository:
 
 ## 📖 معرفی
 
-**Automate V2Ray Config Collector** یک سیستم خودکار مبتنی بر Python برای جمع‌آوری، پردازش، بررسی، دسته‌بندی و انتشار کانفیگ‌های V2Ray/Xray از منابع عمومی مختلف است.
+**Automate V2Ray Config Collector** یک سیستم خودکار برای جمع‌آوری، پردازش، تست، دسته‌بندی و انتشار کانفیگ‌های V2Ray/Xray است.
 
-این پروژه فقط یک **Config Scraper ساده** نیست؛ کانفیگ‌های جمع‌آوری‌شده را ابتدا فیلتر می‌کند و سپس با استفاده از **Xray-core** آن‌ها را به‌صورت واقعی آزمایش می‌کند.
-
-روند کلی:
+این پروژه صرفاً یک Scraper ساده نیست و کانفیگ‌های جمع‌آوری‌شده را قبل از انتشار در چند مرحله بررسی می‌کند.
 
 ```text
 منابع عمومی
      ↓
-دریافت کانفیگ‌ها
+دریافت کانفیگ
      ↓
-استخراج و Parse
+Parse
      ↓
-حذف Duplicate
+حذف تکراری‌ها
      ↓
-فیلتر سریع TCP
+TCP Filter
      ↓
-تست واقعی با Xray
+تست واقعی Xray
      ↓
-اندازه‌گیری Latency
+بررسی Latency
      ↓
-تشخیص کشور با GeoIP
+GeoIP
      ↓
 دسته‌بندی
      ↓
-ساخت Subscription
+ساخت خروجی
      ↓
 انتشار در GitHub
 ```
 
 ---
 
-## ✨ امکانات
+# 🔥 لینک Subscription
 
-* 🔄 جمع‌آوری خودکار کانفیگ‌ها
-* 📡 پشتیبانی از چندین منبع
-* 📱 دریافت از کانال‌های عمومی Telegram
+### 🌐 اشتراک اصلی
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix_sub.txt
+```
+
+### 🪶 اشتراک Lite
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/lite_mix_sub.txt
+```
+
+### 📋 خروجی خام ترکیبی
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/mix.txt
+```
+
+این لینک‌ها را می‌توانید در Clientهایی که از Subscription پشتیبانی می‌کنند استفاده کنید.
+
+---
+
+# 📡 لینک پروتکل‌ها
+
+| پروتکل         | لینک                                                                                                           |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
+| 🟢 VLESS       | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/vless.txt)     |
+| 🔵 VMess       | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/vmess.txt)     |
+| 🟠 Trojan      | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/trojan.txt)    |
+| 🟣 Shadowsocks | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt)        |
+| 🔷 Reality     | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt)   |
+| 🟡 WireGuard   | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/wireguard.txt) |
+
+---
+
+# 🌍 لینک کشورهای منتخب
+
+### 🇩🇪 آلمان
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_DE.txt
+```
+
+### 🇺🇸 آمریکا
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_US.txt
+```
+
+### 🇳🇱 هلند
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_NL.txt
+```
+
+### 🇹🇷 ترکیه
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_TR.txt
+```
+
+### 🇮🇷 ایران
+
+```text
+https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_IR.txt
+```
+
+> فایل‌های کشورهای دیگر نیز در صورت وجود کانفیگ سالم برای آن کشور به‌صورت خودکار ایجاد می‌شوند.
+
+---
+
+# ✨ امکانات
+
+* 🔄 جمع‌آوری خودکار
+* 📡 دریافت از منابع مختلف
+* 📱 پشتیبانی از کانال‌های عمومی Telegram
 * 🧩 تشخیص Protocol
 * 🧹 حذف کانفیگ‌های تکراری
-* ⚡ فیلتر سریع TCP
+* ⚡ TCP Filter سریع
 * 🧪 تست واقعی با Xray-core
 * 📊 اندازه‌گیری Latency
 * 🌍 تشخیص کشور سرور
 * 📁 دسته‌بندی بر اساس کشور
 * 🌐 دسته‌بندی بر اساس Network
 * 🔗 ساخت Subscription به‌صورت Base64
-* 📈 تولید آمار
 * 🤖 اجرای خودکار با GitHub Actions
-* 📢 ارسال گزارش به Telegram
+* 📢 ارسال گزارش Telegram
+* 📈 تولید Statistics
 * 🪶 تولید خروجی Lite
 
 ---
 
-## 🧩 پروتکل‌های پشتیبانی‌شده
+# ⚡ سیستم تست دو مرحله‌ای
 
-پروژه در حال حاضر این پروتکل‌ها را شناسایی می‌کند:
+## مرحله اول — TCP Filter
 
-```text
-VMess
-VLESS
-Trojan
-Shadowsocks
-WireGuard
-VLESS Reality
-```
+ابتدا Endpoint کانفیگ از طریق TCP بررسی می‌شود.
 
----
+کانفیگ‌هایی که قابل دسترسی نیستند در همین مرحله حذف می‌شوند.
 
-## ⚡ سیستم تست دو مرحله‌ای
+## مرحله دوم — Xray Health Check
 
-### مرحله اول — TCP Filter
+کانفیگ‌های باقی‌مانده توسط Xray-core تست می‌شوند.
 
-ابتدا بررسی می‌شود که Endpoint کانفیگ از طریق TCP قابل دسترسی است یا خیر.
+یک Xray موقت اجرا شده و از طریق SOCKS5 یک درخواست واقعی ارسال می‌شود.
 
-این مرحله سریع‌تر است و باعث می‌شود کانفیگ‌های کاملاً غیرقابل‌دسترسی قبل از اجرای Xray حذف شوند.
-
-```text
-کانفیگ‌ها
-   ↓
-TCP Test
-   ├── ❌ Fail → حذف
-   └── ✅ Pass
-           ↓
-       Xray Test
-```
-
-### مرحله دوم — تست واقعی Xray
-
-کانفیگ‌های باقی‌مانده با Xray-core تست می‌شوند.
-
-برای هر کانفیگ:
-
-1. تنظیمات Xray ساخته می‌شود.
-2. یک Instance موقت Xray اجرا می‌شود.
-3. یک SOCKS5 Proxy محلی ایجاد می‌شود.
-4. درخواست واقعی HTTP از Proxy ارسال می‌شود.
-5. Latency اندازه‌گیری می‌شود.
-6. نتیجه به‌عنوان سالم یا ناموفق ثبت می‌شود.
-
-بنابراین صرفاً باز بودن Port به‌عنوان سالم بودن کانفیگ در نظر گرفته نمی‌شود.
+در نتیجه فقط باز بودن Port ملاک سالم بودن کانفیگ نیست.
 
 ---
 
-## 📂 خروجی‌ها
+# 🤖 اجرای خودکار
 
-تمام خروجی‌ها داخل پوشه زیر قرار می‌گیرند:
+Collector توسط GitHub Actions اجرا می‌شود.
+
+Workflow اصلی:
+
+```text
+.github/workflows/collector.yml
+```
+
+به‌صورت پیش‌فرض هر **۲ ساعت** اجرا می‌شود.
+
+همچنین می‌توان آن را به‌صورت دستی اجرا کرد:
+
+```text
+GitHub
+ → Actions
+ → Collect V2Ray Configs
+ → Run workflow
+```
+
+پس برای اجرای Collector در حالت اتوماتیک، نیازی به سرور اختصاصی ندارید.
+
+---
+
+# 📂 خروجی‌ها
+
+تمام خروجی‌ها داخل:
 
 ```text
 configs/
 ```
 
-### بر اساس Protocol
+ذخیره می‌شوند.
+
+از جمله:
 
 ```text
 vmess.txt
@@ -862,83 +1012,30 @@ trojan.txt
 ss.txt
 reality.txt
 wireguard.txt
-```
 
-### بر اساس کشور
-
-برای مثال:
-
-```text
-country_IR.txt
-country_DE.txt
-country_US.txt
-country_NL.txt
-country_TR.txt
-```
-
-### بر اساس Network
-
-```text
-network_tcp.txt
-network_ws.txt
-network_grpc.txt
-network_h2.txt
-network_http.txt
-network_httpupgrade.txt
-network_xhttp.txt
-network_raw.txt
-```
-
-### خروجی ترکیبی
-
-```text
 mix.txt
 mix_sub.txt
+
+lite_mix.txt
+lite_mix_sub.txt
+
+country_*.txt
+network_*.txt
+
+stats.json
 ```
-
-`mix.txt` شامل کانفیگ‌های سالم ترکیبی است.
-
-`mix_sub.txt` نسخه Base64 و مناسب استفاده به‌عنوان Subscription در Clientهای سازگار است.
 
 ---
 
-## 🤖 اجرای خودکار
+# ⚙️ تنظیمات
 
-پروژه دارای GitHub Actions است.
-
-Workflow می‌تواند به‌صورت خودکار:
-
-```text
-جمع‌آوری
-   ↓
-Parse
-   ↓
-Deduplicate
-   ↓
-TCP Filter
-   ↓
-Xray Test
-   ↓
-GeoIP
-   ↓
-Export
-   ↓
-Commit
-```
-
-را انجام دهد.
-
-بنابراین برای اجرای دائمی پروژه، در حالت پیش‌فرض نیازی به خرید یا نگهداری یک سرور اختصاصی نیست.
-
----
-
-## ⚙️ تنظیمات
-
-تنظیمات محیطی در فایل زیر قرار دارند:
+تنظیمات پروژه در:
 
 ```text
 _.env.example
 ```
+
+قرار دارد.
 
 از جمله:
 
@@ -948,76 +1045,24 @@ FETCH_TIMEOUT=15
 PING_TIMEOUT=8
 PING_RETRIES=1
 
+LATENCY_THRESHOLD_MS=5000
+
 TCP_FILTER_LIMIT=2000
 TCP_FILTER_WORKERS=100
 TCP_FILTER_TIMEOUT=2.0
 
-LATENCY_THRESHOLD_MS=5000
-
 GEOIP_ENABLED=true
-GEOIP_CACHE_TTL_SECONDS=86400
 ```
 
 ---
 
-## 📡 افزودن Source جدید
-
-منابع در:
-
-```text
-src/config/sources.py
-```
-
-قرار دارند.
-
-برای Sourceهای Raw:
-
-```python
-RAW_SOURCES = [
-    "https://example.com/source.txt",
-]
-```
-
-و برای کانال‌های عمومی Telegram:
-
-```python
-TELEGRAM_CHANNELS = [
-    "example_channel",
-]
-```
-
-نام کانال را بدون `@` وارد کنید.
-
----
-
-## 📊 آمار
-
-اطلاعات آماری در:
-
-```text
-configs/stats.json
-```
-
-ذخیره می‌شود.
-
-این فایل می‌تواند شامل:
-
-* تعداد کانفیگ‌های سالم
-* تعداد بر اساس Protocol
-* تعداد بر اساس Country
-* میانگین Latency
-
-باشد.
-
----
-
-## 🚀 نصب
+# 🚀 نصب
 
 نیازمندی‌ها:
 
 * Python 3.12+
 * Xray-core
-* Internet Connection
+* اتصال اینترنت
 
 دریافت پروژه:
 
@@ -1032,7 +1077,7 @@ cd Automate-V2ray-Config-Collector
 pip install -r requirements.txt
 ```
 
-اجرای پروژه:
+اجرای Collector:
 
 ```bash
 python -m src.main
@@ -1040,18 +1085,23 @@ python -m src.main
 
 ---
 
-## 🧪 اجرای تست‌ها
+# 🧪 تست
 
-برای اجرای تست‌های پروژه:
+برای نصب وابستگی‌های توسعه:
 
 ```bash
 pip install -r requirements-dev.txt
+```
+
+اجرای تست‌ها:
+
+```bash
 pytest
 ```
 
 ---
 
-## 🔐 امنیت
+# 🔐 امنیت
 
 اطلاعات حساس مانند:
 
@@ -1061,61 +1111,56 @@ API Keys
 Private Credentials
 ```
 
-را داخل Repository قرار ندهید.
+نباید در Repository قرار بگیرند.
 
-برای GitHub Actions از:
+برای GitHub Actions از GitHub Secrets استفاده کنید:
 
 ```text
 Settings
-→ Secrets and variables
-→ Actions
+ → Secrets and variables
+ → Actions
 ```
-
-استفاده کنید.
 
 ---
 
-## ⚠️ سلب مسئولیت
+# ⚠️ سلب مسئولیت
 
-این پروژه با هدف‌های آموزشی، تحقیقاتی، توسعه نرم‌افزار و آزمایش‌های شبکه ارائه شده است.
+این پروژه با اهداف آموزشی، تحقیقاتی، توسعه نرم‌افزار، اتوماسیون و تست شبکه ارائه شده است.
 
-مسئولیت نحوه استفاده از نرم‌افزار و کانفیگ‌های جمع‌آوری‌شده کاملاً بر عهده کاربر است.
+مسئولیت نحوه استفاده از نرم‌افزار و کانفیگ‌های جمع‌آوری‌شده بر عهده کاربر است.
 
-کاربر باید قوانین کشور خود، قوانین شبکه، شرایط سرویس‌ها و حقوق صاحبان منابع را رعایت کند.
+کاربر موظف است قوانین کشور خود، قوانین شبکه، شرایط سرویس‌ها و حقوق صاحبان منابع را رعایت کند.
 
-توسعه‌دهندگان هیچ تضمینی در مورد:
-
-* پایداری
-* سرعت
-* امنیت
-* حریم خصوصی
-* قانونی بودن
-* یا در دسترس بودن
-
-کانفیگ‌های جمع‌آوری‌شده ارائه نمی‌کنند.
+توسعه‌دهندگان هیچ تضمینی در خصوص سرعت، پایداری، امنیت، حریم خصوصی یا قانونی بودن کانفیگ‌های جمع‌آوری‌شده ارائه نمی‌کنند.
 
 **مسئولانه استفاده کنید.**
 
 ---
 
-## 📄 License
+# 📄 مجوز
 
-این پروژه تحت مجوز:
+این پروژه تحت مجوز **MIT License** منتشر شده است.
 
-**MIT License**
+برای اطلاعات کامل:
 
-منتشر شده است.
-
-برای اطلاعات کامل به فایل [LICENSE](LICENSE) مراجعه کنید.
+[مشاهده LICENSE](LICENSE)
 
 ---
 
 <div align="center">
 
-## ⭐ اگر پروژه برایت مفید بود، یک Star بده!
+# ⭐ اگر پروژه برای شما مفید بود، یک Star بدهید!
 
-**Made with ❤️ for Open Source & Network Automation**
+### IdolVPN
 
-[⬆ Back to Top](#-automate-v2ray-config-collector)
+**Freedom • Privacy • Limitless**
+
+[GitHub Repository](https://github.com/Idolvpn/Automate-V2ray-Config-Collector)
+
+<br>
+
+Made with ❤️ for Open Source & Network Automation
 
 </div>
+```
+` و فایل‌های پروتکل هم خروجی‌های واقعی Exporter هستند. همچنین Workflow واقعی پروژه طبق کد موجود، **هر ۲ ساعت** اجرا می‌شود و در اجرای GitHub Actions محدودیت Latency آن `1500ms` است.
