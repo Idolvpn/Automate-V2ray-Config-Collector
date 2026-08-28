@@ -29,6 +29,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LOG_LEVEL: INFO
+          MAX_CONFIGS_PER_OUTPUT: 200
         run: python -m src.main
 
       - name: Commit updated configs
