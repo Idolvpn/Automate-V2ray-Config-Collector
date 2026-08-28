@@ -24,25 +24,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Xray-core
-        run: |
-          curl -sL -o /tmp/xray.zip "https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip"
-          unzip -q /tmp/xray.zip -d /usr/local/bin/
-          chmod +x /usr/local/bin/xray
-          xray version
-
       - name: Run collector
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LOG_LEVEL: INFO
+          MAX_WORKERS: 50
+          FETCH_TIMEOUT: 10
+          PING_TIMEOUT: 1.5
+          PING_RETRIES: 1
+          LATENCY_THRESHOLD_MS: 1500
           MAX_CONFIGS_PER_OUTPUT: 200
-          MAX_WORKERS: 8
-          PING_TIMEOUT: 8
-          LATENCY_THRESHOLD_MS: 5000
-          TCP_FILTER_LIMIT: 2000
-          TCP_FILTER_WORKERS: 100
-          TCP_FILTER_TIMEOUT: 2.0
         run: python -m src.main
 
       - name: Commit updated configs
