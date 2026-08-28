@@ -72,7 +72,6 @@ def _fast_tcp_filter(configs: List[Config]) -> List[Config]:
     alive = [(c, lat) for c, lat in results if lat is not None]
     alive.sort(key=lambda x: x[1])
     top = [c for c, _ in alive[:TCP_FILTER_LIMIT]]
-
     logger.info(
         "Stage 1 complete: %d/%d alive, keeping top %d for real xray test",
         len(alive),
