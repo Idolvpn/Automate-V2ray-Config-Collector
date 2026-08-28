@@ -36,25 +36,27 @@ class Settings:
     output_dir: str
     log_level: str
     max_configs_per_output: int
+    # --- Real health-check additions ---
+    xray_path: str
+    test_url: str
+    xray_startup_delay: float
 
 
 def load_settings() -> Settings:
-    """Load runtime settings from environment variables with sane defaults.
-
-    Every tunable knob lives here instead of being hardcoded across the
-    codebase, so behavior can be adjusted per-environment (CI vs local)
-    without touching source files.
-    """
+    """Load runtime settings from environment variables with sane defaults."""
     return Settings(
-        max_workers=_int_env("MAX_WORKERS", 30),
+        max_workers=_int_env("MAX_WORKERS", 8),          # lowered: xray is heavier than TCP
         fetch_timeout=_float_env("FETCH_TIMEOUT", 15),
-        ping_timeout=_float_env("PING_TIMEOUT", 2.0),
+        ping_timeout=_float_env("PING_TIMEOUT", 8.0),    # increased for xray handshake + HTTP
         ping_retries=_int_env("PING_RETRIES", 1),
-        latency_threshold_ms=_int_env("LATENCY_THRESHOLD_MS", 2000),
+        latency_threshold_ms=_int_env("LATENCY_THRESHOLD_MS", 5000),  # increased
         telegram_messages_per_channel=_int_env("TELEGRAM_MESSAGES_PER_CHANNEL", 20),
         geoip_enabled=_bool_env("GEOIP_ENABLED", True),
         geoip_cache_ttl_seconds=_int_env("GEOIP_CACHE_TTL_SECONDS", 86400),
         output_dir=os.environ.get("OUTPUT_DIR", "configs"),
         log_level=os.environ.get("LOG_LEVEL", "INFO"),
         max_configs_per_output=_int_env("MAX_CONFIGS_PER_OUTPUT", 0),
+        xray_path=os.environ.get("XRAY_PATH", "xray"),
+        test_url=os.environ.get("TEST_URL", "http://cp.cloudflare.com"),
+        xray_startup_delay=_float_env("XRAY_STARTUP_DELAY", 1.5),
     )
