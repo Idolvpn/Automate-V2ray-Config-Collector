@@ -18,9 +18,9 @@ class ConfigExporter:
     way a naive `appendFile` loop would.
     """
 
-    def __init__(self, output_dir: str):
+    def __init__(self, output_dir: str, max_configs: int = 0):
         self.output_dir = output_dir
-        self.max_configs = 0
+        self.max_configs = max_configs
 
     def export(self, configs: List[Config]) -> None:
         os.makedirs(self.output_dir, exist_ok=True)
@@ -64,6 +64,7 @@ class ConfigExporter:
     def _write_lite_mix(self, configs: List[Config]) -> None:
         """Write a lite version of mix with max N configs."""
         if self.max_configs <= 0:
+            logger.info("MAX_CONFIGS_PER_OUTPUT is 0, skipping lite mix")
             return
 
         lite_configs = configs[:self.max_configs]
@@ -94,7 +95,7 @@ class ConfigExporter:
     def _avg_latency(configs: List[Config]) -> float:
         latencies = [c.latency_ms for c in configs if c.latency_ms is not None]
         if not latencies:
-            return 0.0
+           return 0.0
         return round(sum(latencies) / len(latencies), 1)
 
     @staticmethod
