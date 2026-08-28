@@ -64,7 +64,7 @@ https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/c
 | 🟠 **Trojan** | [trojan.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/trojan.txt) |
 | 🟣 **Shadowsocks** | [ss.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt) |
 | 🔷 **Reality** | [reality.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt) |
-| 🟡 **WireGuard** | [wireguard.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/wireguard.txt) |
+
 
 ---
 
@@ -622,7 +622,6 @@ Automate-V2ray-Config-Collector/
 │   ├── trojan.txt
 │   ├── ss.txt
 │   ├── reality.txt
-│   ├── wireguard.txt
 │   ├── mix.txt
 │   ├── mix_sub.txt
 │   ├── lite_mix.txt
@@ -820,7 +819,6 @@ https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/c
 | 🟠 Trojan | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/trojan.txt) |
 | 🟣 Shadowsocks | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt) |
 | 🔷 Reality | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt) |
-| 🟡 WireGuard | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/wireguard.txt) |
 
 ---
 
@@ -922,7 +920,6 @@ vless.txt
 trojan.txt
 ss.txt
 reality.txt
-wireguard.txt
 
 mix.txt
 mix_sub.txt
