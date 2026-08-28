@@ -1,0 +1,2 @@
+vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@178.160.229.238:443?security=reality&encryption=none&pbk=SgV6vBorDPinOHb19xf_3sCP_IUI5Ot9zv7lPuUVhjM&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=1388c268#AM | 178.160.229.238 | 1171ms
+vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983?security=reality&encryption=none&sni=yahoo.com&fp=chrome&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg&sid=0e&type=tcp&headerType=none&path=%2f#AM | 77.91.68.70 | 258ms
