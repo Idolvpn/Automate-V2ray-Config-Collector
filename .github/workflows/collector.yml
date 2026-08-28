@@ -40,6 +40,9 @@ jobs:
           MAX_WORKERS: 8
           PING_TIMEOUT: 8
           LATENCY_THRESHOLD_MS: 5000
+          TCP_FILTER_LIMIT: 2000
+          TCP_FILTER_WORKERS: 100
+          TCP_FILTER_TIMEOUT: 2.0
         run: python -m src.main
 
       - name: Commit updated configs
