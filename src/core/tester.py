@@ -5,7 +5,7 @@ import subprocess
 import tempfile
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import Iterable, List, Optional
+from typing import Iterable, List, Optional, Tuple
 
 import requests
 
@@ -20,6 +20,9 @@ settings = load_settings()
 XRAY_BIN = os.environ.get("XRAY_PATH", "xray")
 TEST_URL = os.environ.get("TEST_URL", "http://cp.cloudflare.com")
 XRAY_STARTUP_DELAY = settings.xray_startup_delay
+TCP_FILTER_LIMIT = settings.tcp_filter_limit
+TCP_FILTER_WORKERS = settings.tcp_filter_workers
+TCP_FILTER_TIMEOUT = settings.tcp_filter_timeout
 
 
 def find_free_port() -> int:
@@ -28,26 +31,62 @@ def find_free_port() -> int:
         return s.getsockname()[1]
 
 
-def _tcp_check(host: str, port: int, timeout: float = 2.0) -> bool:
-    """Fast TCP pre-filter before spinning up xray."""
+def _tcp_connect_latency(host: str, port: int, timeout: float) -> Optional[int]:
+    """Fast TCP connect + latency measurement."""
     try:
+        start = time.perf_counter()
         with socket.create_connection((host, port), timeout=timeout):
-            return True
+            return int((time.perf_counter() - start) * 1000)
     except OSError:
-        return False
+        return None
+
+
+def _fast_tcp_filter(configs: List[Config]) -> List[Config]:
+    """
+    Stage 1: High-concurrency TCP handshake filter.
+    Returns only the top N fastest configs by TCP latency.
+    """
+    if TCP_FILTER_LIMIT <= 0 or len(configs) <= TCP_FILTER_LIMIT:
+        return configs
+
+    logger.info(
+        "Stage 1 — TCP fast filter: testing %d configs (workers=%d, timeout=%.1fs)",
+        len(configs),
+        TCP_FILTER_WORKERS,
+        TCP_FILTER_TIMEOUT,
+    )
+
+    results: List[Tuple[Config, Optional[int]]] = []
+
+    with ThreadPoolExecutor(max_workers=TCP_FILTER_WORKERS) as pool:
+        future_to_config = {
+            pool.submit(_tcp_connect_latency, c.host, c.port, TCP_FILTER_TIMEOUT): c
+            for c in configs
+        }
+        for future in as_completed(future_to_config):
+            config = future_to_config[future]
+            latency = future.result()
+            results.append((config, latency))
+
+    # Sort by latency (None = dead, goes to bottom), keep top N
+    alive = [(c, lat) for c, lat in results if lat is not None]
+    alive.sort(key=lambda x: x[1])
+    top = [c for c, _ in alive[:TCP_FILTER_LIMIT]]
+
+    logger.info(
+        "Stage 1 complete: %d/%d alive, keeping top %d for real xray test",
+        len(alive),
+        len(configs),
+        len(top),
+    )
+    return top
 
 
 def _test_single_config(config: Config, timeout: float) -> Optional[int]:
     """
-    Real health check using xray-core.
-    Returns latency in ms if the proxy can actually forward HTTP traffic,
-    otherwise None.
+    Stage 2: Real health check using xray-core.
+    Returns latency in ms if the proxy can actually forward HTTP traffic.
     """
-    # 1. Quick TCP pre-filter — skip xray overhead for dead hosts
-    if not _tcp_check(config.host, config.port):
-        return None
-
-    # 2. Build xray JSON config
     local_port = find_free_port()
     xray_cfg = build_xray_config(config, local_port)
     if not xray_cfg:
@@ -56,12 +95,10 @@ def _test_single_config(config: Config, timeout: float) -> Optional[int]:
     cfg_path = ""
     proc = None
     try:
-        # Write temp config file
         with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as f:
             json.dump(xray_cfg, f)
             cfg_path = f.name
 
-        # Start xray-core
         proc = subprocess.Popen(
             [XRAY_BIN, "-c", cfg_path],
             stdout=subprocess.DEVNULL,
@@ -69,7 +106,6 @@ def _test_single_config(config: Config, timeout: float) -> Optional[int]:
         )
         time.sleep(XRAY_STARTUP_DELAY)
 
-        # 3. Test HTTP through the local SOCKS5 proxy
         start = time.perf_counter()
         proxies = {
             "http": f"socks5://127.0.0.1:{local_port}",
@@ -83,7 +119,6 @@ def _test_single_config(config: Config, timeout: float) -> Optional[int]:
         )
         elapsed = int((time.perf_counter() - start) * 1000)
 
-        # Accept 200/204 (direct OK) and 301/302 (CDN redirect — still alive)
         if resp.status_code in (200, 204, 301, 302):
             return elapsed
         return None
@@ -105,7 +140,7 @@ def _test_single_config(config: Config, timeout: float) -> Optional[int]:
 
 
 class ConfigTester:
-    """Tests configs with real xray-core proxy validation."""
+    """Two-stage health checker: fast TCP filter → real xray validation."""
 
     def __init__(self, timeout: float, retries: int, threshold_ms: int, max_workers: int):
         self.timeout = timeout
@@ -115,25 +150,32 @@ class ConfigTester:
 
     def test_all(self, configs: Iterable[Config]) -> List[Config]:
         configs = list(configs)
-        healthy: List[Config] = []
 
+        # Stage 1: Fast TCP filter (high concurrency)
+        candidates = _fast_tcp_filter(configs)
+
+        if not candidates:
+            logger.warning("No configs survived TCP fast filter.")
+            return []
+
+        # Stage 2: Real xray test (lower concurrency)
         logger.info(
-            "Real health check starting for %d configs (workers=%d, timeout=%.1fs)",
-            len(configs),
+            "Stage 2 — Real xray test: %d configs (workers=%d, timeout=%.1fs)",
+            len(candidates),
             self.max_workers,
             self.timeout,
         )
 
+        healthy: List[Config] = []
         with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
             future_to_config = {
                 pool.submit(_test_single_config, c, self.timeout): c
-                for c in configs
+                for c in candidates
             }
             for future in as_completed(future_to_config):
                 config = future_to_config[future]
                 latency = future.result()
 
-                # Retry logic
                 if latency is None and self.retries > 0:
                     for _ in range(self.retries):
                         latency = _test_single_config(config, self.timeout)
@@ -145,9 +187,9 @@ class ConfigTester:
                     healthy.append(config)
 
         logger.info(
-            "Real health check complete: %d/%d configs passed (threshold=%dms)",
+            "Health check complete: %d/%d passed xray real test (threshold=%dms)",
             len(healthy),
-            len(configs),
+            len(candidates),
             self.threshold_ms,
         )
         return healthy
