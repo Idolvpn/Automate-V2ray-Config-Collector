@@ -28,8 +28,10 @@ def main() -> None:
     geoip = GeoIPResolver(
         enabled=settings.geoip_enabled, cache_ttl_seconds=settings.geoip_cache_ttl_seconds
     )
-    exporter = ConfigExporter(output_dir=settings.output_dir)
-    exporter.max_configs = settings.max_configs_per_output
+    exporter = ConfigExporter(
+        output_dir=settings.output_dir,
+        max_configs=settings.max_configs_per_output,
+    )
     notifier = TelegramNotifier(
         token=os.environ.get("TELEGRAM_TOKEN"),
         chat_id=os.environ.get("TELEGRAM_CHAT_ID"),
