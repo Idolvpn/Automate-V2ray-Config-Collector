@@ -173,7 +173,6 @@ The collector currently recognizes:
 - VLESS
 - Trojan
 - Shadowsocks
-- WireGuard
 - VLESS Reality
 
 Reality configurations are detected separately when the configuration contains:
@@ -293,8 +292,7 @@ configs/
 ├── vless.txt
 ├── trojan.txt
 ├── ss.txt
-├── reality.txt
-└── wireguard.txt
+└── reality.txt
 ```
 
 ## Country Outputs
