@@ -1,15 +1,15 @@
 {
-  "total": 6,
+  "total": 19,
   "by_protocol": {
-    "vless": 3,
-    "trojan": 2,
-    "vmess": 1
+    "trojan": 14,
+    "vless": 5
   },
   "by_country": {
-    "CA": 2,
-    "HR": 1,
-    "US": 2,
-    "NL": 1
+    "CA": 7,
+    "US": 9,
+    "NL": 3
   },
-  "avg_latency_ms": 1264.7
+  "avg_latency_ms": 1118.9,
+  "updated_at": "2026-09-09T14:48:51.111596+00:00",
+  "stale": false
 }
