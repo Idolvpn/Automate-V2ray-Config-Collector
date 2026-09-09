@@ -25,16 +25,18 @@ RAW_SOURCES = [
 # Telegram channel usernames (without @). Fetched via the public
 # https://t.me/s/<channel> preview endpoint, no bot token required.
 TELEGRAM_CHANNELS = [
-    "v2ray_configs_pool",
     "DirectVPN",
-    "v2rayngvpn",
     "vpnowl",
-    "outlinevpnofficial",
-    "ShadowsocksRss",
     "proxy_mtm",
 ]
 
 # Channels that have repeatedly returned nothing useful. Kept separately
 # (rather than silently dropped) so maintainers know why they're excluded
 # and can re-enable them by moving the entry back to TELEGRAM_CHANNELS.
-DISABLED_TELEGRAM_CHANNELS: list[str] = []
+# Moved here on 2026-09-09 after returning 0 configs in production run.
+DISABLED_TELEGRAM_CHANNELS: list[str] = [
+    "v2ray_configs_pool",
+    "v2rayngvpn",
+    "outlinevpnofficial",
+    "ShadowsocksRss",
+]

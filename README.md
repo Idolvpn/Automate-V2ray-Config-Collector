@@ -414,7 +414,7 @@ GitHub
 Environment variables are documented in:
 
 ```text
-_.env.example
+.env.example
 ```
 
 Important options include:
@@ -441,15 +441,15 @@ Important options include:
 Example:
 
 ```env
-MAX_WORKERS=8
+MAX_WORKERS=40
 
 FETCH_TIMEOUT=15
-PING_TIMEOUT=8
-PING_RETRIES=1
+PING_TIMEOUT=5
+PING_RETRIES=0
 
 LATENCY_THRESHOLD_MS=5000
 
-TCP_FILTER_LIMIT=2000
+TCP_FILTER_LIMIT=600
 TCP_FILTER_WORKERS=100
 TCP_FILTER_TIMEOUT=2.0
 
@@ -659,7 +659,7 @@ Automate-V2ray-Config-Collector/
 │   ├── test_parser.py
 │   └── test_tester.py
 │
-├── _.env.example
+├── .env.example
 ├── requirements.txt
 ├── requirements-dev.txt
 ├── pytest.ini
@@ -938,21 +938,21 @@ stats.json
 تنظیمات پروژه در فایل زیر قرار دارند:
 
 ```text
-_.env.example
+.env.example
 ```
 
 نمونه:
 
 ```env
-MAX_WORKERS=8
+MAX_WORKERS=40
 
 FETCH_TIMEOUT=15
-PING_TIMEOUT=8
-PING_RETRIES=1
+PING_TIMEOUT=5
+PING_RETRIES=0
 
 LATENCY_THRESHOLD_MS=5000
 
-TCP_FILTER_LIMIT=2000
+TCP_FILTER_LIMIT=600
 TCP_FILTER_WORKERS=100
 TCP_FILTER_TIMEOUT=2.0
 

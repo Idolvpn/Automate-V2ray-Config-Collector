@@ -1,3 +1,4 @@
+import datetime
 import glob
 import json
 import os
@@ -44,6 +45,10 @@ class ConfigExporter:
     way a naive `appendFile` loop would.
     """
 
+    # Countries with fewer configs than this don't get their own file
+    # (avoids repo bloat from 1-config country files).
+    MIN_CONFIGS_PER_COUNTRY_FILE = 3
+
     def __init__(self, output_dir: str, max_configs: int = 0):
         self.output_dir = output_dir
         self.max_configs = max_configs
@@ -53,7 +58,7 @@ class ConfigExporter:
 
         if not configs:
             logger.warning("No healthy configs to export, keeping previous outputs")
-            self._write_stats([], {}, {})
+            self._write_stats([], {}, {}, stale=True)
             return
 
         # Fastest configs first so mix/sub/lite outputs are the best ones.
@@ -76,18 +81,28 @@ class ConfigExporter:
         for protocol, group in by_protocol.items():
             self._write_group(f"{protocol}.txt", group)
 
+        written_countries = set()
         for country_code, group in by_country.items():
+            if len(group) < self.MIN_CONFIGS_PER_COUNTRY_FILE:
+                logger.debug(
+                    "Skipping country file %s: only %d configs (min %d)",
+                    country_code,
+                    len(group),
+                    self.MIN_CONFIGS_PER_COUNTRY_FILE,
+                )
+                continue
             self._write_group(f"country_{country_code}.txt", group)
+            written_countries.add(country_code)
 
         for network, group in by_network.items():
             self._write_group(f"network_{network}.txt", group)
 
-        self._cleanup_stale_files(set(by_country), set(by_network))
+        self._cleanup_stale_files(written_countries, set(by_network))
 
         self._write_group("mix.txt", configs)
         self._write_subscription("mix_sub.txt", configs)
         self._write_lite_mix(configs)
-        self._write_stats(configs, by_protocol, by_country)
+        self._write_stats(configs, by_protocol, by_country, stale=False)
 
         logger.info("Exported %d configs to %s", len(configs), self.output_dir)
 
@@ -141,12 +156,15 @@ class ConfigExporter:
         configs: List[Config],
         by_protocol: Dict[str, List[Config]],
         by_country: Dict[str, List[Config]],
+        stale: bool = False,
     ) -> None:
         stats = {
             "total": len(configs),
             "by_protocol": {k: len(v) for k, v in by_protocol.items()},
             "by_country": {k: len(v) for k, v in by_country.items()},
             "avg_latency_ms": self._avg_latency(configs),
+            "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "stale": stale,
         }
         path = os.path.join(self.output_dir, "stats.json")
         self._atomic_write(path, json.dumps(stats, indent=2, ensure_ascii=False))

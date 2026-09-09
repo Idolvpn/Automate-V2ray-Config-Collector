@@ -1,4 +1,6 @@
+import ipaddress
 import json
+import re
 from typing import Optional
 from urllib.parse import parse_qs, urlparse
 
@@ -26,8 +28,9 @@ _ALLOWED_NETWORKS = {
 
 def _normalize_network(value: str) -> str:
     v = (value or "tcp").strip().lower()
-    # Strip anything unsafe (e.g. 'tcp:443' from malformed sources).
-    v = "".join(c for c in v if c.isalnum() or c in ("-", "_")) or "tcp"
+    # Same rule as exporter._sanitize_filename_component: replace anything
+    # unsafe (e.g. ':' in 'tcp:443' from malformed sources) with '_'.
+    v = re.sub(r"[^a-z0-9_-]", "_", v).strip("_") or "tcp"
     if v not in _ALLOWED_NETWORKS:
         # Keep unknown values but sanitized, so exporter never gets ':' etc.
         # Truncate to avoid absurd filenames.
@@ -43,6 +46,27 @@ def _valid_port(port) -> Optional[int]:
     if 1 <= p <= 65535:
         return p
     return None
+
+
+def _is_blocked_host(host: str) -> bool:
+    """Drop loopback / private / reserved IPs to avoid probing local nets."""
+    if not host:
+        return True
+    h = host.strip().lower()
+    if h in ("localhost",):
+        return True
+    try:
+        ip = ipaddress.ip_address(h.strip("[]"))
+    except ValueError:
+        return False  # domain name: allow, GeoIP/tester will handle
+    return (
+        ip.is_private
+        or ip.is_loopback
+        or ip.is_link_local
+        or ip.is_multicast
+        or ip.is_reserved
+        or ip.is_unspecified
+    )
 
 
 class ConfigParser:
@@ -87,6 +111,8 @@ class ConfigParser:
         port = _valid_port(data.get("port"))
         if not host or port is None:
             return None
+        if _is_blocked_host(str(host)):
+            return None
         return Config(
             raw=raw,
             protocol=Protocol.VMESS,
@@ -110,6 +136,8 @@ class ConfigParser:
             return None
         port = _valid_port(port)
         if port is None:
+            return None
+        if _is_blocked_host(parsed.hostname):
             return None
         params = parse_qs(parsed.query)
         is_reality = params.get("security", [""])[0].lower() == "reality"
@@ -139,6 +167,8 @@ class ConfigParser:
         port = _valid_port(port)
         if port is None:
             return None
+        if _is_blocked_host(parsed.hostname):
+            return None
         params = parse_qs(parsed.query)
         network = _normalize_network(params.get("type", ["tcp"])[0])
         return Config(
@@ -163,6 +193,8 @@ class ConfigParser:
         if parsed is not None and parsed.hostname and parsed.port:
             port = _valid_port(parsed.port)
             if port is None:
+                return None
+            if _is_blocked_host(parsed.hostname):
                 return None
             # Sub-case 1a: ss://base64(method:pass)@host:port -- username is
             # base64, password is empty. Decode to validate.
@@ -211,6 +243,8 @@ class ConfigParser:
         host = host.strip("[] ")
         port = _valid_port(port_str.strip())
         if not host or port is None:
+            return None
+        if _is_blocked_host(host):
             return None
         return Config(
             raw=raw, protocol=Protocol.SHADOWSOCKS, host=host, port=port,

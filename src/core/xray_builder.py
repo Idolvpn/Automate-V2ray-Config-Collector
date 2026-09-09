@@ -84,7 +84,7 @@ def _build_vless(config: Config) -> Optional[Dict[str, Any]]:
         return None
     params = parse_qs(parsed.query)
 
-    uuid = parsed.username or ""
+    uuid = unquote(parsed.username or "")
     if not uuid:
         return None
     if not parsed.hostname or not parsed.port:

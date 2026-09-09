@@ -43,7 +43,7 @@ def _clean_match(match: str) -> str:
     # Telegram truncates long messages with an ellipsis; a truncated
     # config is worse than useless (silently fails at connect time),
     # so drop anything that looks cut off.
-    if "…" in match or "ΓÇª" in match:
+    if "…" in match:
         return ""
     cleaned = match.rstrip(".,;)!]'}>").strip()
     if cleaned.endswith("..."):

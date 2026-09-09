@@ -1,5 +1,7 @@
+import json
+import os
 import time
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 import requests
 
@@ -17,17 +19,26 @@ MAX_RETRIES = 2
 
 
 class GeoIPResolver:
-    """Resolves IP/host -> country with an in-memory TTL cache."""
+    """Resolves IP/host -> country with an in-memory + file TTL cache."""
 
-    def __init__(self, enabled: bool, cache_ttl_seconds: int, timeout: float = 10.0):
+    def __init__(
+        self,
+        enabled: bool,
+        cache_ttl_seconds: int,
+        timeout: float = 10.0,
+        cache_file: Optional[str] = None,
+    ):
         self.enabled = enabled
         self.cache_ttl = cache_ttl_seconds
         self.timeout = timeout
+        self.cache_file = cache_file
         self._cache: Dict[str, Tuple[float, dict]] = {}
         self.session = requests.Session()
         self.session.headers.update(
             {"User-Agent": "Mozilla/5.0 (compatible; V2RayCollector/1.0)"}
         )
+        if cache_file:
+            self._load_file_cache()
 
     def resolve_many(self, hosts: List[str]) -> Dict[str, dict]:
         """Resolve a list of hosts to {country, countryCode, query(ip)}."""
@@ -61,7 +72,47 @@ class GeoIPResolver:
         for host in to_fetch:
             results.setdefault(host, self._unknown())
 
+        if self.cache_file and to_fetch:
+            self._save_file_cache()
+
         return results
+
+    def _load_file_cache(self) -> None:
+        try:
+            if not self.cache_file or not os.path.exists(self.cache_file):
+                return
+            with open(self.cache_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            now = time.time()
+            loaded = 0
+            for host, entry in data.items():
+                if not isinstance(entry, dict):
+                    continue
+                ts = entry.get("_ts", 0)
+                if now - ts < self.cache_ttl:
+                    self._cache[host] = (
+                        ts,
+                        {k: v for k, v in entry.items() if not k.startswith("_")},
+                    )
+                    loaded += 1
+            logger.info("GeoIP file cache loaded: %d entries", loaded)
+        except Exception as exc:  # noqa: BLE001 - cache is best-effort
+            logger.warning("GeoIP cache load failed: %s", exc)
+
+    def _save_file_cache(self) -> None:
+        try:
+            if not self.cache_file:
+                return
+            os.makedirs(os.path.dirname(self.cache_file) or ".", exist_ok=True)
+            data = {
+                host: {"_ts": ts, **info} for host, (ts, info) in self._cache.items()
+            }
+            tmp = self.cache_file + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False)
+            os.replace(tmp, self.cache_file)
+        except Exception as exc:  # noqa: BLE001 - cache is best-effort
+            logger.warning("GeoIP cache save failed: %s", exc)
 
     def _query_batch(self, hosts: List[str]) -> Dict[str, dict]:
         payload = [

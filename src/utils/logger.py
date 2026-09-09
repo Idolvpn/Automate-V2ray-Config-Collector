@@ -3,7 +3,7 @@ import os
 import sys
 
 
-def setup_logger(name: str) -> logging.Logger:
+def setup_logger(name: str, level: str | None = None) -> logging.Logger:
     """Create a module-level logger honoring LOG_LEVEL from the environment.
 
     Centralizing this avoids the pattern seen in many collector scripts
@@ -11,9 +11,9 @@ def setup_logger(name: str) -> logging.Logger:
     trace of what actually failed.
     """
     logger = logging.getLogger(name)
-    level_name = os.environ.get("LOG_LEVEL", "INFO").upper()
-    level = getattr(logging, level_name, logging.INFO)
-    logger.setLevel(level)
+    level_name = (level or os.environ.get("LOG_LEVEL", "INFO")).upper()
+    level_no = getattr(logging, level_name, logging.INFO)
+    logger.setLevel(level_no)
 
     if not logger.handlers:
         handler = logging.StreamHandler(sys.stdout)

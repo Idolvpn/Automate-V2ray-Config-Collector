@@ -1,3 +1,4 @@
+import logging
 import os
 import sys
 
@@ -17,6 +18,15 @@ logger = setup_logger(__name__)
 
 def main() -> None:
     settings = load_settings()
+    # Apply configured log level to already-created loggers (they read
+    # LOG_LEVEL at import time, so re-apply here from Settings).
+    logging.getLogger().setLevel(
+        getattr(logging, settings.log_level.upper(), logging.INFO)
+    )
+    for name in list(logging.Logger.manager.loggerDict):
+        logging.getLogger(name).setLevel(
+            getattr(logging, settings.log_level.upper(), logging.INFO)
+        )
 
     fetcher = Fetcher(timeout=settings.fetch_timeout, max_workers=settings.max_workers)
     tester = ConfigTester(
@@ -32,7 +42,9 @@ def main() -> None:
         tcp_filter_timeout=settings.tcp_filter_timeout,
     )
     geoip = GeoIPResolver(
-        enabled=settings.geoip_enabled, cache_ttl_seconds=settings.geoip_cache_ttl_seconds
+        enabled=settings.geoip_enabled,
+        cache_ttl_seconds=settings.geoip_cache_ttl_seconds,
+        cache_file=os.path.join(settings.output_dir, ".geoip_cache.json"),
     )
     exporter = ConfigExporter(
         output_dir=settings.output_dir,

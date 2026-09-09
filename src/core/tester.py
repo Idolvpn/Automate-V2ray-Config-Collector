@@ -199,6 +199,16 @@ class ConfigTester:
                 elapsed = int((time.perf_counter() - start) * 1000)
 
                 if resp.status_code in (200, 204, 301, 302):
+                    # Guard against a malicious/broken exit node that
+                    # returns 200 for everything: the default test URL
+                    # (cp.cloudflare.com) must contain "success" in body.
+                    if resp.status_code == 200 and "cp.cloudflare.com" in self.test_url:
+                        try:
+                            body = (resp.content or b"")[:2048].lower()
+                        except Exception:  # noqa: BLE001
+                            return None
+                        if b"success" not in body:
+                            return None
                     return elapsed
                 return None
 
@@ -254,6 +264,8 @@ class ConfigTester:
         )
 
         healthy: List[Config] = []
+        done = 0
+        total = len(candidates)
         with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
             future_to_config = {
                 pool.submit(self._test_single_config, c): c for c in candidates
@@ -274,6 +286,15 @@ class ConfigTester:
                 if latency is not None and latency <= self.threshold_ms:
                     config.latency_ms = latency
                     healthy.append(config)
+
+                done += 1
+                if done % 50 == 0 or done == total:
+                    logger.info(
+                        "Stage 2 progress: %d/%d tested, %d healthy so far",
+                        done,
+                        total,
+                        len(healthy),
+                    )
 
         logger.info(
             "Health check complete: %d/%d passed xray real test (threshold=%dms)",
