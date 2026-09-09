@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+configs/*.tmp
+# Guard against invalid filenames ever being committed again
+# (e.g. network names containing ':' from malformed sources)
+configs/*:* 

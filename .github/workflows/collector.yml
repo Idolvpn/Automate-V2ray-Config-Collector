@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: collector
+  cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
@@ -24,20 +28,35 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install xray-core
+        run: |
+          XRAY_VERSION=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases/latest | grep '"tag_name"' | cut -d'"' -f4)
+          echo "Installing $XRAY_VERSION"
+          curl -sL "https://github.com/XTLS/Xray-core/releases/download/${XRAY_VERSION}/Xray-linux-64.zip" -o /tmp/xray.zip
+          unzip -o /tmp/xray.zip -d /tmp/xray
+          sudo install -m 755 /tmp/xray/xray /usr/local/bin/xray
+          xray version
+
       - name: Run collector
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LOG_LEVEL: INFO
-          MAX_WORKERS: 50
+          MAX_WORKERS: 20
           FETCH_TIMEOUT: 15
           PING_TIMEOUT: 8
-          PING_RETRIES: 2
+          PING_RETRIES: 1
           LATENCY_THRESHOLD_MS: 8000
+          TELEGRAM_MESSAGES_PER_CHANNEL: 20
+          GEOIP_ENABLED: "true"
+          GEOIP_CACHE_TTL_SECONDS: 86400
+          OUTPUT_DIR: configs
           MAX_CONFIGS_PER_OUTPUT: 200
           TCP_FILTER_LIMIT: 2000
           TCP_FILTER_WORKERS: 100
           TCP_FILTER_TIMEOUT: 3.0
+          XRAY_PATH: xray
+          TEST_URL: http://cp.cloudflare.com
           XRAY_STARTUP_DELAY: 2.0
         run: python -m src.main
 
@@ -45,6 +64,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add configs/
+          # -A picks up deleted stale country_/network_ files as well
+          git add -A configs/
           git diff --staged --quiet || git commit -m "chore: update configs [skip ci]"
+          git pull --rebase --autostash || true
           git push

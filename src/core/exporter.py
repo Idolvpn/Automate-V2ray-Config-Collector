@@ -1,5 +1,7 @@
+import glob
 import json
 import os
+import re
 from collections import defaultdict
 from typing import Dict, List
 
@@ -8,6 +10,30 @@ from src.utils.encoding import encode_base64
 from src.utils.logger import setup_logger
 
 logger = setup_logger(__name__)
+
+_SAFE_NAME_RE = re.compile(r"[^A-Za-z0-9_-]")
+_COUNTRY_RE = re.compile(r"^[A-Z]{2}$")
+
+
+def _sanitize_filename_component(value: str, max_len: int = 32) -> str:
+    """Make an arbitrary string safe for use as a filename component.
+
+    Prevents invalid paths on Windows (e.g. ':' in 'tcp:443') and
+    directory traversal ('../...').
+    """
+    if not value:
+        return "unknown"
+    cleaned = _SAFE_NAME_RE.sub("_", value.strip().lower())[:max_len].strip("_")
+    return cleaned or "unknown"
+
+
+def _is_valid_country_code(code: str) -> bool:
+    return bool(code) and bool(_COUNTRY_RE.match(code))
+
+
+def _sort_key(config: Config):
+    # Fastest first; configs without latency go last (stable sort).
+    return (config.latency_ms is None, config.latency_ms or 0)
 
 
 class ConfigExporter:
@@ -25,24 +51,38 @@ class ConfigExporter:
     def export(self, configs: List[Config]) -> None:
         os.makedirs(self.output_dir, exist_ok=True)
 
+        if not configs:
+            logger.warning("No healthy configs to export, keeping previous outputs")
+            self._write_stats([], {}, {})
+            return
+
+        # Fastest configs first so mix/sub/lite outputs are the best ones.
+        configs = sorted(configs, key=_sort_key)
+
         by_protocol: Dict[str, List[Config]] = defaultdict(list)
         by_country: Dict[str, List[Config]] = defaultdict(list)
         by_network: Dict[str, List[Config]] = defaultdict(list)
 
         for config in configs:
-            by_protocol[str(config.protocol)].append(config)
-            by_country[config.country_code].append(config)
-            by_network[config.network].append(config)
+            by_protocol[_sanitize_filename_component(str(config.protocol))].append(
+                config
+            )
+            if _is_valid_country_code(config.country_code):
+                by_country[config.country_code].append(config)
+            by_network[
+                _sanitize_filename_component(config.network or "unknown")
+            ].append(config)
 
         for protocol, group in by_protocol.items():
             self._write_group(f"{protocol}.txt", group)
 
         for country_code, group in by_country.items():
-            if country_code and country_code != "UN":
-                self._write_group(f"country_{country_code}.txt", group)
+            self._write_group(f"country_{country_code}.txt", group)
 
         for network, group in by_network.items():
             self._write_group(f"network_{network}.txt", group)
+
+        self._cleanup_stale_files(set(by_country), set(by_network))
 
         self._write_group("mix.txt", configs)
         self._write_subscription("mix_sub.txt", configs)
@@ -51,23 +91,43 @@ class ConfigExporter:
 
         logger.info("Exported %d configs to %s", len(configs), self.output_dir)
 
+    def _cleanup_stale_files(self, countries: set, networks: set) -> None:
+        """Remove country_/network_ files from previous runs that are now empty."""
+        for path in glob.glob(os.path.join(self.output_dir, "country_*.txt")):
+            code = os.path.basename(path)[len("country_") : -len(".txt")]
+            if code not in countries:
+                try:
+                    os.remove(path)
+                except OSError:
+                    pass
+        for path in glob.glob(os.path.join(self.output_dir, "network_*.txt")):
+            name = os.path.basename(path)[len("network_") : -len(".txt")]
+            if name not in networks:
+                try:
+                    os.remove(path)
+                except OSError:
+                    pass
+
     def _write_group(self, filename: str, configs: List[Config]) -> None:
+        # Defense in depth: never allow path separators even if caller forgets.
+        filename = os.path.basename(filename)
         path = os.path.join(self.output_dir, filename)
         content = "\n".join(c.raw for c in configs)
         self._atomic_write(path, content)
 
     def _write_subscription(self, filename: str, configs: List[Config]) -> None:
+        filename = os.path.basename(filename)
         path = os.path.join(self.output_dir, filename)
         joined = "\n".join(c.raw for c in configs)
         self._atomic_write(path, encode_base64(joined))
 
     def _write_lite_mix(self, configs: List[Config]) -> None:
-        """Write a lite version of mix with max N configs."""
+        """Write a lite version of mix with max N fastest configs."""
         if self.max_configs <= 0:
             logger.info("MAX_CONFIGS_PER_OUTPUT is 0, skipping lite mix")
             return
 
-        lite_configs = configs[:self.max_configs]
+        lite_configs = configs[: self.max_configs]
         self._write_group("lite_mix.txt", lite_configs)
         self._write_subscription("lite_mix_sub.txt", lite_configs)
         logger.info(
@@ -95,7 +155,7 @@ class ConfigExporter:
     def _avg_latency(configs: List[Config]) -> float:
         latencies = [c.latency_ms for c in configs if c.latency_ms is not None]
         if not latencies:
-           return 0.0
+            return 0.0
         return round(sum(latencies) / len(latencies), 1)
 
     @staticmethod
@@ -103,4 +163,9 @@ class ConfigExporter:
         tmp_path = f"{path}.tmp"
         with open(tmp_path, "w", encoding="utf-8") as f:
             f.write(content)
+            f.flush()
+            try:
+                os.fsync(f.fileno())
+            except OSError:
+                pass
         os.replace(tmp_path, path)

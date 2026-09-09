@@ -24,6 +24,12 @@ def main() -> None:
         retries=settings.ping_retries,
         threshold_ms=settings.latency_threshold_ms,
         max_workers=settings.max_workers,
+        xray_path=settings.xray_path,
+        test_url=settings.test_url,
+        xray_startup_delay=settings.xray_startup_delay,
+        tcp_filter_limit=settings.tcp_filter_limit,
+        tcp_filter_workers=settings.tcp_filter_workers,
+        tcp_filter_timeout=settings.tcp_filter_timeout,
     )
     geoip = GeoIPResolver(
         enabled=settings.geoip_enabled, cache_ttl_seconds=settings.geoip_cache_ttl_seconds

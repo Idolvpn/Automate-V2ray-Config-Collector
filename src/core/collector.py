@@ -32,10 +32,22 @@ class Collector:
 
     def run(self) -> List[Config]:
         raw_lines = self._fetch_all()
+        if not raw_lines:
+            logger.warning("No raw lines fetched, skipping parse/test/export")
+            self.exporter.export([])
+            return []
         configs = self._parse_all(raw_lines)
+        if not configs:
+            logger.warning("No valid configs parsed, skipping test/export")
+            self.exporter.export([])
+            return []
         configs = deduplicate(configs)
 
         healthy = self.tester.test_all(configs)
+        if not healthy:
+            logger.warning("No healthy configs found, keeping previous outputs")
+            self.exporter.export([])
+            return []
         healthy = self._tag_countries(healthy)
 
         self.exporter.export(healthy)
@@ -47,12 +59,14 @@ class Collector:
 
         raw_results = self.fetcher.fetch_raw_sources(RAW_SOURCES)
         for url, configs in raw_results.items():
+            logger.info("Source %s: %d configs", url, len(configs))
             lines.extend((line, url) for line in configs)
 
         channel_results = self.fetcher.fetch_telegram_channels(
             TELEGRAM_CHANNELS, self.messages_per_channel
         )
         for channel, configs in channel_results.items():
+            logger.info("Channel tg:%s: %d configs", channel, len(configs))
             lines.extend((line, f"tg:{channel}") for line in configs)
 
         logger.info("Fetched %d raw config lines from %d sources", len(lines), len(RAW_SOURCES) + len(TELEGRAM_CHANNELS))
