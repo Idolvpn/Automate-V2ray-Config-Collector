@@ -4,6 +4,17 @@ on:
   schedule:
     - cron: "0 */2 * * *"
   workflow_dispatch: {}
+  # Auto-run right after a code push so fixes take effect immediately.
+  # The paths filter is the anti-loop guard: the bot's own
+  # "chore: update configs" commits only touch configs/, which is NOT
+  # listed here, so they never retrigger this workflow.
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "requirements.txt"
+      - "requirements-dev.txt"
+      - ".github/workflows/collector.yml"
 
 permissions:
   contents: write
