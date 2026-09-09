@@ -103,6 +103,8 @@ def test_exporter_sorts_stale_and_empty(tmp_path):
     assert len((tmp_path / "lite_mix.txt").read_text().splitlines()) == 1
     stats = json.loads((tmp_path / "stats.json").read_text())
     assert stats["total"] == 2 and "updated_at" in stats and stats["stale"] is False
+    assert "country_files" in stats and "protocol_files" in stats
+    assert "network_files" in stats and "country_min_configs" in stats
     # tiny countries skipped
     exp2 = ConfigExporter(output_dir=d)
     exp2.export([_c("3.3.3.3", 10, "FR")])

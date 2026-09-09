@@ -58,7 +58,7 @@ class ConfigExporter:
 
         if not configs:
             logger.warning("No healthy configs to export, keeping previous outputs")
-            self._write_stats([], {}, {}, stale=True)
+            self._write_stats([], {}, {}, {}, stale=True)
             return
 
         # Fastest configs first so mix/sub/lite outputs are the best ones.
@@ -104,7 +104,14 @@ class ConfigExporter:
         self._write_group("mix.txt", configs)
         self._write_subscription("mix_sub.txt", configs)
         self._write_lite_mix(configs)
-        self._write_stats(configs, by_protocol, by_country, stale=False)
+        self._write_stats(
+            configs,
+            by_protocol,
+            by_country,
+            by_network,
+            written_countries,
+            stale=False,
+        )
 
         logger.info("Exported %d configs to %s", len(configs), self.output_dir)
 
@@ -166,8 +173,11 @@ class ConfigExporter:
         configs: List[Config],
         by_protocol: Dict[str, List[Config]],
         by_country: Dict[str, List[Config]],
+        by_network: Dict[str, List[Config]],
+        written_countries: set | None = None,
         stale: bool = False,
     ) -> None:
+        written_countries = written_countries or set()
         stats = {
             "total": len(configs),
             "by_protocol": {k: len(v) for k, v in by_protocol.items()},
@@ -175,6 +185,16 @@ class ConfigExporter:
             "avg_latency_ms": self._avg_latency(configs),
             "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
             "stale": stale,
+            # Self-describing file inventory: a 404 on a group file is
+            # expected (not broken) when its key is absent here.
+            # by_country counts ALL healthy configs per country, while
+            # country_files only lists files actually written (countries
+            # with fewer than country_min_configs are counted but get
+            # no file to avoid repo bloat).
+            "country_min_configs": self.MIN_CONFIGS_PER_COUNTRY_FILE,
+            "protocol_files": sorted(f"{p}.txt" for p in by_protocol),
+            "country_files": sorted(f"country_{c}.txt" for c in written_countries),
+            "network_files": sorted(f"network_{n}.txt" for n in by_network),
         }
         path = os.path.join(self.output_dir, "stats.json")
         self._atomic_write(path, json.dumps(stats, indent=2, ensure_ascii=False))

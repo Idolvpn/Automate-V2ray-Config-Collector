@@ -65,6 +65,8 @@ https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/c
 | 🟣 **Shadowsocks** | [ss.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt) |
 | 🔷 **Reality** | [reality.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt) |
 
+> **Note:** a 404 on any file above is expected, not broken — group files are only published when that run has healthy configs of that type. Check \stats.json\ (\protocol_files\, \country_files\, etwork_files\) for the exact file list of the latest run.
+
 
 ---
 
@@ -80,7 +82,7 @@ Country-specific configuration files are generated automatically according to de
 | 🇹🇷 **Turkey** | [country_TR.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_TR.txt) |
 | 🇮🇷 **Iran** | [country_IR.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_IR.txt) |
 
-> Additional country files may appear automatically depending on collected configurations.
+> Additional country files may appear automatically depending on collected configurations. Only countries with at least 3 healthy configs get a file (see \country_min_configs\ and \country_files\ in \stats.json\); a 404 means that country had too few healthy configs in the latest run.
 
 ---
 
@@ -356,7 +358,13 @@ Example:
   "total": 1234,
   "by_protocol": {},
   "by_country": {},
-  "avg_latency_ms": 0
+  "avg_latency_ms": 0,
+  "updated_at": "2026-09-09T14:59:15+00:00",
+  "stale": false,
+  "country_min_configs": 3,
+  "protocol_files": ["trojan.txt", "vless.txt"],
+  "country_files": ["country_CA.txt", "country_US.txt"],
+  "network_files": ["network_ws.txt"]
 }
 ```
 
@@ -818,6 +826,8 @@ https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/c
 | 🟣 Shadowsocks | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/ss.txt) |
 | 🔷 Reality | [مشاهده](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/reality.txt) |
 
+
+> **توجه:** خطای 404 روی هر فایل بالا طبیعی است و به معنی خرابی نیست — فایل هر گروه فقط وقتی منتشر می‌شود که در آن ران کانفیگ سالم از آن نوع وجود داشته باشد. فهرست دقیق فایل‌های آخرین ران در \stats.json\ (فیلدهای \protocol_files\، \country_files\، etwork_files\) هست.
 ---
 
 # 🌍 خروجی کشورهای منتخب
@@ -830,7 +840,7 @@ https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/c
 | 🇹🇷 ترکیه | [country_TR.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_TR.txt) |
 | 🇮🇷 ایران | [country_IR.txt](https://raw.githubusercontent.com/Idolvpn/Automate-V2ray-Config-Collector/main/configs/country_IR.txt) |
 
-> کشورهای دیگر نیز در صورت وجود کانفیگ سالم به‌صورت خودکار به خروجی‌ها اضافه می‌شوند.
+> کشورهای دیگر نیز در صورت وجود کانفیگ سالم به‌صورت خودکار به خروجی‌ها اضافه می‌شوند. فقط کشورهای با حداقل ۳ کانفیگ سالم فایل می‌گیرند (فیلدهای \country_min_configs\ و \country_files\ در \stats.json\)؛ خطای 404 یعنی آن کشور در آخرین ران کانفیگ سالم کافی نداشته است.
 
 ---
 
