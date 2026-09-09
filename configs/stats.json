@@ -1,20 +1,15 @@
 {
-  "total": 62,
+  "total": 6,
   "by_protocol": {
-    "ss": 7,
-    "vmess": 19,
-    "reality": 2,
-    "vless": 20,
-    "trojan": 14
+    "vless": 3,
+    "trojan": 2,
+    "vmess": 1
   },
   "by_country": {
-    "US": 34,
-    "CA": 21,
-    "HR": 2,
-    "NL": 2,
-    "GB": 1,
-    "CZ": 1,
-    "AT": 1
+    "CA": 2,
+    "HR": 1,
+    "US": 2,
+    "NL": 1
   },
-  "avg_latency_ms": 1210.1
+  "avg_latency_ms": 1264.7
 }
