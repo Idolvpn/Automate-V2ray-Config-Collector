@@ -1,2 +1,0 @@
-vless://bca46025-bf43-40c0-895b-054a6fbcfd32@172.235.38.85:42942?security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&sid=a56d7d8da977f860&pbk=JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU&encryption=none#US%20%7C%20172.235.38.85%20%7C%2047ms
-vless://abd1c29a-94cb-4648-8d1e-5baae9d2a807@172.236.233.59:443?&security=reality&flow=xtls-rprx-vision&pbk=oTMDLwY2hloBfA7ShzVsrFhjL4QXR6mY32B93rMLxV0&sid=525e0ffc773f48ba&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#US%20%7C%20172.236.233.59%20%7C%2066ms
