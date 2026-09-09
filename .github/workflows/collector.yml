@@ -29,8 +29,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install xray-core
+        env:
+          XRAY_VERSION: v26.3.27
         run: |
-          XRAY_VERSION=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases/latest | grep '"tag_name"' | cut -d'"' -f4)
           echo "Installing $XRAY_VERSION"
           curl -sL "https://github.com/XTLS/Xray-core/releases/download/${XRAY_VERSION}/Xray-linux-64.zip" -o /tmp/xray.zip
           unzip -o /tmp/xray.zip -d /tmp/xray

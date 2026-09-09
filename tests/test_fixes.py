@@ -132,6 +132,32 @@ def test_exporter_no_colon_filename(tmp_path):
     assert not any(":" in f for f in os.listdir(tmp_path))
 
 
+def test_exporter_cleans_stale_protocol_files(tmp_path):
+    from src.core.exporter import ConfigExporter
+
+    (tmp_path / "ss.txt").write_text("stale")
+    (tmp_path / "reality.txt").write_text("stale")
+    c = Config(
+        raw="vless://u@1.1.1.1:443#x",
+        protocol=Protocol.VLESS,
+        host="1.1.1.1",
+        port=443,
+    )
+    c.latency_ms = 10
+    c.country_code = "US"
+    ConfigExporter(output_dir=str(tmp_path)).export([c])
+    assert (tmp_path / "vless.txt").exists()
+    assert not (tmp_path / "ss.txt").exists()
+    assert not (tmp_path / "reality.txt").exists()
+
+
+def test_decode_base64_rejects_non_alphabet():
+    from src.utils.encoding import decode_base64
+
+    assert decode_base64("<html>not base64!</html>") is None
+    assert decode_base64("") is None
+
+
 def test_tester_di_params():
     t = ConfigTester(
         timeout=5,

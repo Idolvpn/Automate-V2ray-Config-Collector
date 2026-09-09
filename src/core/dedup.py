@@ -9,10 +9,8 @@ logger = setup_logger(__name__)
 def deduplicate(configs: Iterable[Config]) -> List[Config]:
     """Remove duplicate configs by identity (protocol+host+port+credentials).
 
-    None of the three reference projects this was built from de-duplicate
-    across runs or across sources -- files just grow with repeated
-    entries every cycle. This keeps the first-seen config per identity
-    and drops the rest.
+    Keeps the first-seen config per identity and drops the rest, so the
+    same server collected from several sources is published only once.
     """
     seen: dict[str, Config] = {}
     total = 0

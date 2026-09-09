@@ -144,21 +144,24 @@ class ConfigTester:
         )
         return top
 
-    def _test_single_config(self, config: Config) -> Optional[int]:
+    def _test_single_config(self, config: Config) -> tuple[Optional[int], str]:
         """
         Stage 2: Real health check using xray-core.
-        Returns latency in ms if the proxy can actually forward HTTP traffic.
+        Returns (latency_ms or None, reason). Reason is "ok" on success,
+        otherwise one of: unsupported, no_xray, xray_start, request_error,
+        bad_status, body_mismatch.
         """
         xray_cfg = build_xray_config(config, 0)  # port patched below
         if not xray_cfg:
             # Unsupported protocol (e.g. wireguard): skip without spawning xray.
-            return None
+            return None, "unsupported"
 
         if not self._xray_available():
-            return None
+            return None, "no_xray"
 
         cfg_path = ""
         proc = None
+        last_reason = "xray_start"
         # Retry with a fresh port if xray fails to bind (TOCTOU race on
         # find_free_port under high concurrency).
         for _ in range(3):
@@ -183,6 +186,7 @@ class ConfigTester:
                     proc = None
                     self._rm_file(cfg_path)
                     cfg_path = ""
+                    last_reason = "xray_start"
                     continue
 
                 start = time.perf_counter()
@@ -190,12 +194,15 @@ class ConfigTester:
                     "http": f"socks5://127.0.0.1:{local_port}",
                     "https": f"socks5://127.0.0.1:{local_port}",
                 }
-                resp = requests.get(
-                    self.test_url,
-                    proxies=proxies,
-                    timeout=self.timeout,
-                    allow_redirects=False,
-                )
+                try:
+                    resp = requests.get(
+                        self.test_url,
+                        proxies=proxies,
+                        timeout=self.timeout,
+                        allow_redirects=False,
+                    )
+                except Exception:  # noqa: BLE001 - timeout / proxy error
+                    return None, "request_error"
                 elapsed = int((time.perf_counter() - start) * 1000)
 
                 if resp.status_code in (200, 204, 301, 302):
@@ -206,18 +213,18 @@ class ConfigTester:
                         try:
                             body = (resp.content or b"")[:2048].lower()
                         except Exception:  # noqa: BLE001
-                            return None
+                            return None, "body_mismatch"
                         if b"success" not in body:
-                            return None
-                    return elapsed
-                return None
+                            return None, "body_mismatch"
+                    return elapsed, "ok"
+                return None, "bad_status"
 
             except FileNotFoundError:
                 # Xray binary disappeared between check and exec.
                 self._xray_available()
-                return None
+                return None, "no_xray"
             except Exception:
-                return None
+                return None, "request_error"
             finally:
                 if proc:
                     self._stop_proc(proc)
@@ -225,7 +232,7 @@ class ConfigTester:
                 if cfg_path:
                     self._rm_file(cfg_path)
                     cfg_path = ""
-        return None
+        return None, last_reason
 
     @staticmethod
     def _stop_proc(proc: "subprocess.Popen") -> None:
@@ -266,6 +273,7 @@ class ConfigTester:
         healthy: List[Config] = []
         done = 0
         total = len(candidates)
+        reject_reasons: dict[str, int] = {}
         with ThreadPoolExecutor(max_workers=self.max_workers) as pool:
             future_to_config = {
                 pool.submit(self._test_single_config, c): c for c in candidates
@@ -273,19 +281,23 @@ class ConfigTester:
             for future in as_completed(future_to_config):
                 config = future_to_config[future]
                 try:
-                    latency = future.result()
+                    latency, reason = future.result()
                 except Exception:  # noqa: BLE001
-                    latency = None
+                    latency, reason = None, "request_error"
 
                 if latency is None and self.retries > 0:
                     for _ in range(self.retries):
-                        latency = self._test_single_config(config)
+                        latency, reason = self._test_single_config(config)
                         if latency is not None:
                             break
 
                 if latency is not None and latency <= self.threshold_ms:
                     config.latency_ms = latency
                     healthy.append(config)
+                else:
+                    if latency is not None:
+                        reason = "over_threshold"
+                    reject_reasons[reason] = reject_reasons.get(reason, 0) + 1
 
                 done += 1
                 if done % 50 == 0 or done == total:
@@ -302,4 +314,9 @@ class ConfigTester:
             len(candidates),
             self.threshold_ms,
         )
+        if reject_reasons:
+            breakdown = ", ".join(
+                f"{k}={v}" for k, v in sorted(reject_reasons.items())
+            )
+            logger.info("Rejection breakdown: %s", breakdown)
         return healthy

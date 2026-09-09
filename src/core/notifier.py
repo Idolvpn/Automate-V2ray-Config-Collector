@@ -1,3 +1,4 @@
+import html
 from typing import List, Optional
 
 import requests
@@ -47,7 +48,10 @@ class TelegramNotifier:
         for config in configs:
             protocols[str(config.protocol)] = protocols.get(str(config.protocol), 0) + 1
 
-        breakdown = "\n".join(f"  {proto}: {count}" for proto, count in sorted(protocols.items()))
+        breakdown = "\n".join(
+            f"  {html.escape(proto)}: {count}"
+            for proto, count in sorted(protocols.items())
+        )
         return (
             f"<b>V2Ray Collector run complete</b>\n"
             f"Total healthy configs: {len(configs)}\n"

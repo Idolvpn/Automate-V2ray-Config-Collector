@@ -97,7 +97,9 @@ class ConfigExporter:
         for network, group in by_network.items():
             self._write_group(f"network_{network}.txt", group)
 
-        self._cleanup_stale_files(written_countries, set(by_network))
+        self._cleanup_stale_files(
+            set(by_protocol), written_countries, set(by_network)
+        )
 
         self._write_group("mix.txt", configs)
         self._write_subscription("mix_sub.txt", configs)
@@ -106,8 +108,16 @@ class ConfigExporter:
 
         logger.info("Exported %d configs to %s", len(configs), self.output_dir)
 
-    def _cleanup_stale_files(self, countries: set, networks: set) -> None:
-        """Remove country_/network_ files from previous runs that are now empty."""
+    def _cleanup_stale_files(
+        self, protocols: set, countries: set, networks: set
+    ) -> None:
+        """Remove group files from previous runs that are now empty."""
+        for proto in ("vless", "vmess", "trojan", "ss", "reality", "wireguard"):
+            if proto not in protocols:
+                try:
+                    os.remove(os.path.join(self.output_dir, f"{proto}.txt"))
+                except OSError:
+                    pass
         for path in glob.glob(os.path.join(self.output_dir, "country_*.txt")):
             code = os.path.basename(path)[len("country_") : -len(".txt")]
             if code not in countries:
