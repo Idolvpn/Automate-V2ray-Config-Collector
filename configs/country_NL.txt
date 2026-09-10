@@ -1,3 +1,0 @@
-trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#NL%20%7C%20188.42.145.180%20%7C%20501ms
-trojan://humanity@188.42.145.180:443?alpn=http/1.1&fp=chrome&host=www.volumeroot.com&path=/assignment&sni=www.volumeroot.com&type=ws#NL%20%7C%20188.42.145.180%20%7C%20524ms
-trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&host=www.volumeroot.com&fp=chrome&type=ws&sni=www.volumeroot.com#NL%20%7C%20188.42.145.180%20%7C%20550ms
