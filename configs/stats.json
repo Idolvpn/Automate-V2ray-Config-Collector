@@ -1,31 +1,31 @@
 {
-  "total": 66,
+  "total": 32,
   "by_protocol": {
-    "ss": 16,
-    "vmess": 19,
-    "reality": 22,
-    "vless": 8,
-    "trojan": 1
+    "ss": 9,
+    "vless": 9,
+    "trojan": 14
   },
   "by_country": {
-    "US": 66
+    "US": 20,
+    "CA": 9,
+    "SC": 1,
+    "NL": 1,
+    "AT": 1
   },
-  "avg_latency_ms": 251.1,
-  "updated_at": "2026-09-10T19:01:06.365495+00:00",
+  "avg_latency_ms": 825.6,
+  "updated_at": "2026-09-10T22:20:12.074785+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
-    "reality.txt",
     "ss.txt",
     "trojan.txt",
-    "vless.txt",
-    "vmess.txt"
+    "vless.txt"
   ],
   "country_files": [
+    "country_CA.txt",
     "country_US.txt"
   ],
   "network_files": [
-    "network_raw.txt",
     "network_tcp.txt",
     "network_ws.txt"
   ]

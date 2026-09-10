@@ -1,1 +1,14 @@
-trojan://humanity@5.78.92.27:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%205.78.92.27%20%7C%20755ms
+trojan://humanity@8.47.69.0:443?alpn=http/1.1&host=www.pleadcourt.org&path=/assignment&sni=www.pleadcourt.org&type=ws#US%20%7C%208.47.69.0%20%7C%20497ms
+trojan://humanity@104.16.174.12:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.12%20%7C%20504ms
+trojan://humanity@45.130.125.160:443?host=www.calmlunch.com&path=/assignment&sni=www.calmlunch.com&type=ws#SC%20%7C%2045.130.125.160%20%7C%20516ms
+trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&host=www.pleadcourt.org&fp=chrome&type=ws&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20520ms
+trojan://humanity@172.67.149.60:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20172.67.149.60%20%7C%20521ms
+trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20563ms
+trojan://humanity@104.16.174.34:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.34%20%7C%20568ms
+trojan://humanity@172.67.149.60:443?security=tls&sni=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&host=www.ignitelimit.com&path=/assignment#CA%20%7C%20172.67.149.60%20%7C%20571ms
+trojan://humanity@104.17.111.1:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.17.111.1%20%7C%20580ms
+trojan://humanity@130.250.137.171:443?security=tls&sni=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&host=www.ignitelimit.com&path=/assignment#US%20%7C%20130.250.137.171%20%7C%20581ms
+trojan://humanity@130.250.137.171:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#US%20%7C%20130.250.137.171%20%7C%20588ms
+trojan://humanity@188.42.145.180:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.volumeroot.com&fp=chrome&type=ws&allowInsecure=0&sni=www.volumeroot.com#NL%20%7C%20188.42.145.180%20%7C%201404ms
+trojan://humanity@212.183.88.136:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#AT%20%7C%20212.183.88.136%20%7C%202528ms
+trojan://humanity@104.18.9.83:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20104.18.9.83%20%7C%202581ms
