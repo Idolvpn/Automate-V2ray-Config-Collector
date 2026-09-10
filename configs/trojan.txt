@@ -1,0 +1,1 @@
+trojan://humanity@5.78.92.27:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%205.78.92.27%20%7C%20755ms
