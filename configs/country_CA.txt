@@ -1,5 +1,0 @@
-trojan://humanity@104.16.72.50:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20104.16.72.50%20%7C%20407ms
-trojan://humanity@172.64.152.23:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com&note=@FreeOnlineVPN#CA%20%7C%20172.64.152.23%20%7C%20423ms
-trojan://humanity@104.18.9.83:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0#CA%20%7C%20104.18.9.83%20%7C%20596ms
-trojan://humanity@104.16.174.44:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.44%20%7C%20836ms
-vless://542fd687-5160-4f80-9223-56678567dd29@104.17.73.206:8443?encryption=none&type=ws&host=8.sahanwickramasinghe.me&path=%2F&security=tls&fp=chrome&sni=8.sahanwickramasinghe.me#CA%20%7C%20104.17.73.206%20%7C%201462ms
