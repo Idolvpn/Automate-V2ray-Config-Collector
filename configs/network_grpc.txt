@@ -1,1 +1,0 @@
-vless://12af43c3-84b4-4248-878b-b75f35835487@104.16.72.251:2096?mode=gun&security=tls&encryption=none&insecure=0&type=grpc&serviceName=network&allowInsecure=0&sni=decdn.ramlike.ir#CA%20%7C%20104.16.72.251%20%7C%20363ms

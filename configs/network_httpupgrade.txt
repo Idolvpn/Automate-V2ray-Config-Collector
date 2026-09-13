@@ -1,0 +1,2 @@
+vless://4fea1f87-e983-4111-8afc-dccb43b3fd38@188.114.97.8:2087?path=/random&security=tls&encryption=none&insecure=0&host=kurdnet.arianetmili.xyz&fp=chrome&type=httpupgrade&allowInsecure=0&sni=kurdnet.arianetmili.xyz#CA%20%7C%20188.114.97.8%20%7C%20742ms
+vless://8663a9b2-2b3c-4bfd-8ffd-26436822346b@188.114.99.7:2087?alpn=h2,http/1.1,h3&encryption=none&fp=chrome&host=kurdnet.arianetmili.xyz&path=/random&security=tls&sni=kurdnet.arianetmili.xyz&type=httpupgrade#US%20%7C%20188.114.99.7%20%7C%20808ms
