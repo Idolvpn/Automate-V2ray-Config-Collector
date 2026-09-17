@@ -1,3 +1,0 @@
-vless://246b101b-4e4a-451f-8e9c-5e8d3b64b4ef@cdn.snobvpn.online:80/?type=ws&encryption=none&flow=&path=%2Fsnob-ws#UN%20%7C%20cdn.snobvpn.online%20%7C%20418ms
-trojan://humanity@www.calmlunch.com:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#UN%20%7C%20www.calmlunch.com%20%7C%20452ms
-vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@support.zoom.us:80?encryption=none&type=ws&host=u.srilankangrill.online&headerType=none&path=%2F#UN%20%7C%20support.zoom.us%20%7C%201022ms
