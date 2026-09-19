@@ -1,3 +1,0 @@
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?type=ws&host=free-claude-api.asshole.us.ci&path=/#UN%20%7C%20www.whatismyip.net%20%7C%2093ms
-trojan://humanity@www.ignitelimit.com:443?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.ignitelimit.com#UN%20%7C%20www.ignitelimit.com%20%7C%20458ms
-trojan://humanity@www.ignitelimit.com:443?security=tls&sni=www.ignitelimit.com&type=ws&path=/assignment&Host=www.ignitelimit.com#UN%20%7C%20www.ignitelimit.com%20%7C%20487ms
