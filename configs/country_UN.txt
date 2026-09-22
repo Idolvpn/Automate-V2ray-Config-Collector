@@ -1,3 +1,0 @@
-vless://13011288-2737-489e-adf0-9314cd7dc4bd@de.huge-b.com:8880?encryption=none&type=httpupgrade&path=/@Artemis_Vpn&host=de.huge-b.com&security=none#UN%20%7C%20de.huge-b.com%20%7C%20458ms
-vless://e589de2a-af14-4f42-b18a-d9f8bdaaadc4@do.huge-b.com:8880?encryption=none&type=httpupgrade&path=/@Artemis_Vpn&host=do.huge-b.com&security=none#UN%20%7C%20do.huge-b.com%20%7C%20519ms
-vless://c01ead94-927a-4a44-a0a3-7b6a8013935f@de.huge-b.com:2053?encryption=none&type=ws&path=%2F%40Artemis_Vpn&host=de.huge-b.com&security=tls&sni=de.huge-b.com&fp=chrome#UN%20%7C%20de.huge-b.com%20%7C%20707ms
