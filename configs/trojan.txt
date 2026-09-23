@@ -1,1 +1,5 @@
-trojan://humanity@104.18.152.208:443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#CA%20%7C%20104.18.152.208%20%7C%20893ms
+trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumerOot.coM.&fp=chrome&type=ws&allowInsecure=0&sni=wWw.Volumeroot.cOm.#NL%20%7C%20188.42.145.180%20%7C%201019ms
+trojan://humanity@104.18.152.229:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.18.152.229%20%7C%201636ms
+trojan://humanity@104.16.174.12:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.12%20%7C%201964ms
+trojan://humanity@104.16.174.14:443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#CA%20%7C%20104.16.174.14%20%7C%202696ms
+trojan://humanity@172.67.149.60:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20172.67.149.60%20%7C%203068ms
