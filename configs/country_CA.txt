@@ -1,9 +1,0 @@
-vless://1d54a125-8f1e-46bb-9a23-0ecf4ac92db8@104.21.8.201:2096?path=/fqg7aacd8s&security=tls&encryption=none&insecure=0&host=cdn-ca.skyvora.app&fp=chrome&type=ws&allowInsecure=0&sni=cdn-ca.skyvora.app#CA%20%7C%20104.21.8.201%20%7C%20156ms
-trojan://humanity@188.114.98.0:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20188.114.98.0%20%7C%20314ms
-trojan://humanity@172.67.231.254:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20172.67.231.254%20%7C%20341ms
-trojan://humanity@172.64.152.23:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com&note=@FreeOnlineVPN#CA%20%7C%20172.64.152.23%20%7C%20363ms
-trojan://humanity@172.64.152.23:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20172.64.152.23%20%7C%20403ms
-trojan://humanity@104.16.174.12:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.12%20%7C%20812ms
-trojan://humanity@104.18.152.108:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.18.152.108%20%7C%201181ms
-trojan://humanity@104.16.174.121:443?path=//assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.121%20%7C%201261ms
-trojan://humanity@104.16.174.34:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.34%20%7C%201320ms
