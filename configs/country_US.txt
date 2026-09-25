@@ -1,4 +1,3 @@
-trojan://humanity@8.47.69.0:443?security=tls&sni=www.pleadcourt.org&alpn=http%2F1.1&fp=chrome&type=ws&host=www.pleadcourt.org&path=%2Fassignment#US%20%7C%208.47.69.0%20%7C%20359ms
-vless://77dc177b-79d9-49ac-92e1-2f1011faa5e3@103.31.4.10:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=f871a986.69lover.site&type=ws&headerType=none&host=f871a986.69lover.site&path=%2Fapi%2Fv2%2Fb8ee4ba356df307c%2Fstream#US%20%7C%20103.31.4.10%20%7C%201005ms
-vless://a57223c7-3581-4fec-9bc4-ad5c30900efb@170.114.46.6:80/?type=ws&encryption=none&flow=&host=free-server.techsonic.dev&path=/free-server.techsonic.dev#US%20%7C%20170.114.46.6%20%7C%201013ms
-trojan://zO79_fE_wEIhphCLNOo3mQ@8.6.112.0:443?security=tls&sni=cf.lunex-vpn.xyz&alpn=h3%2C+h2%2C+http%2F1.1&type=ws&host=cf.lunex-vpn.xyz&path=%2FLunex&fp=android#US%20%7C%208.6.112.0%20%7C%202412ms
+trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20560ms
+trojan://humanity@8.47.69.0:443?security=tls&sni=www.pleadcourt.org&type=ws&host=www.pleadcourt.org&path=/assignment#US%20%7C%208.47.69.0%20%7C%201039ms
+trojan://humanity@130.250.137.171:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#US%20%7C%20130.250.137.171%20%7C%202299ms
