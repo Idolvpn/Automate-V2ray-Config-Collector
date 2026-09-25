@@ -1,1 +1,0 @@
-vless://AstroVPN_official@91.193.58.201:2087?mode=gun&security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=Canada&allowInsecure=0&sni=vp.accuratenetworkchecker.ir#GB%20%7C%2091.193.58.201%20%7C%20532ms
