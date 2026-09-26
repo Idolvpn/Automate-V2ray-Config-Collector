@@ -1,0 +1,4 @@
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.whatismyip.net:2095?encryption=none&type=ws&path=/&host=llm-api.sofurry.dpdns.org&sni=llm-api.sofurry.dpdns.org#UN%20%7C%20www.whatismyip.net%20%7C%20314ms
+trojan://humanity@www.speedtest.net:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#UN%20%7C%20www.speedtest.net%20%7C%20442ms
+vless://b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df@freesocks.work:2052?encryption=none&security=none&type=ws&host=uwu.blueknightnet.qzz.io&path=%2F%40BlueKnight_net--%40BlueKnight_net#UN%20%7C%20freesocks.work%20%7C%20580ms
+trojan://95xjvytiw5l1jln5@uwu.blueknightnet.qzz.io:2087?security=tls&sni=uwu.dianaw.cc.cd&fp=chrome&alpn=h2&type=ws&host=uwu.dianaw.cc.cd&path=%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net#UN%20%7C%20uwu.blueknightnet.qzz.io%20%7C%20998ms
