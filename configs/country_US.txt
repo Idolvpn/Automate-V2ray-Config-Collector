@@ -1,9 +1,0 @@
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#US%20%7C%20156.146.38.169%20%7C%2048ms
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#US%20%7C%20156.146.38.167%20%7C%2049ms
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.169:443#US%20%7C%20156.146.38.169%20%7C%20107ms
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.168:443#US%20%7C%20156.146.38.168%20%7C%20260ms
-trojan://humanity@165.215.250.14:443?path=//assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20165.215.250.14%20%7C%20483ms
-vless://XpnTeam-34@199.232.78.160:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.160%20%7C%201677ms
-vless://XpnTeam-33@199.232.78.170:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.170%20%7C%202283ms
-vless://%58pnTeam-33@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.160%20%7C%202528ms
-vless://XpnTeam-34@140.248.186.45:443?path=/&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20140.248.186.45%20%7C%203245ms
