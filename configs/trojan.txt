@@ -1,1 +1,0 @@
-trojan://humanity@104.16.174.6:443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#CA%20%7C%20104.16.174.6%20%7C%20616ms
