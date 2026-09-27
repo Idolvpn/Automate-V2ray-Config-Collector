@@ -1,14 +1,1 @@
-trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20458ms
-trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&host=www.pleadcourt.org&type=ws&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20535ms
-trojan://humanity@104.16.174.36:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.36%20%7C%20731ms
-trojan://humanity@104.16.174.34:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.34%20%7C%201019ms
-trojan://humanity@104.18.152.108:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.18.152.108%20%7C%201059ms
-trojan://humanity@188.114.97.6:443?security=tls&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#CA%20%7C%20188.114.97.6%20%7C%201555ms
-trojan://humanity@104.21.46.3:443?path=/assignment&security=tls&alpn=h3,h2,http/1.1&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.21.46.3%20%7C%201663ms
-trojan://humanity@104.19.229.21:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.19.229.21%20%7C%201781ms
-trojan://humanity@104.18.152.229:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.18.152.229%20%7C%201784ms
-trojan://humanity@104.18.152.233:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.18.152.233%20%7C%201785ms
-trojan://humanity@104.16.174.44:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.44%20%7C%201838ms
-trojan://humanity@104.16.174.12:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20104.16.174.12%20%7C%201845ms
-trojan://humanity@172.67.149.60:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#CA%20%7C%20172.67.149.60%20%7C%202095ms
-trojan://humanity@165.215.250.14:443?path=/assignment&security=tls&insecure=1&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=1&sni=www.ignitelimit.com#US%20%7C%20165.215.250.14%20%7C%202240ms
+trojan://humanity@104.16.174.6:443?security=tls&sni=www.ignitelimit.com&type=ws&host=www.ignitelimit.com&path=%2Fassignment#CA%20%7C%20104.16.174.6%20%7C%20616ms
