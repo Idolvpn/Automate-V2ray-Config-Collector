@@ -1,4 +1,4 @@
-vless://9e9fd625-e4d7-4944-ae7e-4145342fa5db@199.232.78.159:443?encryption=none&type=ws&security=tls&host=pannn1.global.ssl.fastly.net&sni=ssl.fastly.com&insecure=0&allowInsecure=0#US%20%7C%20199.232.78.159%20%7C%20645ms
-vless://38415950-f815-4ca8-94d0-6cbf22be7566@170.114.52.22:443?type=ws&encryption=none&path=%2Fcs&host=asia.csmasterofficial.store&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=asia.csmasterofficial.store#US%20%7C%20170.114.52.22%20%7C%201381ms
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@162.159.254.3:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=jp3.yohototo.top&path=/tyxyws#US%20%7C%20162.159.254.3%20%7C%201425ms
-vless://9e9fd625-e4d7-4944-ae7e-4145342fa5db@199.232.78.159:443?path=/?---TELEGRAM---TOOTFFARANGI&security=tls&encryption=none&insecure=0&host=pan2e.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%201831ms
+trojan://humanity@165.215.250.14:443?path=//assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20165.215.250.14%20%7C%20309ms
+trojan://humanity@165.215.250.14:443?path=/assignment&security=tls&insecure=1&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=1&sni=www.calmlunch.com#US%20%7C%20165.215.250.14%20%7C%20314ms
+trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20361ms
+trojan://humanity@45.205.0.6:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%2045.205.0.6%20%7C%20369ms
