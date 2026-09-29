@@ -5,4 +5,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxQjJDdjlWSWx1amo=@23.150.248.20:8388#US%20%7
 ss://aes-128-gcm:shadowsocks@156.146.38.170:443#US%20%7C%20156.146.38.170%20%7C%2052ms
 ss://aes-128-gcm:shadowsocks@156.146.38.169:443#US%20%7C%20156.146.38.169%20%7C%2056ms
 vless://1e6245c4-fb80-44fd-b354-c6b94a459203@38.180.243.154:443?&security=reality&flow=xtls-rprx-vision&pbk=-5fYyQrVTjiSxdsLpf6VzNaawYlZLqeU2_8ezyn3kBg&sid=eb26ce282d7ba399&fp=chrome&sni=www.apple.com&type=tcp&headerType=none&host=www.apple.com&path=%2F#US%20%7C%2038.180.243.154%20%7C%20175ms
-trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&host=www.pleadcourt.org&fp=chrome&type=ws&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20493ms
