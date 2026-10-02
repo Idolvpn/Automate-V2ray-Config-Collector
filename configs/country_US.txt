@@ -1,8 +1,4 @@
-trojan://humanity@165.215.250.14:443?path=//assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20165.215.250.14%20%7C%20305ms
-trojan://humanity@162.159.244.91:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20162.159.244.91%20%7C%20323ms
-trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20334ms
-trojan://humanity@8.47.69.0:443?security=tls&sni=www.pleadcourt.org&type=ws&host=www.pleadcourt.org&path=/assignment#US%20%7C%208.47.69.0%20%7C%20335ms
-trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20349ms
-trojan://humanity@8.47.69.0:443?security=tls&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#US%20%7C%208.47.69.0%20%7C%20363ms
-vless://36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66@199.232.78.159:443?path=/&security=tls&encryption=none&host=pannn1.global.ssl.fastly.net&type=ws&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%20880ms
-trojan://8GXLP3dEzm7T8wP5Jx0Ufg@199.107.164.105:443?path=/&security=tls&insecure=0&host=quictest.burncommunity.ru&fp=chrome&type=ws&allowInsecure=0&sni=quictest.burncommunity.ru#US%20%7C%20199.107.164.105%20%7C%202131ms
+trojan://humanity@8.47.69.0:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%201424ms
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@162.159.254.3:443?encryption=none&security=tls&sni=jp3.yohototo.top&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=jp3.yohototo.top&path=/tyxyws#US%20%7C%20162.159.254.3%20%7C%201531ms
+vless://bfb1ec97-a326-4cf3-adcf-d2a0e2dc49f8@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=pan2e.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%201557ms
+vless://36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=pannn1.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%203189ms
