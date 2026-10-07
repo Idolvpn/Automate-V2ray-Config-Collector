@@ -1,19 +1,17 @@
 {
-  "total": 29,
+  "total": 27,
   "by_protocol": {
-    "trojan": 14,
-    "vless": 15
+    "trojan": 9,
+    "vless": 18
   },
   "by_country": {
-    "CA": 14,
     "US": 5,
-    "AT": 2,
-    "SC": 1,
-    "UN": 5,
-    "NL": 2
+    "CA": 12,
+    "UN": 9,
+    "AT": 1
   },
-  "avg_latency_ms": 1493.0,
-  "updated_at": "2026-10-07T12:49:12.571649+00:00",
+  "avg_latency_ms": 1542.9,
+  "updated_at": "2026-10-07T19:48:06.217836+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
