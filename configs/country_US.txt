@@ -1,5 +1,0 @@
-trojan://humanity@8.47.69.0:443?security=tls&sni=www.pleadcourt.org&alpn=http/1.1&type=ws&host=www.pleadcourt.org&path=/assignment#US%20%7C%208.47.69.0%20%7C%20370ms
-vless://8453bdb7-dd58-419d-b002-9456dd2e73d7@199.232.78.159:443?security=tls&encryption=none&insecure=0&host=pan2e.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%20594ms
-trojan://humanity@165.215.250.14:443?allowInsecure=1&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#US%20%7C%20165.215.250.14%20%7C%20741ms
-vless://8453bdb7-dd58-419d-b002-9456dd2e73d7@199.232.78.159:443?path=%2F&security=tls&encryption=none&insecure=0&host=pan2e.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#US%20%7C%20199.232.78.159%20%7C%203637ms
-trojan://humanity@141.193.213.172:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20141.193.213.172%20%7C%203667ms
