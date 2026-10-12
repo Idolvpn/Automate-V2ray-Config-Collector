@@ -1,0 +1,1 @@
+vless://1f6e3cb6-fa3a-4ae4-95ae-31218438110c@178.130.47.207:43000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=178.130.47.207&fp=random&pbk=ZvqA2ahoKgy2MelXnu7ImC8pgbu4VoLz5U3EuW2AjQ8&sid=657a8281&type=tcp#US%20%7C%20178.130.47.207%20%7C%2085ms

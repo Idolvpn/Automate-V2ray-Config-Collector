@@ -1,3 +1,0 @@
-trojan://humanity@www.calmlunch.com:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#UN%20%7C%20www.calmlunch.com%20%7C%20544ms
-vless://9d672694-c146-422e-b3b5-3717a38a0fcc@fr.api-music-fa.com:2053/?type=ws&encryption=none&flow=&path=/api/voip/updates/static/fr2035&security=tls&alpn=http/1.1&fp=chrome#UN%20%7C%20fr.api-music-fa.com%20%7C%20656ms
-trojan://e309e031-991e-4656-9934-44d10deb8fd8@nimm.mpd.cc.cd:2053?security=tls&sni=nimm.mpd.cc.cd&type=ws&path=/0962&Host=nimm.mpd.cc.cd#UN%20%7C%20nimm.mpd.cc.cd%20%7C%20795ms
