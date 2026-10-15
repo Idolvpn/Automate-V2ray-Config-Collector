@@ -1,1 +1,0 @@
-vless://54d67aa6-fe54-4b8e-b3b6-62b7e043eb35@195.137.226.11:443?encryption=none&type=xhttp&security=tls&path=/&host=mobile.zandix.ir&mode=auto&extra={#DE%20%7C%20195.137.226.11%20%7C%20311ms
