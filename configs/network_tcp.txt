@@ -1,5 +1,5 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?security=tls&sni=learn.nextjobopportunityandclaimyouridealrole.com&type=tcp#US%20%7C%20216.152.155.54%20%7C%2032ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.176:443?security=tls&sni=blog.nextjobopportunityandclaimyouridealrole.com&type=tcp#US%20%7C%20216.152.155.176%20%7C%2035ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?security=tls&sni=courses.nextjobopportunityandclaimyouridealrole.com&type=tcp#US%20%7C%20216.152.155.23%20%7C%2040ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443?allowInsecure=1&sni=courses.nextjobopportunityandclaimyouridealrole.com#US%20%7C%20216.152.155.23%20%7C%2041ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.54:443?allowInsecure=1&sni=learn.nextjobopportunityandclaimyouridealrole.com#US%20%7C%20216.152.155.54%20%7C%2046ms
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.170:443#US%20%7C%20156.146.38.170%20%7C%2029ms
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#US%20%7C%20156.146.38.169%20%7C%2030ms
+ss://aes-128-gcm:shadowsocks@156.146.38.169:443#US%20%7C%20156.146.38.169%20%7C%2031ms
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#US%20%7C%20156.146.38.170%20%7C%2039ms
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.167:443#US%20%7C%20156.146.38.167%20%7C%2041ms
