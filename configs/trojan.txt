@@ -1,0 +1,7 @@
+trojan://humanity@188.114.97.6:443?path=/assignment&security=tls&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#CA%20%7C%20188.114.97.6%20%7C%20373ms
+trojan://humanity@109.234.211.232:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#ES%20%7C%20109.234.211.232%20%7C%20412ms
+trojan://humanity@104.18.9.83:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20104.18.9.83%20%7C%20459ms
+trojan://humanity@172.64.152.23:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com&note=@FreeOnlineVPN#CA%20%7C%20172.64.152.23%20%7C%20472ms
+trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20501ms
+trojan://humanity@185.18.250.245:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#ES%20%7C%20185.18.250.245%20%7C%20534ms
+trojan://humanity@188.114.97.6:443?path=%2Fassignment%3Fed%23Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#CA%20%7C%20188.114.97.6%20%7C%20650ms
