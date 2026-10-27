@@ -1,2 +1,1 @@
-vless://aa5d861a-7799-41a7-bdf4-7a6414cf98fd@172.67.195.79:2053?path=/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net&security=tls&alpn=h2&encryption=none&insecure=0&host=uwu.blueknightnet.qzz.io&fp=chrome&type=ws&allowInsecure=0&sni=uwu.blueknightnet.qzz.io#CA%20%7C%20172.67.195.79%20%7C%20966ms
-vless://XpnTeam-54@199.232.78.170:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=ssl.fastly.com&type=ws&headerType=none&host=Appxdn.global.ssl.fastly.net&path=%2F#US%20%7C%20199.232.78.170%20%7C%201538ms
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.0.1:443?alpn=http%2F1.1&fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#CA%20%7C%20104.16.0.1%20%7C%202462ms
