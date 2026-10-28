@@ -1,3 +1,0 @@
-trojan://humanity@45.130.125.69:443?type=ws&security=tls&path=%2Fassignment&host=www.calmlunch.com&sni=www.calmlunch.com&allowInsecure=0#SC%20%7C%2045.130.125.69%20%7C%20460ms
-trojan://humanity@45.130.125.160:443?allowInsecure=0&sni=www.calmlunch.com&type=ws&host=www.calmlunch.com&path=%2Fassignment#SC%20%7C%2045.130.125.160%20%7C%20466ms
-trojan://humanity@45.130.125.75:443?security=tls&type=ws&sni=www.calmlunch.com&path=/assignment&host=www.calmlunch.com#SC%20%7C%2045.130.125.75%20%7C%20481ms
