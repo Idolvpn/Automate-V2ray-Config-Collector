@@ -1,3 +1,0 @@
-trojan://humanity@185.18.250.245:443?type=ws&security=tls&sni=www.calmlunch.com&host=www.calmlunch.com&path=%2Fassignment#ES%20%7C%20185.18.250.245%20%7C%20336ms
-trojan://humanity@185.18.250.252:443?type=ws&security=tls&sni=www.calmlunch.com&host=www.calmlunch.com&path=%2Fassignment#ES%20%7C%20185.18.250.252%20%7C%20369ms
-trojan://humanity@109.234.211.232:443?allowInsecure=1&insecure=1&type=ws&security=tls&path=%2Fassignment&host=www.pleadcourt.org&sni=www.pleadcourt.org&fp=chrome&alpn=http/1.1#ES%20%7C%20109.234.211.232%20%7C%20446ms
