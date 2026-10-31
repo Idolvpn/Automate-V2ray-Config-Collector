@@ -1,7 +1,0 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@185.230.230.18:19999#US%20%7C%20185.230.230.18%20%7C%2014ms
-trojan://humanity@8.6.112.206:443?allowInsecure=0&insecure=0&type=ws&security=tls&path=%2Fassignment&host=www.trusteeforward.com&sni=www.trusteeforward.com&fp=chrome&alpn=http/1.1#US%20%7C%208.6.112.206%20%7C%20339ms
-trojan://humanity@141.193.213.172:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.calmlunch.com#US%20%7C%20141.193.213.172%20%7C%20428ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.81:443?security=tls&sni=courses.searchnationwidecareerchangehelperandguidancetoday.com#US%20%7C%2066.163.122.81%20%7C%20443ms
-vless://990bf436-f1b9-4e7f-857d-14378acc4ae5@170.114.46.6:8080?type=ws&security=none&encryption=none&path=%2F&host=free.nadun.store&headerType=none#US%20%7C%20170.114.46.6%20%7C%20762ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.122.113:443?security=tls&sni=api.searchnationwidecareerchangehelperandguidancetoday.com#US%20%7C%2066.163.122.113%20%7C%201182ms
-trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%201792ms
