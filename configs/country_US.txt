@@ -1,0 +1,3 @@
+trojan://humanity@8.47.69.0:443?path=%2Fassignment&security=tls&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#US%20%7C%208.47.69.0%20%7C%20450ms
+vless://990bf436-f1b9-4e7f-857d-14378acc4ae5@170.114.45.6:8080?security=none&type=ws&path=%2F&host=free.nadun.store#US%20%7C%20170.114.45.6%20%7C%20543ms
+vless://990bf436-f1b9-4e7f-857d-14378acc4ae5@170.114.45.6:8080?type=ws&host=free.nadun.store&path=/#US%20%7C%20170.114.45.6%20%7C%20561ms
