@@ -1,1 +1,0 @@
-trojan://7bpe9s002exll38s@199.68.156.121:2087?path=%2Fwss&security=tls&alpn=http%2F1.1&insecure=0&host=nexoshop.netvia.ir&fp=firefox&type=ws&allowInsecure=0&sni=nexoshop.netvia.ir#US%20%7C%20199.68.156.121%20%7C%20266ms
