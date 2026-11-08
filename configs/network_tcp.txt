@@ -1,5 +1,0 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=@38.143.66.146:19999#US%20%7C%2038.143.66.146%20%7C%2031ms
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@38.143.66.146:19999#US%20%7C%2038.143.66.146%20%7C%2037ms
-trojan://242a3d8eee5e4ed1a6bfa4141d549a25@216.106.186.66:443?allowInsecure=1&sni=www.findlocaljobnetworkandbuildcommunityconnections.com&type=tcp#US%20%7C%20216.106.186.66%20%7C%2043ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.106.186.32:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com#US%20%7C%20216.106.186.32%20%7C%2043ms
-trojan://dba20dcb635e430fa4d3bfc303a149d2@216.106.186.32:443?security=tls&sni=blog.findlocaljobnetworkandbuildcommunityconnections.com&type=tcp&headerType=none#US%20%7C%20216.106.186.32%20%7C%2047ms
