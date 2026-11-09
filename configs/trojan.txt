@@ -1,2 +1,6 @@
-trojan://7bpe9s002exll38s@199.68.156.121:2087?path=%2Fwss&security=tls&alpn=http%2F1.1&insecure=0&host=nexoshop.netvia.ir&fp=firefox&type=ws&allowInsecure=0&sni=nexoshop.netvia.ir#US%20%7C%20199.68.156.121%20%7C%20149ms
-trojan://7bpe9s002exll38s@199.68.156.250:2087?allowInsecure=0&alpn=http/1.1&fp=chrome&host=nexoshop.netvia.ir&path=/wss&security=tls&sni=nexoshop.netvia.ir&type=ws#US%20%7C%20199.68.156.250%20%7C%20413ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.142:443?security=tls&sni=cdn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.142%20%7C%20192ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.13:443?security=tls&sni=blog.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.13%20%7C%20203ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?allowInsecure=1&sni=learn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.171%20%7C%20247ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.147:443?security=tls&sni=courses.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.147%20%7C%20314ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.76:443?security=tls&sni=api.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.76%20%7C%20341ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%20490ms
