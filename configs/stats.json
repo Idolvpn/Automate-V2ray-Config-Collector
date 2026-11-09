@@ -1,19 +1,18 @@
 {
-  "total": 47,
+  "total": 32,
   "by_protocol": {
+    "ss": 4,
+    "vmess": 15,
     "reality": 1,
-    "ss": 2,
-    "vmess": 3,
-    "trojan": 6,
-    "vless": 35
+    "trojan": 3,
+    "vless": 9
   },
   "by_country": {
-    "US": 17,
-    "CA": 29,
-    "UN": 1
+    "US": 14,
+    "CA": 18
   },
-  "avg_latency_ms": 1212.9,
-  "updated_at": "2026-11-09T04:59:17.103636+00:00",
+  "avg_latency_ms": 1216.4,
+  "updated_at": "2026-11-09T15:26:17.925698+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
