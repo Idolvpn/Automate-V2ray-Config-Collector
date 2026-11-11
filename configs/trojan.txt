@@ -1,2 +1,5 @@
-trojan://5t6i121em5lkmsmk@108.61.119.63:42314?sni=us007.zestapp778.com#US%20%7C%20108.61.119.63%20%7C%2076ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.23:443/?type=tcp&security=tls&sni=courses.nextjobopportunityandclaimyouridealrole.com#US%20%7C%20216.152.155.23%20%7C%2098ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%20207ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.147:443?allowInsecure=1&sni=courses.unlockyourfuturefindyourperfectcareer.com&type=tcp#US%20%7C%2066.163.112.147%20%7C%20212ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?allowInsecure=0&sni=learn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.171%20%7C%20239ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.142:443?allowInsecure=1&fp=chrome&sni=cdn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.142%20%7C%20244ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.13:443?security=tls&sni=blog.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.13%20%7C%20246ms
