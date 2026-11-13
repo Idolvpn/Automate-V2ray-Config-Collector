@@ -1,1 +1,0 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@216.152.155.50:443?security=tls&sni=cdn.nextjobopportunityandclaimyouridealrole.com#US%20%7C%20216.152.155.50%20%7C%20163ms
