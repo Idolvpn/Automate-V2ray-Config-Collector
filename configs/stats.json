@@ -1,20 +1,20 @@
 {
-  "total": 30,
+  "total": 19,
   "by_protocol": {
-    "reality": 2,
-    "vmess": 16,
-    "vless": 12
+    "ss": 3,
+    "vmess": 9,
+    "vless": 7
   },
   "by_country": {
     "US": 5,
-    "CA": 25
+    "CA": 14
   },
-  "avg_latency_ms": 1347.0,
-  "updated_at": "2026-11-14T22:03:16.671725+00:00",
+  "avg_latency_ms": 1198.8,
+  "updated_at": "2026-11-15T05:11:54.230027+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
-    "reality.txt",
+    "ss.txt",
     "vless.txt",
     "vmess.txt"
   ],
