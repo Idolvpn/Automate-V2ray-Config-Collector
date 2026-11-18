@@ -1,7 +1,3 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%20195ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.147:443?allowInsecure=1&sni=courses.unlockyourfuturefindyourperfectcareer.com&type=tcp#US%20%7C%2066.163.112.147%20%7C%20210ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.142:443?allowInsecure=1&fp=chrome&sni=cdn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.142%20%7C%20230ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.13:443?security=tls&sni=blog.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.13%20%7C%20243ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?allowInsecure=0&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%20284ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.31:443?allowInsecure=1&sni=unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.31%20%7C%20285ms
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?allowInsecure=0&sni=learn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.171%20%7C%20303ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.171:443?allowInsecure=0&sni=learn.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.171%20%7C%20152ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?security=tls&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%20207ms
+trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.112.121:443?allowInsecure=0&sni=www.unlockyourfuturefindyourperfectcareer.com#US%20%7C%2066.163.112.121%20%7C%202140ms
