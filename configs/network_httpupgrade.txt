@@ -1,1 +1,1 @@
-vless://ed809ef1-338d-4355-b9e8-2de0e522202f@216.24.57.1:2095?path=%2F&security=none&encryption=none&host=xn--alspeedtest.net.onlinewebsite24.ir&type=httpupgrade#US%20%7C%20216.24.57.1%20%7C%20402ms
+vless://ed809ef1-338d-4355-b9e8-2de0e522202f@216.24.57.1:2095?path=%2F&security=none&encryption=none&host=xn--alspeedtest.net.onlinewebsite24.ir&type=httpupgrade#US%20%7C%20216.24.57.1%20%7C%20473ms
