@@ -1,4 +1,4 @@
-vless://65c21703-ae89-4eed-ae87-8bec8a4c000c@tachu37.top:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=tachu37.top&type=ws&headerType=none&host=tachu37.top&path=%2Fjs#UN%20%7C%20tachu37.top%20%7C%20284ms
-vless://ed809ef1-338d-4355-b9e8-2de0e522202f@216.24.57.1:2095?path=%2F&security=none&encryption=none&host=xn--alspeedtest.net.onlinewebsite24.ir&type=httpupgrade#US%20%7C%20216.24.57.1%20%7C%20553ms
-vless://88e79aa6-f431-4453-8dcc-652a0c747198@172.67.197.170:443?path=%2Fapi%2Fse1k2rfxlsuer3ry4u6e84kl8rqp721p&security=tls&alpn=http%2F1.1&host=o685y.save-node.com&type=ws&sni=o685y.save-node.com#CA%20%7C%20172.67.197.170%20%7C%20795ms
-vless://5744e593-1cc8-48fa-b8ca-57cd494fe35b@172.64.150.43:2052?encryption=none&security=none&type=ws&path=%2Frain1226&host=eu02.123450908.xyz&sni=eu02.123450908.xyz#CA%20%7C%20172.64.150.43%20%7C%204071ms
+vless://ed809ef1-338d-4355-b9e8-2de0e522202f@216.24.57.1:2095?path=%2F&security=none&encryption=none&host=xn--alspeedtest.net.onlinewebsite24.ir&type=httpupgrade#US%20%7C%20216.24.57.1%20%7C%20402ms
+vless://4d8d9640-7cc7-4c55-ba54-6ce0d1709541@141.193.213.21:8443?encryption=none&security=tls&sni=matrix.learnpodedu.com&fp=chrome&alpn=h2&vcn=matrix.learnpodedu.com&type=ws&host=matrix.learnpodedu.com&path=%2F#US%20%7C%20141.193.213.21%20%7C%203865ms
+vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@104.16.10.9:443?fp=chrome&host=jp3.yohototo.top&path=%2Ftyxyws&security=tls&sni=jp3.yohototo.top&type=ws#CA%20%7C%20104.16.10.9%20%7C%204397ms
+vless://9ce32242-557a-4d18-864d-c9c385b3dfa4@170.114.45.6:80?security=none&type=ws&host=matrix.learnpodedu.com&path=%2F#US%20%7C%20170.114.45.6%20%7C%204699ms
