@@ -1,16 +1,16 @@
 {
-  "total": 10,
+  "total": 15,
   "by_protocol": {
     "ss": 2,
-    "vmess": 7,
-    "vless": 1
+    "vmess": 11,
+    "vless": 2
   },
   "by_country": {
-    "US": 2,
+    "US": 7,
     "CA": 8
   },
-  "avg_latency_ms": 705.3,
-  "updated_at": "2026-11-24T02:47:12.157440+00:00",
+  "avg_latency_ms": 1529.0,
+  "updated_at": "2026-11-24T14:37:31.825248+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
@@ -19,7 +19,8 @@
     "vmess.txt"
   ],
   "country_files": [
-    "country_CA.txt"
+    "country_CA.txt",
+    "country_US.txt"
   ],
   "network_files": [
     "network_tcp.txt",
