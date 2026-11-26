@@ -1,1 +1,1 @@
-vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#US%20%7C%20188.114.99.137%20%7C%201028ms
+vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#US%20%7C%20188.114.99.137%20%7C%20759ms
