@@ -1,1 +1,1 @@
-vless://364D2D52-E61E-4E52-80EC-2BC6BDF15349@172.67.139.189:443?security=tls&sni=fr-free.fastestrelay.com&insecure=1&fp=chrome&type=ws&path=%2F700gvl&host=fr-free.fastestrelay.com#CA%20%7C%20172.67.139.189%20%7C%20569ms
+vless://c762af05-2e92-4133-bc30-8cf45dd40a28@188.114.99.137:80?type=ws&host=suh.cryptofront.uk&path=/#US%20%7C%20188.114.99.137%20%7C%20857ms
