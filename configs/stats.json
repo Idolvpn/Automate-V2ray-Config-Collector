@@ -1,14 +1,14 @@
 {
-  "total": 5,
+  "total": 20,
   "by_protocol": {
-    "vmess": 5
+    "vmess": 20
   },
   "by_country": {
-    "CA": 4,
-    "US": 1
+    "CA": 18,
+    "US": 2
   },
-  "avg_latency_ms": 537.4,
-  "updated_at": "2026-11-27T17:54:26.595985+00:00",
+  "avg_latency_ms": 901.9,
+  "updated_at": "2026-11-28T01:13:14.385618+00:00",
   "stale": false,
   "country_min_configs": 3,
   "protocol_files": [
